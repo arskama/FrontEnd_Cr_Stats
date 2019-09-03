@@ -47,11 +47,10 @@ var pack = d3.pack()
     .padding(2);
 
 d3.json("chromium_ex.json", function(error, root) {
-//d3.json("flare.json", function(error, root) {
   if (error) throw error;
 
   root = d3.hierarchy(root)
-      .sum(function(d) { return d.value; })
+      .sum(function(d) { return d.size; })
       .sort(function(a, b) { return b.value - a.value; });
 
   var focus = root,
