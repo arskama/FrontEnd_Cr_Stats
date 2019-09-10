@@ -92,7 +92,7 @@ console.log(typeof(allTextLines));
 function loadListOfFiles() {
     let txtFile = new XMLHttpRequest();
     console.log("txtfile ok ");
-    txtFile.open("GET", "https://localhost/SplitnTry/list_of_filesJSON.txt", true);
+    txtFile.open("GET", "list_of_filesJSON.txt", true);
     console.log("txtfile open ");
     txtFile.setRequestHeader('Access-Control-Allow-Headers', '*');
     console.log("txtfile req ");
