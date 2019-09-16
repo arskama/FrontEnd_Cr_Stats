@@ -1,3 +1,5 @@
+contributions_August_2019.csv
+contributions_cros_August_2019.csv
 contributions_cros_june_2019.csv
 contributions_june_2019.csv
 contributions_cros_july_2019.csv

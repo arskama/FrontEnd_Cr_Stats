@@ -18,8 +18,10 @@ var pack = d3.pack()
 function updateGraph(filename) {
 
     g.selectAll("*").remove()
-
-d3.json(filename, function(error, root) {
+    let path ="Data/";
+    path=path.concat(filename);
+    console.log(path);
+d3.json(path, function(error, root) {
   if (error) throw error;
 
 
@@ -92,7 +94,7 @@ console.log(typeof(allTextLines));
 function loadListOfFiles() {
     let txtFile = new XMLHttpRequest();
     console.log("txtfile ok ");
-    txtFile.open("GET", "list_of_filesJSON.txt", true);
+    txtFile.open("GET", "list_of_files_json.txt", true);
     console.log("txtfile open ");
     txtFile.setRequestHeader('Access-Control-Allow-Headers', '*');
     console.log("txtfile req ");
@@ -122,32 +124,64 @@ function loadListOfFiles() {
             console.log(allTextLines);
         }
     };
-    //txtFile.open("GET", "file://home/amandy/Repos/WebTeam_2019/Documentation_make/process_csv_in_JS/contribution_june_2019.csv", true);
     txtFile.send(null);
-    console.log("YO!");
 
 }
 
 document.getElementById("myselect").onclick = function() {
     console.log("current value is" + document.getElementById("myselect").value);
-    updateGraph(document.getElementById("myselect").value);
+    let jsonFilename = document.getElementById("myselect").value
+    updateGraph(jsonFilename); //document.getElementById("myselect").value);
+    document.getElementById("filename").innerHTML = jsonFilename;
+    csvFilename = jsonFilename.slice(0,-5);
+    csvFilename = csvFilename.concat(".csv");
+    console.log(csvFilename);
+    loadDoc(csvFilename)
+
 }
 
 
-function loadDoc() {
-    var txtFile = new XMLHttpRequest();
-    txtFile.open("GET", "https://localhost/d3_testA/contributions_june_2019.csv", true);
-    txtFile.setRequestHeader('Access-Control-Allow-Headers', '*');
-    txtFile.onreadystatechange = function() {
+function loadDoc(filename) {
+    var allDocLines = [];
+    let path ="Data/";
+    path=path.concat(filename);
+    let dataFile = new XMLHttpRequest();
+    dataFile.open("GET", path, true);
+    dataFile.setRequestHeader('Access-Control-Allow-Headers', '*');
+    dataFile.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            allText = txtFile.responseText;
-            allTextLines = allText.split(/\r\n|\n/);
-            console.log(allText);
+            var txt = this.responseText;
+            // https://www.youtube.com/watch?v=ts3CJT2VGO0
+            let num_txt = txt.split(/\r?\n|\r/);
+            console.log("num txt = " + num_txt.length);
+            var table_data = '<table class="table table-bordered table-striped">';
+            for (var count = 0; count < num_txt.length; count++)
+            {
+                var cell_data = num_txt[count].split(",");
+                table_data += '<tr>';
+                for (var cell_count = 0; cell_count < cell_data.length; cell_count++)
+                {
+                    if(count === 0)
+                    {
+                        table_data += '<th>'+cell_data[cell_count]+'</th>';
+                    }
+                    else
+                    {
+                        table_data += '<td>'+cell_data[cell_count]+'</td>';
+                    }
+                }
+                table_data += '<tr>';
+
+            }
+            table_data += '</table>';
+            document.getElementById("showData").innerHTML = table_data;
+
+//            document.getElementById("showData").innerHTML= this.responseText.split(/","?\n|\r/);
         }
     };
     //txtFile.open("GET", "file://home/amandy/Repos/WebTeam_2019/Documentation_make/process_csv_in_JS/contribution_june_2019.csv", true);
-    txtFile.send(null);
-    console.log("YEP!");
+    dataFile.send(null);
+    console.log(dataFile);
 };
 
 

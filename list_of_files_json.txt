@@ -1,0 +1,6 @@
+contributions_August_2019.json
+contributions_cros_August_2019.json
+contributions_july_2019.json
+contributions_cros_july_2019.json
+contributions_june_2019.json
+contributions_cros_june_2019.json
