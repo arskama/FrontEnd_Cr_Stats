@@ -71,7 +71,7 @@ body {
 
 .right {
   float:right;
-  background-color: red;
+  background-color: #111;
 }
 
 
@@ -91,7 +91,7 @@ body {
 
 .fileShow {
     height:960px;
-    width:200px;
+    width:40%;
     border:1px solid #ccc;
     font:16px/26px Georgia, Garamond, Serif;
     overflow:auto;
