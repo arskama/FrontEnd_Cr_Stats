@@ -13,8 +13,6 @@ var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-
-
 function updateGraph(filename) {
 
     g.selectAll("*").remove()
@@ -93,13 +91,9 @@ console.log(typeof(allTextLines));
 
 function loadListOfFiles() {
     let txtFile = new XMLHttpRequest();
-    console.log("txtfile ok ");
     txtFile.open("GET", "list_of_files_json.txt", true);
-    console.log("txtfile open ");
     txtFile.setRequestHeader('Access-Control-Allow-Headers', '*');
-    console.log("txtfile req ");
 
-    
     txtFile.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             listOfFiles = txtFile.responseText;
@@ -133,20 +127,25 @@ document.getElementById("myselect").onclick = function() {
     let jsonFilename = document.getElementById("myselect").value
     updateGraph(jsonFilename); //document.getElementById("myselect").value);
     document.getElementById("filename").innerHTML = jsonFilename;
-    csvFilename = jsonFilename.slice(0,-5);
-    csvFilename = csvFilename.concat(".csv");
-    console.log(csvFilename);
-    loadDoc(csvFilename)
+    let url = "http://127.0.0.1:8080/Data/";
+    let filename = jsonFilename.slice(0,-5);
+    filename = filename.concat(".csv");
+    url = url.concat(filename);
+    console.log(url + " and " + filename);
+    document.getElementById('download_link').href = url;
+    document.getElementById('download_link').download = filename;
+    loadDoc(filename)
 
 }
 
 
 function loadDoc(filename) {
     var allDocLines = [];
-    let path ="Data/";
-    path=path.concat(filename);
+    let csvPath ="Data/";
+    csvPath=csvPath.concat(filename);
+    currentCSV = csvPath;
     let dataFile = new XMLHttpRequest();
-    dataFile.open("GET", path, true);
+    dataFile.open("GET", csvPath, true);
     dataFile.setRequestHeader('Access-Control-Allow-Headers', '*');
     dataFile.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
