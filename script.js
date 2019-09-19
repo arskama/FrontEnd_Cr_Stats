@@ -138,6 +138,25 @@ document.getElementById("myselect").onclick = function() {
 
 }
 
+function updatefull() {
+    console.log(document.getElementById("filename").value + "or" + document.getElementById("filename").innerHTML)
+    let jsonFileName = document.getElementById("filename").innerHTML;
+    updateGraph(jsonFileName); //document.getElementById("myselect").value);
+};
+function updateTop5() {
+    let jsonFileName = document.getElementById("filename").innerHTML;
+    jsonFileName=jsonFileName.replace('.json','_TOP5.json/');
+    let top5 = "Subset/";
+    top5 = top5.concat(jsonFileName);
+    updateGraph(top5);
+};
+function updateIntel() {
+    let jsonFileName = document.getElementById("filename").innerHTML;
+    jsonFileName=jsonFileName.replace('.json','_INTEL.json/');
+    let top5 = "Subset/";
+    top5 = top5.concat(jsonFileName);
+    updateGraph(top5);
+};
 
 function loadDoc(filename) {
     var allDocLines = [];
