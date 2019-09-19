@@ -145,14 +145,14 @@ function updatefull() {
 };
 function updateTop5() {
     let jsonFileName = document.getElementById("filename").innerHTML;
-    jsonFileName=jsonFileName.replace('.json','_TOP5.json/');
+    jsonFileName=jsonFileName.replace('.json','_TOP5.json');
     let top5 = "Subset/";
     top5 = top5.concat(jsonFileName);
     updateGraph(top5);
 };
 function updateIntel() {
     let jsonFileName = document.getElementById("filename").innerHTML;
-    jsonFileName=jsonFileName.replace('.json','_INTEL.json/');
+    jsonFileName=jsonFileName.replace('.json','_INTEL.json');
     let top5 = "Subset/";
     top5 = top5.concat(jsonFileName);
     updateGraph(top5);
