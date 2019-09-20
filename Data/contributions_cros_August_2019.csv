@@ -2,16 +2,16 @@ ChromeOS project contributions from 01/August/2019 to 31/August/2019
 
 Overall
 Contributor,August 2019
-chromium.org,2001
-google.com,940
-gmail.com,410
-intel.com,396
+chromium.org,2011
+google.com,946
+gmail.com,443
+intel.com,415
 collabora.com,356
-redhat.com,176
-amd.com,131
-mediatek.com,75
-kernel.org,65
-linaro.org,64
+redhat.com,195
+amd.com,140
+mediatek.com,76
+kernel.org,75
+linaro.org,68
 
 Project: chromite
 Contributor,August 2019
@@ -146,7 +146,7 @@ google.com,1
 
 Project: src/platform/crosvm
 Contributor,August 2019
-chromium.org,30
+chromium.org,31
 google.com,7
 intel.com,3
 intel.corp-partner.google.com,1
@@ -280,6 +280,18 @@ Contributor,August 2019
 chromium.org,28
 google.com,9
 
+Project: src/third_party/arm-trusted-firmware
+Contributor,August 2019
+arm.com,47
+gmail.com,9
+intel.com,8
+sntech.de,4
+triplefau.lt,2
+renesas.com,2
+chromium.org,2
+socionext.com,1
+linaro.org,1
+
 Project: src/third_party/atrusctl
 Contributor,August 2019
 google.com,1
@@ -305,7 +317,7 @@ gmail.com,1
 
 Project: src/third_party/chromiumos-overlay
 Contributor,August 2019
-chromium.org,129
+chromium.org,128
 google.com,112
 intel.com,3
 logitech.com,1
@@ -681,68 +693,125 @@ allied-telesis.co.jp,1
 
 Project: src/third_party/kernel/v4.19-lakitu
 Contributor,August 2019
-chromium.org,53
-redhat.com,29
-intel.com,17
-mellanox.com,12
-gmail.com,12
-kernel.org,11
-google.com,10
-linaro.org,8
-suse.com,7
+chromium.org,61
+redhat.com,48
+gmail.com,36
+intel.com,28
+kernel.org,21
+mellanox.com,17
+suse.com,16
+huawei.com,16
+google.com,16
+suse.de,15
+oracle.com,12
+linux.ibm.com,12
+linaro.org,11
+cs.uga.edu,9
+amd.com,9
+arndb.de,8
+microsoft.com,7
+linuxfoundation.org,7
+lca.pw,6
+hammerspace.com,6
+synopsys.com,5
 realtek.com,5
-arndb.de,5
-suse.de,4
-linux.ibm.com,4
-linuxfoundation.org,4
+opensource.cirrus.com,5
+canonical.com,5
+wdc.com,4
+sjtu.edu.cn,4
+nxp.com,4
+nvidia.com,4
+mediatek.com,4
 linux-foundation.org,4
-synopsys.com,3
-oracle.com,3
-mediatek.com,3
-hammerspace.com,3
-codeaurora.org,3
+linux.alibaba.com,4
+codeaurora.org,4
+arm.com,4
+windriver.com,3
+strlen.de,3
+roeck-us.net,3
+renesas.com,3
+marvell.com,3
+embeddedor.com,3
 cmss.chinamobile.com,3
-microsoft.com,2
-lca.pw,2
+socionext.com,2
+sina.com,2
+puri.sm,2
+perches.com,2
+pengutronix.de,2
+mev.co.uk,2
+linutronix.de,2
+kernel.dk,2
 gmx.de,2
-embeddedor.com,2
+glider.be,2
 cumulusnetworks.com,2
+bootlin.com,2
 armlinux.org.uk,2
-arm.com,2
 acm.org,2
+zte.com.cn,1
+xilinx.com,1
 wunner.de,1
-windriver.com,1
+wanadoo.fr,1
+wallix.com,1
+wacom.com,1
+vt.edu,1
 vdorst.com,1
 vatics.com,1
+varadiistvan.hu,1
 users.sourceforge.jp,1
-socionext.com,1
+unisoc.com,1
+ti.com,1
+thegavinli.com,1
+tencent.com,1
+suse.cz,1
+st.com,1
+sifive.com,1
 scaleway.com,1
 runbox.com,1
-renesas.com,1
-perches.com,1
-pengutronix.de,1
+rowland.harvard.edu,1
+prevas.dk,1
+posteo.de,1
+phrozen.org,1
+peak-system.com,1
 osadl.org,1
-nxp.com,1
-nvidia.com,1
+netfilter.org,1
+naresh.kamboju,1
 mojatatu.com,1
+microsemi.com,1
+microchip.com,1
+metaloft.com,1
 mess.org,1
-marvell.com,1
-linux.alibaba.com,1
-linutronix.de,1
+maine.edu,1
+linux.vnet.ibm.com,1
+linux-powerpc.org,1
+kalray.eu,1
+jmondi.org,1
+intra2net.com,1
+infradead.org,1
+I-love.SAKURA.ne.jp,1
 iki.fi,1
-huawei.com,1
-glider.be,1
+gaikai.com,1
 ens-lyon.org,1
 eng.ucsd.edu,1
+d-silva.org,1
+dev.mellanox.co.il,1
+dawes.za.net,1
+csie.org,1
 collabora.com,1
+cogentembedded.com,1
+citrix.com,1
 cisco.com,1
 chrisdown.name,1
 broadcom.com,1
+baylibre.com,1
+axis.com,1
 axentia.se,1
+atomide.com,1
 arista.com,1
 android.com,1
 amazon.com,1
 amarulasolutions.com,1
+alliedtelesis.co.nz,1
+allied-telesis.co.jp,1
 
 Project: src/third_party/kernel/v4.4
 Contributor,August 2019
@@ -853,7 +922,7 @@ gmail.com,1
 
 Project: src/third_party/libcamera
 Contributor,August 2019
-ideasonboard.com,48
+ideasonboard.com,49
 jmondi.org,6
 ragnatech.se,5
 collabora.com,1

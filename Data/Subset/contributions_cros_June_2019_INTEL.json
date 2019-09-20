@@ -1,0 +1,154 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Src/overlays",
+        "children": [
+        {"name": "intel.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/platform/crosvm",
+        "children": [
+        {"name": "intel.corp-partner.google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/depthcharge",
+        "children": [
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/ec",
+        "children": [
+        {"name": "intel.com", "size": 8}
+        ]
+    },
+    {
+        "name": "Src/platform/tast",
+        "children": [
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/tast-tests",
+        "children": [
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/arm-trusted-firmware",
+        "children": [
+        {"name": "intel.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/third_party/autotest/files",
+        "children": [
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez",
+        "children": [
+        {"name": "intel.com", "size": 9}
+        ]
+    },
+    {
+        "name": "Src/third_party/chromiumos-overlay",
+        "children": [
+        {"name": "intel.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot",
+        "children": [
+        {"name": "intel.com", "size": 36}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.14",
+        "children": [
+        {"name": "intel.com", "size": 7}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.18",
+        "children": [
+        {"name": "intel.com", "size": 11}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.8",
+        "children": [
+        {"name": "intel.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14",
+        "children": [
+        {"name": "intel.com", "size": 301},
+        {"name": "intel.corp-partner.google.com", "size": 25}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14-gw",
+        "children": [
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19",
+        "children": [
+        {"name": "intel.com", "size": 168},
+        {"name": "intel.corp-partner.google.com", "size": 48},
+        {"name": "mathias.nyman", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19-lakitu",
+        "children": [
+        {"name": "intel.com", "size": 151},
+        {"name": "intel.corp-partner.google.com", "size": 48},
+        {"name": "mathias.nyman", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.4",
+        "children": [
+        {"name": "intel.com", "size": 18}
+        ]
+    },
+    {
+        "name": "Src/third_party/linux-firmware",
+        "children": [
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa",
+        "children": [
+        {"name": "intel.com", "size": 132}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-debian",
+        "children": [
+        {"name": "intel.com", "size": 86}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-freedreno",
+        "children": [
+        {"name": "intel.com", "size": 132}
+        ]
+    },
+    {
+        "name": "Src/third_party/wpa_supplicant",
+        "children": [
+        {"name": "intel.com", "size": 8}
+        ]
+    }
+ ]
+}

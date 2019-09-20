@@ -2,26 +2,26 @@ Chromium project contributions from 01/August/2019 to 31/August/2019
 
 Overall
 Contributor,August 2019
-chromium.org,6249
-google.com,1499
-igalia.com,328
+chromium.org,6299
+google.com,1507
+igalia.com,335
 microsoft.com,195
-opera.com,35
+opera.com,36
+gmail.com,36
 intel.com,32
-gmail.com,32
 samsung.com,19
 arm.com,13
 ca.ibm.com,11
 
 Chromium
 Contributor,August 2019
-chromium.org,5855
-google.com,1135
-igalia.com,323
+chromium.org,5890
+google.com,1142
+igalia.com,330
 microsoft.com,178
-opera.com,35
+opera.com,36
 intel.com,30
-gmail.com,23
+gmail.com,26
 samsung.com,18
 arm.com,8
 yannic-bonenberger.com,7
@@ -38,16 +38,16 @@ amazon.com,1
 Skia
 Contributor,August 2019
 google.com,338
-chromium.org,49
+chromium.org,50
 gmail.com,2
 
 V8
 Contributor,August 2019
-chromium.org,345
+chromium.org,359
 google.com,26
 microsoft.com,17
 ca.ibm.com,11
-gmail.com,7
+gmail.com,8
 igalia.com,5
 arm.com,5
 gus.host,3
@@ -59,4 +59,7 @@ bloomberg.net,1
 
 WebGL
 Contributor,August 2019
-,1
+outlook.com,1
+mozilla.com,1
+google.com,1
+alum.mit.edu,1
