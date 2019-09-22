@@ -65,7 +65,11 @@ text-decoration: underline;
   top: 85%;
   background-color: grey;
 }
-
+.buttons_div {
+  text-align: right;
+  margin-right: 20px;
+  padding-right: 20px;
+}
 
 
 
