@@ -1,0 +1,179 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Src/overlays",
+        "children": [
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/chameleon",
+        "children": [
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/depthcharge",
+        "children": [
+        {"name": "intel.com", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/platform/drm-tests",
+        "children": [
+        {"name": "intel.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/ec",
+        "children": [
+        {"name": "intel.com", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/platform/minigbm",
+        "children": [
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/scripts",
+        "children": [
+        {"name": "intel.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/chromiumos-overlay",
+        "children": [
+        {"name": "intel.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot",
+        "children": [
+        {"name": "intel.com", "size": 54}
+        ]
+    },
+    {
+        "name": "Src/third_party/edk2",
+        "children": [
+        {"name": "intel.com", "size": 76}
+        ]
+    },
+    {
+        "name": "Src/third_party/fsp/cml/edk2/branch1",
+        "children": [
+        {"name": "intel.com", "size": 76}
+        ]
+    },
+    {
+        "name": "Src/third_party/fsp/cnl/edk2",
+        "children": [
+        {"name": "intel.com", "size": 24}
+        ]
+    },
+    {
+        "name": "Src/third_party/fsp/glk/edk2",
+        "children": [
+        {"name": "intel.com", "size": 24}
+        ]
+    },
+    {
+        "name": "Src/third_party/fsp/icl/edk2",
+        "children": [
+        {"name": "intel.com", "size": 76}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.14",
+        "children": [
+        {"name": "intel.com", "size": 113}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.18",
+        "children": [
+        {"name": "intel.com", "size": 453}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.8",
+        "children": [
+        {"name": "intel.com", "size": 112}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14",
+        "children": [
+        {"name": "intel.com", "size": 826}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14-gw",
+        "children": [
+        {"name": "intel.com", "size": 826}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14-mistral",
+        "children": [
+        {"name": "intel.com", "size": 826}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19",
+        "children": [
+        {"name": "intel.com", "size": 826}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19-lakitu",
+        "children": [
+        {"name": "intel.com", "size": 826}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.4",
+        "children": [
+        {"name": "intel.com", "size": 259}
+        ]
+    },
+    {
+        "name": "Src/third_party/libdrm",
+        "children": [
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/linux-firmware",
+        "children": [
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa",
+        "children": [
+        {"name": "intel.com", "size": 225}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-debian",
+        "children": [
+        {"name": "intel.com", "size": 258}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-freedreno",
+        "children": [
+        {"name": "intel.com", "size": 225}
+        ]
+    },
+    {
+        "name": "Src/third_party/sound-open-firmware",
+        "children": [
+        {"name": "intel.com", "size": 51}
+        ]
+    }
+ ]
+}

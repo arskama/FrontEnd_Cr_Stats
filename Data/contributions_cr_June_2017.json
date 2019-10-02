@@ -1,0 +1,70 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 6728},
+        {"name": "google.com", "size": 449},
+        {"name": "samsung.com", "size": 54},
+        {"name": "intel.com", "size": 54},
+        {"name": "opera.com", "size": 44},
+        {"name": "gmail.com", "size": 19},
+        {"name": "yandex-team.ru", "size": 16},
+        {"name": "igalia.com", "size": 13},
+        {"name": "sogou-inc.com", "size": 4},
+        {"name": "huawei.com", "size": 4},
+        {"name": "tencent.com", "size": 3},
+        {"name": "amazon.com", "size": 2},
+        {"name": "yoav.ws", "size": 1},
+        {"name": "mwiacek.com", "size": 1},
+        {"name": "mikepennisi.com", "size": 1},
+        {"name": "martijnc.be", "size": 1},
+        {"name": "arm.com", "size": 1},
+        {"name": "akamai.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 364},
+        {"name": "chromium.org", "size": 117},
+        {"name": "skia.org", "size": 4},
+        {"name": "opera.com", "size": 1},
+        {"name": "mozilla.com", "size": 1},
+        {"name": "intel.com", "size": 1},
+        {"name": "behemoth.cnc.corp.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 608},
+        {"name": "ca.ibm.com", "size": 18},
+        {"name": "google.com", "size": 15},
+        {"name": "imgtec.com", "size": 14},
+        {"name": "gmail.com", "size": 12},
+        {"name": "arm.com", "size": 10},
+        {"name": "intel.com", "size": 2},
+        {"name": "igalia.com", "size": 2},
+        {"name": "rt-rk.com", "size": 1},
+        {"name": "leaningtech.com", "size": 1},
+        {"name": "indutny.com", "size": 1},
+        {"name": "ibm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "gmail.com", "size": 9},
+        {"name": "chromium.org", "size": 4},
+        {"name": "alum.mit.edu", "size": 3},
+        {"name": "intel.com", "size": 2},
+        {"name": "users.noreply.github.com", "size": 1},
+        {"name": "outlook.com", "size": 1},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "greggman.com", "size": 1}
+        ]
+    }
+ ]
+}

@@ -129,7 +129,7 @@ document.getElementById("myselect").onclick = function() {
     let jsonFilename = document.getElementById("myselect").value
     updateGraph(jsonFilename); //document.getElementById("myselect").value);
     document.getElementById("filename").innerHTML = jsonFilename;
-    let url = "http://127.0.0.1:8080/Data/";
+    let url = "Data/";
     let filename = jsonFilename.slice(0,-5);
     filename = filename.concat(".csv");
     url = url.concat(filename);
