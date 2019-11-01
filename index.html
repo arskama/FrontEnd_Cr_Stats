@@ -7,22 +7,11 @@
 </head>
 <body>
 
-
-<div class="splitTopVer">
-    <!--  <div class="centered"> -->
-      <div id="graph">
-          <svg class="right" width="960" height="960"></svg>
-     </div>
-    <div class="fileShow left" id="showData">data</div>
-        <h2 class="left"id="filename"> </h2>
-    </div>
-
-</div>
-
-<div class="splitBottomVer">
-  <div>
-    <a id="download_link" class="left" download="" href=”” target="_blank">Download CSV</a>
-    <select class="centered"id="myselect" name="myselect" size="4" >
+<fieldset class="fieldCenter">
+    <legend> menu: </legend>
+    <h2 id="filename"> </h2>
+    <a class="right" id="download_link" download="" href=”” target="_blank">Download CSV</a>
+    <select id="myselect" name="myselect" size="4" >
     </select>
     <div class="buttons_div">
         <p>following buttons update graph only: </p>
@@ -30,10 +19,18 @@
         <button onclick="updateTop5()">TOP5 and nosingle commit</button>
         <button onclick="updateIntel()">Intel Only</button>
     </div>
-  </div>
-  <div>
-  </div>
-</div> 
+</fieldset>
+<p></p>
+<fieldset class="fieldRight">
+    <legend> graph: </legend>
+    <svg width=800 height=800> </svg>
+</fieldset>
+
+<fieldset class="fieldLeft">
+    <legend> file: </legend>
+    <div class="fileShow" id="showData" data> </div>
+</fieldset>
+
 
 <script src="script.js"></script>
 </body>
