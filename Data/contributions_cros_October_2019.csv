@@ -1,0 +1,1151 @@
+ChromeOS project contributions from 01/October/2019 to 31/October/2019
+
+Overall
+Contributor,October 2019
+chromium.org,2257
+google.com,1142
+intel.com,748
+gmail.com,660
+collabora.com,551
+redhat.com,251
+amd.com,243
+kernel.org,194
+pnwbakers.com,154
+arm.com,113
+
+Project: chromite
+Contributor,October 2019
+chromium.org,237
+google.com,41
+
+Project: chromite/infra/proto
+Contributor,October 2019
+chromium.org,20
+google.com,12
+
+Project: docs
+Contributor,October 2019
+chromium.org,14
+google.com,4
+
+Project: infra/go
+Contributor,October 2019
+chromium.org,5
+
+Project: infra/lucifer
+Contributor,October 2019
+chromium.org,4
+google.com,3
+
+Project: infra/recipes
+Contributor,October 2019
+chromium.org,73
+google.com,14
+
+Project: infra/skylab_inventory
+Contributor,October 2019
+chromium.org,1
+
+Project: infra/suite_scheduler
+Contributor,October 2019
+google.com,10
+chromium.org,8
+
+Project: manifest
+Contributor,October 2019
+chromium.org,9
+google.com,3
+
+Project: src/aosp/external/bsdiff
+Contributor,October 2019
+google.com,8
+
+Project: src/aosp/external/libchrome
+Contributor,October 2019
+chromium.org,1
+
+Project: src/aosp/external/libcxx
+Contributor,October 2019
+android.com,2
+
+Project: src/aosp/external/libunwind_llvm
+Contributor,October 2019
+google.com,4
+
+Project: src/aosp/external/minijail
+Contributor,October 2019
+chromium.org,9
+google.com,3
+
+Project: src/aosp/external/puffin
+Contributor,October 2019
+google.com,2
+
+Project: src/aosp/system/update_engine
+Contributor,October 2019
+chromium.org,4
+google.com,1
+
+Project: src/chromium/src/buildtools
+Contributor,October 2019
+chromium.org,2
+
+Project: src/chromium/src/buildtools/clang_format/script
+Contributor,October 2019
+paulhoad,3
+sammccall,1
+nico,1
+
+Project: src/overlays
+Contributor,October 2019
+chromium.org,90
+google.com,50
+quanta.corp-partner.google.com,17
+mediatek.com,6
+intel.com,5
+huaqin.corp-partner.google.com,2
+bitland.corp-partner.google.com,2
+samsung.corp-partner.google.com,1
+samsung.com,1
+compal.corp-partner.google.com,1
+codeaurora.org,1
+amd.com,1
+
+Project: src/platform/audiotest
+Contributor,October 2019
+chromium.org,2
+
+Project: src/platform/bisect-kit
+Contributor,October 2019
+chromium.org,11
+
+Project: src/platform/cfm-device-monitor
+Contributor,October 2019
+google.com,1
+
+Project: src/platform/chameleon
+Contributor,October 2019
+google.com,5
+
+Project: src/platform/container-guest-tools
+Contributor,October 2019
+chromium.org,10
+google.com,5
+
+Project: src/platform/crostestutils
+Contributor,October 2019
+chromium.org,11
+google.com,6
+
+Project: src/platform/crosvm
+Contributor,October 2019
+chromium.org,55
+intel.corp-partner.google.com,11
+google.com,4
+intel.com,3
+
+Project: src/platform/depthcharge
+Contributor,October 2019
+google.com,4
+chromium.org,4
+intel.com,1
+
+Project: src/platform/dev
+Contributor,October 2019
+chromium.org,28
+
+Project: src/platform/drm-tests
+Contributor,October 2019
+chromium.org,1
+
+Project: src/platform/ec
+Contributor,October 2019
+chromium.org,173
+google.com,22
+bitland.corp-partner.google.com,11
+quantatw.com,5
+pegatroncorp.com,4
+coreboot.org,4
+quanta.corp-partner.google.com,3
+ite.com.tw,3
+nuvoton.com,2
+intel.com,2
+huaqin.corp-partner.google.com,2
+nestlabs.com,1
+compal.corp-partner.google.com,1
+
+Project: src/platform/factory
+Contributor,October 2019
+google.com,19
+chromium.org,10
+quanta.corp-partner.google.com,2
+
+Project: src/platform/factory_installer
+Contributor,October 2019
+google.com,1
+chromium.org,1
+
+Project: src/platform/firmware
+Contributor,October 2019
+chromium.org,5
+
+Project: src/platform/frecon
+Contributor,October 2019
+google.com,1
+
+Project: src/platform/glbench
+Contributor,October 2019
+chromium.org,3
+
+Project: src/platform/initramfs
+Contributor,October 2019
+chromium.org,1
+
+Project: src/platform/minigbm
+Contributor,October 2019
+chromium.org,5
+
+Project: src/platform/moblab
+Contributor,October 2019
+chromium.org,23
+google.com,2
+
+Project: src/platform/mosys
+Contributor,October 2019
+chromium.org,10
+google.com,1
+compal.corp-partner.google.com,1
+bitland.corp-partner.google.com,1
+
+Project: src/platform/newblue
+Contributor,October 2019
+google.com,5
+
+Project: src/platform/tast
+Contributor,October 2019
+chromium.org,35
+google.com,9
+intel.com,1
+
+Project: src/platform/tast-tests
+Contributor,October 2019
+chromium.org,160
+google.com,122
+intel.corp-partner.google.com,2
+intel.com,2
+
+Project: src/platform/touch_updater
+Contributor,October 2019
+google.com,3
+chromium.org,2
+g2touch.corp-partner.google.com,1
+
+Project: src/platform/tremplin
+Contributor,October 2019
+google.com,5
+chromium.org,1
+
+Project: src/platform/vboot_reference
+Contributor,October 2019
+google.com,27
+chromium.org,13
+
+Project: src/platform/vpd
+Contributor,October 2019
+chromium.org,2
+
+Project: src/platform2
+Contributor,October 2019
+chromium.org,341
+google.com,171
+intel.com,6
+mediatek.com,1
+
+Project: src/repohooks
+Contributor,October 2019
+chromium.org,3
+
+Project: src/scripts
+Contributor,October 2019
+chromium.org,22
+google.com,2
+
+Project: src/third_party/adhd
+Contributor,October 2019
+chromium.org,41
+google.com,12
+
+Project: src/third_party/arm-trusted-firmware
+Contributor,October 2019
+arm.com,16
+st.com,5
+mediatek.com,2
+linaro.org,2
+
+Project: src/third_party/autotest/files
+Contributor,October 2019
+google.com,120
+chromium.org,105
+intel.com,3
+mediatek.com,1
+
+Project: src/third_party/aver-updater
+Contributor,October 2019
+google.com,1
+
+Project: src/third_party/bluez
+Contributor,October 2019
+chromium.org,4
+google.com,2
+
+Project: src/third_party/chromiumos-overlay
+Contributor,October 2019
+chromium.org,229
+google.com,135
+intel.com,6
+quanta.corp-partner.google.com,2
+pegatron.corp-partner.google.com,1
+displaylink.com,1
+
+Project: src/third_party/coreboot
+Contributor,October 2019
+gmail.com,102
+aheymans.xyz,62
+noos.fr,51
+chromium.org,34
+google.com,26
+mniewoehner.de,25
+eltan.com,15
+intel.com,13
+9elements.com,12
+secunet.com,11
+coreboot.org,11
+mediatek.com,10
+hcl.com,9
+quantatw.com,7
+siemens.com,6
+georgi.software,6
+quanta.corp-partner.google.com,5
+gmx.de,5
+felixheld.de,5
+compal.corp-partner.google.com,5
+fb.com,4
+das-labor.org,4
+bitland.corp-partner.google.com,4
+wiwynn.com,3
+unrelenting.technology,3
+hardenedlinux.org,3
+danwin1210.me,3
+amd.corp-partner.google.com,3
+codeaurora.org,2
+ualberta.ca,1
+system76.com,1
+startmail.com,1
+sholland.org,1
+samsung.com,1
+intel.corp-partner.google.com,1
+fe80.eu,1
+
+Project: src/third_party/cups
+Contributor,October 2019
+chromium.org,3
+google.com,1
+
+Project: src/third_party/daisydog
+Contributor,October 2019
+chromium.org,1
+
+Project: src/third_party/eclass-overlay
+Contributor,October 2019
+chromium.org,11
+google.com,1
+
+Project: src/third_party/flashrom
+Contributor,October 2019
+chromium.org,18
+google.com,17
+
+Project: src/third_party/hdctools
+Contributor,October 2019
+chromium.org,28
+pegatroncorp.com,1
+
+Project: src/third_party/kernel/v3.10
+Contributor,October 2019
+gmail.com,1
+
+Project: src/third_party/kernel/v3.14
+Contributor,October 2019
+chromium.org,2
+goodmis.org,1
+gmail.com,1
+
+Project: src/third_party/kernel/v3.18
+Contributor,October 2019
+sony.com,33
+mit.edu,22
+gmail.com,17
+virtuozzo.com,10
+redhat.com,10
+oh.rr.com,9
+mungewell.org,9
+suse.cz,8
+ao2.it,8
+linux.vnet.ibm.com,3
+imagination.corp-partner.google.com,3
+huawei.com,2
+zeniv.linux.org.uk,1
+yandex-team.ru,1
+ucw.cz,1
+suse.de,1
+qnap.com,1
+oracle.com,1
+nvidia.com,1
+goodmis.org,1
+gmx.com,1
+ffwll.ch,1
+fb.com,1
+ddn.com,1
+canonical.com,1
+bitland.corp-partner.google.com,1
+163.com,1
+
+Project: src/third_party/kernel/v3.8
+Contributor,October 2019
+gmail.com,1
+
+Project: src/third_party/kernel/v4.14
+Contributor,October 2019
+gmail.com,54
+arm.com,46
+kernel.org,42
+redhat.com,34
+realtek.com,25
+google.com,22
+chromium.org,22
+intel.com,20
+suse.com,17
+huawei.com,15
+linux.ibm.com,11
+suse.de,10
+pengutronix.de,9
+canonical.com,8
+linuxfoundation.org,6
+chris-wilson.co.uk,6
+xs4all.nl,5
+nvidia.com,5
+cs.uga.edu,5
+ti.com,4
+rowland.harvard.edu,4
+renesas.com,4
+microsoft.com,4
+linux.vnet.ibm.com,4
+linaro.org,4
+goodmis.org,4
+arndb.de,4
+amd.com,4
+virtuozzo.com,3
+toradex.com,3
+oracle.com,3
+nxp.com,3
+mellanox.com,3
+lca.pw,3
+kaod.org,3
+fb.com,3
+codeaurora.org,3
+wanadoo.fr,2
+suse.cz,2
+st.com,2
+sony.com,2
+samsung.com,2
+sakamocchi.jp,2
+networkplumber.org,2
+mork.no,2
+mediatek.com,2
+marvell.com,2
+it-klinger.de,2
+infradead.org,2
+I-love.SAKURA.ne.jp,2
+gmx.net,2
+gmx.de,2
+endlessm.com,2
+embeddedor.com,2
+dev.mellanox.co.il,2
+csail.mit.edu,2
+collabora.com,2
+cloud.ionos.com,2
+citrix.com,2
+baidu.com,2
+armlinux.org.uk,2
+arcor.de,2
+aosc.io,2
+android.com,2
+amazon.com,2
+acm.org,2
+zte.com.cn,1
+zoho.com.cn,1
+zeniv.linux.org.uk,1
+ysoft.com,1
+wdc.com,1
+w1.fi,1
+vt.edu,1
+vmware.com,1
+ucr.edu,1
+tuxera.com,1
+tutanota.com,1
+toxicpanda.com,1
+tencent.com,1
+strlen.de,1
+silicom-usa.com,1
+rock-chips.com,1
+realsil.com.cn,1
+rasmusvillemoes.dk,1
+python.org,1
+partner.samsung.com,1
+ozlabs.org,1
+outlook.com,1
+okoko.fi,1
+nokia.com,1
+mvista.com,1
+mit.edu,1
+mips.com,1
+microchip.com,1
+mess.org,1
+mentor.com,1
+mail.parknet.co.jp,1
+maciej.szmigiero.name,1
+logitech.com,1
+live.cn,1
+linutronix.de,1
+lechnology.com,1
+kwaak.net,1
+kernel.dk,1
+katsuster.net,1
+jp.adit-jv.com,1
+joaomoreno.com,1
+iogearbox.net,1
+ingics.com,1
+inbox.ru,1
+i-love.sakura.ne.jp,1
+hpe.com,1
+hotmail.com,1
+holtmann.org,1
+hisilicon.com,1
+hadess.net,1
+guarana.org,1
+gondor.apana.org.au,1
+glider.be,1
+eng.ucsd.edu,1
+emlix.com,1
+dektech.com.au,1
+decompile.me.uk,1
+debian.org,1
+c-s.fr,1
+cn.fujitsu.com,1
+cmss.chinamobile.com,1
+chelsio.com,1
+centricular.com,1
+baylibre.com,1
+axis.com,1
+atomide.com,1
+aspeedtech.com,1
+area49.net,1
+andred.net,1
+
+Project: src/third_party/kernel/v4.14-gw
+Contributor,October 2019
+linaro.org,7
+codeaurora.org,7
+google.com,1
+gmail.com,1
+
+Project: src/third_party/kernel/v4.19
+Contributor,October 2019
+intel.com,141
+chromium.org,90
+gmail.com,68
+kernel.org,63
+google.com,47
+redhat.com,42
+renesas.com,38
+mediatek.com,27
+arm.com,24
+suse.com,21
+huawei.com,21
+realtek.com,20
+linux.ibm.com,17
+codeaurora.org,14
+linaro.org,12
+canonical.com,12
+pengutronix.de,10
+suse.de,9
+amd.com,9
+xs4all.nl,8
+nvidia.com,6
+linuxfoundation.org,6
+intel.corp-partner.google.com,6
+infradead.org,6
+cs.uga.edu,6
+arndb.de,6
+toradex.com,5
+ti.com,5
+nxp.com,5
+microsoft.com,5
+linux.vnet.ibm.com,5
+embeddedor.com,5
+st.com,4
+oracle.com,4
+mellanox.com,4
+linutronix.de,4
+lca.pw,4
+goodmis.org,4
+glider.be,4
+ghiti.fr,4
+virtuozzo.com,3
+sakamocchi.jp,3
+ozlabs.org,3
+mess.org,3
+marvell.com,3
+kaod.org,3
+gmx.net,3
+fb.com,3
+collabora.com,3
+baylibre.com,3
+wdc.com,2
+wanadoo.fr,2
+vmware.com,2
+unisoc.com,2
+toxicpanda.com,2
+tencent.com,2
+suse.cz,2
+samsung.com,2
+ozlabs.ru,2
+mork.no,2
+mentor.com,2
+I-love.SAKURA.ne.jp,2
+heine.so,2
+gmx.de,2
+flygoat.com,2
+endlessm.com,2
+efficios.com,2
+dell.corp-partner.google.com,2
+c-s.fr,2
+csail.mit.edu,2
+crapouillou.net,2
+cmss.chinamobile.com,2
+cloud.ionos.com,2
+citrix.com,2
+chris-wilson.co.uk,2
+benyossef.com,2
+baidu.com,2
+atomide.com,2
+armlinux.org.uk,2
+arcor.de,2
+aosc.io,2
+android.com,2
+amazon.com,2
+akamai.com,2
+acm.org,2
+zte.com.cn,1
+zoho.com.cn,1
+zoho.com,1
+zeniv.linux.org.uk,1
+ysoft.com,1
+wunner.de,1
+w1.fi,1
+vt.edu,1
+ucr.edu,1
+tuxera.com,1
+tuxdriver.com,1
+tutanota.com,1
+telegraphics.com.au,1
+strlen.de,1
+stratus.com,1
+sony.com,1
+socionext.com,1
+siol.net,1
+silicom-usa.com,1
+silex-india.com,1
+sifive.com,1
+runbox.com,1
+rowland.harvard.edu,1
+rock-chips.com,1
+rasmusvillemoes.dk,1
+python.org,1
+partner.samsung.com,1
+outlook.com,1
+olimex.com,1
+okoko.fi,1
+nokia.com,1
+networkplumber.org,1
+netfilter.org,1
+mvista.com,1
+mit.edu,1
+mips.com,1
+microchip.com,1
+mediatek.corp-partner.google.com,1
+mail.parknet.co.jp,1
+maciej.szmigiero.name,1
+logitech.com,1
+live.cn,1
+linux.alibaba.com,1
+lightbitslabs.com,1
+kwiboo.se,1
+kwaak.net,1
+kpanic.de,1
+kevlo.org,1
+kernel.dk,1
+katsuster.net,1
+jp.fujitsu.com,1
+jp.adit-jv.com,1
+joaomoreno.com,1
+it-klinger.de,1
+ite.com.tw,1
+iogearbox.net,1
+ingics.com,1
+inbox.ru,1
+i-love.sakura.ne.jp,1
+hpe.com,1
+hisilicon.com,1
+hadess.net,1
+guarana.org,1
+gondor.apana.org.au,1
+fossix.org,1
+fbihome.de,1
+eng.ucsd.edu,1
+dev.mellanox.co.il,1
+dektech.com.au,1
+comcast.net,1
+chelsio.com,1
+centricular.com,1
+broadcom.com,1
+bootlin.com,1
+axis.com,1
+aspeedtech.com,1
+area49.net,1
+andred.net,1
+analog.com,1
+amzn.com,1
+alum.mit.edu,1
+126.com,1
+
+Project: src/third_party/kernel/v4.19-lakitu
+Contributor,October 2019
+gmail.com,65
+kernel.org,48
+redhat.com,42
+intel.com,33
+google.com,32
+arm.com,23
+suse.com,21
+huawei.com,18
+linux.ibm.com,17
+pengutronix.de,10
+canonical.com,10
+chromium.org,9
+amd.com,9
+suse.de,8
+linaro.org,8
+nvidia.com,6
+linuxfoundation.org,6
+cs.uga.edu,6
+toradex.com,5
+ti.com,5
+nxp.com,5
+microsoft.com,5
+linux.vnet.ibm.com,5
+infradead.org,5
+arndb.de,5
+xs4all.nl,4
+st.com,4
+renesas.com,4
+oracle.com,4
+mellanox.com,4
+linutronix.de,4
+lca.pw,4
+goodmis.org,4
+ghiti.fr,4
+virtuozzo.com,3
+sakamocchi.jp,3
+ozlabs.org,3
+mess.org,3
+mediatek.com,3
+marvell.com,3
+kaod.org,3
+gmx.net,3
+glider.be,3
+fb.com,3
+codeaurora.org,3
+wdc.com,2
+wanadoo.fr,2
+vmware.com,2
+unisoc.com,2
+toxicpanda.com,2
+tencent.com,2
+suse.cz,2
+samsung.com,2
+prod.google.com,2
+ozlabs.ru,2
+mork.no,2
+I-love.SAKURA.ne.jp,2
+heine.so,2
+gmx.de,2
+flygoat.com,2
+endlessm.com,2
+efficios.com,2
+c-s.fr,2
+csail.mit.edu,2
+collabora.com,2
+cmss.chinamobile.com,2
+cloud.ionos.com,2
+citrix.com,2
+chris-wilson.co.uk,2
+benyossef.com,2
+baidu.com,2
+atomide.com,2
+armlinux.org.uk,2
+arcor.de,2
+aosc.io,2
+android.com,2
+amazon.com,2
+akamai.com,2
+acm.org,2
+zte.com.cn,1
+zoho.com.cn,1
+zoho.com,1
+zeniv.linux.org.uk,1
+ysoft.com,1
+wunner.de,1
+w1.fi,1
+vt.edu,1
+ucr.edu,1
+tuxera.com,1
+tuxdriver.com,1
+tutanota.com,1
+telegraphics.com.au,1
+strlen.de,1
+stratus.com,1
+sony.com,1
+socionext.com,1
+silicom-usa.com,1
+sifive.com,1
+runbox.com,1
+rowland.harvard.edu,1
+rock-chips.com,1
+realtek.com,1
+rasmusvillemoes.dk,1
+python.org,1
+partner.samsung.com,1
+outlook.com,1
+olimex.com,1
+okoko.fi,1
+nokia.com,1
+networkplumber.org,1
+netfilter.org,1
+mvista.com,1
+mit.edu,1
+mips.com,1
+microchip.com,1
+mentor.com,1
+mail.parknet.co.jp,1
+maciej.szmigiero.name,1
+logitech.com,1
+live.cn,1
+linux.alibaba.com,1
+lightbitslabs.com,1
+kwaak.net,1
+kpanic.de,1
+kernel.dk,1
+katsuster.net,1
+jp.fujitsu.com,1
+jp.adit-jv.com,1
+joaomoreno.com,1
+it-klinger.de,1
+iogearbox.net,1
+ingics.com,1
+inbox.ru,1
+i-love.sakura.ne.jp,1
+hpe.com,1
+hisilicon.com,1
+hadess.net,1
+guarana.org,1
+gondor.apana.org.au,1
+fossix.org,1
+fbihome.de,1
+eng.ucsd.edu,1
+embeddedor.com,1
+dev.mellanox.co.il,1
+dektech.com.au,1
+comcast.net,1
+chelsio.com,1
+centricular.com,1
+broadcom.com,1
+bootlin.com,1
+baylibre.com,1
+axis.com,1
+aspeedtech.com,1
+area49.net,1
+andred.net,1
+analog.com,1
+amzn.com,1
+alum.mit.edu,1
+126.com,1
+
+Project: src/third_party/kernel/v4.4
+Contributor,October 2019
+kernel.org,41
+gmail.com,38
+intel.com,34
+sony.com,32
+redhat.com,17
+google.com,15
+chromium.org,13
+suse.com,10
+huawei.com,9
+linux.ibm.com,8
+android.com,8
+canonical.com,6
+linuxfoundation.org,5
+rowland.harvard.edu,4
+pengutronix.de,4
+arndb.de,4
+xs4all.nl,3
+virtuozzo.com,3
+toradex.com,3
+ti.com,3
+suse.de,3
+renesas.com,3
+realtek.com,3
+nvidia.com,3
+cs.uga.edu,3
+zte.com.cn,2
+wanadoo.fr,2
+sakamocchi.jp,2
+mork.no,2
+infradead.org,2
+goodmis.org,2
+gmx.net,2
+gmx.de,2
+embeddedor.com,2
+codeaurora.org,2
+citrix.com,2
+chris-wilson.co.uk,2
+arm.com,2
+amazon.de,2
+zoho.com.cn,1
+w1.fi,1
+vt.edu,1
+vmware.com,1
+ucw.cz,1
+ucr.edu,1
+trendmicro.com.cn,1
+oracle.com,1
+okoko.fi,1
+nxp.com,1
+nokia.com,1
+networkplumber.org,1
+mvista.com,1
+mit.edu,1
+microsoft.com,1
+mellanox.com,1
+mediatek.com,1
+marvell.com,1
+mail.parknet.co.jp,1
+maciej.szmigiero.name,1
+logitech.com,1
+live.cn,1
+linux.vnet.ibm.com,1
+linutronix.de,1
+linaro.org,1
+lca.pw,1
+kwaak.net,1
+jp.adit-jv.com,1
+joaomoreno.com,1
+inbox.ru,1
+imagination.corp-partner.google.com,1
+I-love.SAKURA.ne.jp,1
+holtmann.org,1
+hisilicon.com,1
+hadess.net,1
+guarana.org,1
+eng.ucsd.edu,1
+endlessm.com,1
+displaylink.com,1
+dev.mellanox.co.il,1
+debian.org,1
+c-s.fr,1
+cloud.ionos.com,1
+centricular.com,1
+baidu.com,1
+axis.com,1
+atomide.com,1
+arcor.de,1
+amd.com,1
+acm.org,1
+
+Project: src/third_party/libapps
+Contributor,October 2019
+chromium.org,59
+google.com,35
+
+Project: src/third_party/libcamera
+Contributor,October 2019
+ideasonboard.com,76
+jmondi.org,20
+ragnatech.se,11
+
+Project: src/third_party/libmbim
+Contributor,October 2019
+chromium.org,1
+
+Project: src/third_party/linux-firmware
+Contributor,October 2019
+intel.com,4
+
+Project: src/third_party/logitech-updater
+Contributor,October 2019
+chromium.org,1
+
+Project: src/third_party/mesa
+Contributor,October 2019
+collabora.com,264
+intel.com,248
+gmail.com,164
+amd.com,112
+pnwbakers.com,78
+riseup.net,56
+redhat.com,53
+chromium.org,53
+marek.ca,49
+basnieuwenhuizen.nl,34
+google.com,27
+itsqueeze.com,26
+igalia.com,25
+anholt.net,25
+schuermann.dev,22
+whitecape.org,20
+pengutronix.de,17
+protonmail.com,10
+vmware.com,6
+oracle.com,6
+jlekstrand.net,6
+globallogic.com,5
+FreeBSD.org,5
+thefoundry.co.uk,4
+engestrom.ch,4
+denx.de,4
+alum.mit.edu,4
+yahoo.com,3
+imkreisrum.de,2
+duncanhopkins.me.uk,2
+chris-wilson.co.uk,2
+wizdas.com,1
+unrelenting.technology,1
+sdf.org,1
+openbsd.org,1
+googlemail.com,1
+dronecode.org.uk,1
+baylibre.com,1
+arm.com,1
+
+Project: src/third_party/mesa-freedreno
+Contributor,October 2019
+collabora.com,260
+intel.com,210
+gmail.com,145
+amd.com,107
+pnwbakers.com,76
+riseup.net,56
+redhat.com,52
+chromium.org,49
+marek.ca,45
+google.com,28
+igalia.com,25
+anholt.net,25
+itsqueeze.com,23
+whitecape.org,20
+basnieuwenhuizen.nl,19
+pengutronix.de,17
+protonmail.com,10
+vmware.com,6
+oracle.com,6
+schuermann.dev,5
+globallogic.com,5
+FreeBSD.org,5
+engestrom.ch,4
+denx.de,4
+yahoo.com,3
+thefoundry.co.uk,3
+jlekstrand.net,2
+imkreisrum.de,2
+chris-wilson.co.uk,2
+alum.mit.edu,2
+wizdas.com,1
+unrelenting.technology,1
+sdf.org,1
+googlemail.com,1
+duncanhopkins.me.uk,1
+dronecode.org.uk,1
+baylibre.com,1
+arm.com,1
+
+Project: src/third_party/modp_b64
+Contributor,October 2019
+google.com,2
+chromium.org,1
+
+Project: src/third_party/portage-stable
+Contributor,October 2019
+chromium.org,57
+google.com,5
+loon.co,1
+
+Project: src/third_party/shellcheck
+Contributor,October 2019
+chromium.org,3
+
+Project: src/third_party/sis-updater
+Contributor,October 2019
+google.com,1
+
+Project: src/third_party/sound-open-firmware
+Contributor,October 2019
+chromium.org,1
+
+Project: src/third_party/tlsdate
+Contributor,October 2019
+google.com,1
+
+Project: src/third_party/toolchain-utils
+Contributor,October 2019
+google.com,22
+chromium.org,2
+
+Project: src/third_party/u-boot/files
+Contributor,October 2019
+chromium.org,1
+
+Project: src/third_party/virglrenderer
+Contributor,October 2019
+collabora.com,20
+chromium.org,8
+
+Project: src/third_party/wpa_supplicant-2.8
+Contributor,October 2019
+chromium.org,2
+
+Project: src/third_party/xfstests
+Contributor,October 2019
+google.com,19
+intel.com,16
+oracle.com,9
+suse.com,5
+huawei.com,4
+gmail.com,3
+Netapp.com,2
+cn.fujitsu.com,2
+toxicpanda.com,1
+redhat.com,1
+mykernel.net,1
+fujitsu.com,1
+canonical.com,1
