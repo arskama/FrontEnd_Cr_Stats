@@ -1,0 +1,32 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5544},
+        {"name": "google.com", "size": 1020},
+        {"name": "igalia.com", "size": 284},
+        {"name": "microsoft.com", "size": 132},
+        {"name": "intel.com", "size": 49}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 353},
+        {"name": "chromium.org", "size": 21}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 443},
+        {"name": "ca.ibm.com", "size": 23},
+        {"name": "loongson.cn", "size": 18},
+        {"name": "microsoft.com", "size": 15},
+        {"name": "gmail.com", "size": 8}
+        ]
+    }
+ ]
+}
