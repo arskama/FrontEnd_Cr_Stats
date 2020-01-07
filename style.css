@@ -36,18 +36,19 @@ text-decoration: underline;
 /* LAYOUT */
 
 .fieldRight {
+    position: static;
     float: right;
     overflow: auto;
 }
 .fieldLeft {
+    position: static;
     float: left;
     overflow: auto;
 }
 .fieldCenter {
-    float: center;
+    position: static;
     overflow: auto;
 }
-
 
 .left {
   left: 0%;
@@ -90,4 +91,24 @@ text-decoration: underline;
     border:1px solid #ccc;
     font:16px/26px Georgia, Garamond, Serif;
     overflow:auto;
+}
+
+path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.legend {
+    font-size: 16px;
+    font-weight: bold;
+    text-anchor: middle;
 }

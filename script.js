@@ -1,9 +1,10 @@
 
-var svg = d3.select("svg")
+// bubble graph
+var svgBubble = d3.select("#svgBubble")
    .attr("preserveAspectRatio", "xMinYMin meet")
     margin = 20,
-    diameter = +svg.attr("width"),
-    g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+    diameter = +svgBubble.attr("width"),
+    g = svgBubble.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
 var color = d3.scaleLinear()
     .domain([-1, 5])
@@ -19,7 +20,6 @@ function updateGraph(filename) {
     g.selectAll("*").remove()
     let path ="Data/";
     path=path.concat(filename);
-    console.log(path);
 d3.json(path, function(error, root) {
   if (error) throw error;
 
@@ -35,9 +35,9 @@ d3.json(path, function(error, root) {
   var circle = g.selectAll("circle")
     .data(nodes)
     .enter().append("circle")
-      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+      .attr("class", function(d) {return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
-      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+      .on("click", function(d) {if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = g.selectAll("text")
     .data(nodes)
@@ -49,9 +49,9 @@ d3.json(path, function(error, root) {
 
   var node = g.selectAll("circle,text");
 
-  svg
+  svgBubble
       .style("background", color(-1))
-      .on("click", function() { zoom(root); });
+      .on("click", function() { if(focus !== root) zoom(root); });
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);
 
@@ -65,8 +65,8 @@ d3.json(path, function(error, root) {
           return function(t) { zoomTo(i(t)); };
         });
 
-    transition.selectAll("text")
-      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+    svgBubble.transition().selectAll("text")
+    .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
         .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
         .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
@@ -78,6 +78,7 @@ d3.json(path, function(error, root) {
     circle.attr("r", function(d) { return d.r * k; });
   }
 });
+
 }
 
 var allText = [];
@@ -87,8 +88,6 @@ var listOfFiles = [];
 var currentChoice;
 
 loadListOfFiles();
-//document.getElementById("rand_txt").innerHTML = "List of files:";
-console.log(typeof(allTextLines));
 
 function loadListOfFiles() {
     let txtFile = new XMLHttpRequest();
@@ -98,11 +97,8 @@ function loadListOfFiles() {
     txtFile.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             listOfFiles = txtFile.responseText;
-            console.log("listOfFile is : " + typeof(listOfFiles));
             allTextLines = listOfFiles.split(/\n/);
-            console.log("what " + allTextLines.length);
             for(let i = 0; i < allTextLines.length; i++) {
-                console.log(i);
                 if(allTextLines[i] != "") {
                     item = document.createElement('choice');
                     item.innerHTML = allTextLines[i];
@@ -110,13 +106,10 @@ function loadListOfFiles() {
                     z = document.createElement("option");
                     z.appendChild(item);
                     z.setAttribute("value", item.innerHTML);
-                    console.log("z value = " + z.value + "VS " + this.innerHTML);
                     document.getElementById("myselect").appendChild(z);
 
                 }
             }
-            console.log(listOfFiles);
-            console.log(allTextLines);
         }
     };
     txtFile.send(null);
@@ -124,8 +117,8 @@ function loadListOfFiles() {
 }
 
 document.getElementById("myselect").onclick = function() {
-    console.log("current value is" + document.getElementById("myselect").value);
     let jsonFilename = document.getElementById("myselect").value
+
     updateGraph(jsonFilename); //document.getElementById("myselect").value);
     document.getElementById("filename").innerHTML = jsonFilename;
     let url = "Data/";
@@ -194,16 +187,13 @@ function loadDoc(filename) {
             }
             table_data += '</table>';
             document.getElementById("showData").innerHTML = table_data;
-
-//            document.getElementById("showData").innerHTML= this.responseText.split(/","?\n|\r/);
         }
     };
-    //txtFile.open("GET", "file://home/amandy/Repos/WebTeam_2019/Documentation_make/process_csv_in_JS/contribution_june_2019.csv", true);
     dataFile.send(null);
     console.log(dataFile);
 };
 
-
+/* PROTOS
 function handleFiles(files) {
     // Check for the various File API support.
     if (window.FileReader) {
@@ -249,4 +239,4 @@ function errorHandler(evt) {
     }
 }
 
-
+*/

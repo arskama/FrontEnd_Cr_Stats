@@ -4,6 +4,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
 </head>
 <body>
 
@@ -23,7 +24,7 @@
 <p></p>
 <fieldset class="fieldRight">
     <legend> graph: </legend>
-    <svg width=800 height=800> </svg>
+    <svg width=600 height=800 id="svgBubble"> </svg>
 </fieldset>
 
 <fieldset class="fieldLeft">
@@ -31,8 +32,25 @@
     <div class="fileShow" id="showData" data> </div>
 </fieldset>
 
+<fieldset class="fieldCenter" id="ChromiumTrend">
+    <legend> Chromium </legend>
+</fieldset>
+
+<fieldset class="fieldCenter" id="V8Trend">
+    <legend> V8 </legend>
+</fieldset>
+
+<fieldset class="fieldCenter" id="SkiaTrend">
+    <legend> Skia </legend>
+</fieldset>
+
+<fieldset class="fieldCenter" id="WebGLTrend">
+    <legend> WebGL </legend>
+</fieldset>
+
 
 <script src="script.js"></script>
+<script src="script_trends.js"></script>
 </body>
 </html> 
 
