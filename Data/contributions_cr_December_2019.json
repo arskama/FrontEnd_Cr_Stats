@@ -1,0 +1,63 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 4569},
+        {"name": "google.com", "size": 1049},
+        {"name": "igalia.com", "size": 318},
+        {"name": "microsoft.com", "size": 108},
+        {"name": "intel.com", "size": 37},
+        {"name": "opera.com", "size": 31},
+        {"name": "gmail.com", "size": 17},
+        {"name": "navercorp.com", "size": 8},
+        {"name": "googlemail.com", "size": 6},
+        {"name": "fb.com", "size": 6},
+        {"name": "samsung.com", "size": 4},
+        {"name": "lge.com", "size": 4},
+        {"name": "arm.com", "size": 4},
+        {"name": "yandex-team.ru", "size": 3},
+        {"name": "vivaldi.com", "size": 3},
+        {"name": "xiaomi.com", "size": 2},
+        {"name": "sogou-inc.com", "size": 2},
+        {"name": "kl.wtf", "size": 2},
+        {"name": "vewd.com", "size": 1},
+        {"name": "privat.broulik.de", "size": 1},
+        {"name": "mforney.org", "size": 1},
+        {"name": "inf.u-szeged.hu", "size": 1},
+        {"name": "brave.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 328},
+        {"name": "chromium.org", "size": 21},
+        {"name": "gmail.com", "size": 4}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 233},
+        {"name": "ca.ibm.com", "size": 8},
+        {"name": "microsoft.com", "size": 7},
+        {"name": "loongson.cn", "size": 6},
+        {"name": "intel.com", "size": 6},
+        {"name": "gmail.com", "size": 3},
+        {"name": "arm.com", "size": 3},
+        {"name": "addaleax.net", "size": 3},
+        {"name": "igalia.com", "size": 1},
+        {"name": "ibm.com", "size": 1},
+        {"name": "gus.host", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}
