@@ -8,48 +8,57 @@
 </head>
 <body>
 
-<fieldset class="fieldCenter">
-    <legend> menu: </legend>
-    <h2 id="filename"> </h2>
-    <a class="right" id="download_link" download="" href=”” target="_blank">Download CSV</a>
-    <select id="myselect" name="myselect" size="4" >
+<fieldset class="fieldNoBorder">
+    <select id="myselect" name="myselect" size="4" width=120>
+    <optgroup label = "Selected Month:">
     </select>
-    <div class="buttons_div">
-        <p>following buttons update graph only: </p>
-        <button onclick="updatefull()">full commmits</button>
-        <button onclick="updateTop5()">TOP5 and nosingle commit</button>
-        <button onclick="updateIntel()">Intel Only</button>
-    </div>
+    <br>
+    <br>
+    <a class="left" id="download_link_cr" download="" href=”” target="_blank">Download Chromium commits CSV</a>
+    <br>
+    <a class="left" id="download_link_crOS" download="" href=”” target="_blank">Download Chrome OS commits CSV</a>
+    <br>
+    <br>
 </fieldset>
+<fieldset id="svgTreemap">
+	<legend> Treemap: </legend>
+	<h1 id="monthTitle"> LOADING...</h1>
+    <svg width=1000 height=1000 id="svgTree"> </svg>
+</fieldset>
+<!-- BubbleGraph not shown
 <fieldset>
 	<legend> contribution </legend>
-<fieldset class="fieldRight">
+<fieldset class="fieldNoBorder" >
     <legend> graph: </legend>
     <svg width=600 height=800 id="svgBubble"> </svg>
 </fieldset>
-
-<fieldset class="fieldLeft">
+-->
+<!-- File, not shown
+    <fieldset class="fieldLeft">
     <legend> file: </legend>
     <div class="fileShow" id="showData" data> </div>
 </fieldset>
+-->
 </fieldset>
 <fieldset class="fieldCenter" id="ChromiumTrend">
-    <legend> Chromium </legend>
+    <legend> Chromium Trends </legend>
 </fieldset>
 
 <fieldset class="fieldCenter" id="V8Trend">
-    <legend> V8 </legend>
+    <legend> V8 Trends </legend>
 </fieldset>
 
 <fieldset class="fieldCenter" id="SkiaTrend">
-    <legend> Skia </legend>
+    <legend> Skia Trends </legend>
 </fieldset>
 
 <fieldset class="fieldCenter" id="WebGLTrend">
-    <legend> WebGL </legend>
+    <legend> WebGL Trends </legend>
 </fieldset>
+    <i class="fieldLeft">*clicking on company name toggles data on graph </i>
 
 <script src="script.js"></script>
+<script src="script_tree.js"></script>
 <script src="script_trends.js"></script>
 </body>
 </html> 

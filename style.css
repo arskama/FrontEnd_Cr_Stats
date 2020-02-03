@@ -21,6 +21,24 @@ text-decoration: underline;
   fill: white;
 }
 
+/* NEW NEW */
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+/* END END */
+
 .label {
   font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-anchor: middle;
@@ -50,9 +68,15 @@ text-decoration: underline;
     overflow: auto;
 }
 
+.fieldNoBorder {
+    position: static;
+    overflow: auto;
+    border:0;
+}
+
 .left {
+  float: left;
   left: 0%;
-  background-color: #111;
 }
 
 .right {
