@@ -1,0 +1,66 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 6394},
+        {"name": "google.com", "size": 988},
+        {"name": "igalia.com", "size": 203},
+        {"name": "microsoft.com", "size": 142},
+        {"name": "intel.com", "size": 31},
+        {"name": "samsung.com", "size": 27},
+        {"name": "opera.com", "size": 19},
+        {"name": "gmail.com", "size": 19},
+        {"name": "navercorp.com", "size": 8},
+        {"name": "googlemail.com", "size": 8},
+        {"name": "yandex-team.ru", "size": 5},
+        {"name": "tambre.ee", "size": 5},
+        {"name": "brave.com", "size": 5},
+        {"name": "arm.com", "size": 3},
+        {"name": "mforney.org", "size": 2},
+        {"name": "huawei.com", "size": 2},
+        {"name": "corp.mail.ru", "size": 2},
+        {"name": "sony.com", "size": 1},
+        {"name": "privat.broulik.de", "size": 1},
+        {"name": "lge.com", "size": 1},
+        {"name": "amazon.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 446},
+        {"name": "chromium.org", "size": 17},
+        {"name": "amazon.com", "size": 3}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 403},
+        {"name": "ca.ibm.com", "size": 26},
+        {"name": "microsoft.com", "size": 16},
+        {"name": "google.com", "size": 9},
+        {"name": "loongson.cn", "size": 7},
+        {"name": "arm.com", "size": 5},
+        {"name": "intel.com", "size": 4},
+        {"name": "gmail.com", "size": 2},
+        {"name": "tnie.de", "size": 1},
+        {"name": "gus.host", "size": 1},
+        {"name": "fb.com", "size": 1},
+        {"name": "bnoordhuis.nl", "size": 1},
+        {"name": "addaleax.net", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "google.com", "size": 5},
+        {"name": "mozilla.com", "size": 2},
+        {"name": "intel.com", "size": 1},
+        {"name": "gmail.com", "size": 1}
+        ]
+    }
+ ]
+}
