@@ -60,6 +60,15 @@
         {"name": "chromium.org", "size": 1},
         {"name": "alum.mit.edu", "size": 1}
         ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 36},
+        {"name": "intel.com", "size": 12},
+        {"name": "microsoft.com", "size": 5},
+        {"name": "google.com", "size": 5}
+        ]
     }
  ]
 }

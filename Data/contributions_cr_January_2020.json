@@ -61,6 +61,15 @@
         {"name": "intel.com", "size": 1},
         {"name": "gmail.com", "size": 1}
         ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 49},
+        {"name": "intel.com", "size": 6},
+        {"name": "microsoft.com", "size": 5},
+        {"name": "google.com", "size": 2}
+        ]
     }
  ]
 }

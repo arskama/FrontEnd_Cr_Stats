@@ -1,5 +1,5 @@
 // areas of research
-var area = ["Chromium", "V8", "Skia", "WebGL"];
+var area = ["Chromium", "V8", "Skia", "WebGL", "WebGPU"];
 
 var trendArray = [];
 

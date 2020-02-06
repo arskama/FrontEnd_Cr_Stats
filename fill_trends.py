@@ -5,7 +5,7 @@ import csv
 from os import path
 
 
-sections = ["Chromium", "Skia", "V8", "WebGL"];
+sections = ["Chromium", "Skia", "V8", "WebGL, WebGPU"];
 
 arguments = len(sys.argv) - 1;
 date = "none";
