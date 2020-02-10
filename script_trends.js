@@ -1,5 +1,9 @@
 // areas of research
 var area = ["Chromium", "V8", "Skia", "WebGL", "WebGPU"];
+var cmpy = ["intel.com", "chromium.org", "google.com", "microsoft.com", "igalia.com",
+            "arm.com", "ibm.com", "opera.com", "amazon.com", "lge.com",
+            "samsung.com", "imgtec.com", "skia.org", "nvidia.com", "alum.mit.edu"];
+
 
 var trendArray = [];
 
@@ -48,6 +52,13 @@ let parseDate = d3.timeParse("%B %Y");
 var formatTime = d3.timeFormat("%B %Y");
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);   // set the colour scale
+
+// color map(active or not)
+var colorMap = new Map();
+for (let i = 0; i < cmpy.length; i++) {
+    colorMap.set(cmpy[i], color(i));
+}
+console.log(colorMap);
 
 // Set the ranges
 let x_ = d3.scaleTime().range([0, widthT]);
@@ -98,7 +109,7 @@ d3.csv("Data/Trends/" + filename + ".csv", function(error, data) {
         trendArray[index].append("path")
             .attr("class", "line")
             .style("stroke", function() { // Add the colours dynamically
-                return d.color = color(d.key); })
+                return d.color = colorMap.get(d.key); })
             //.attr("id", "tag"+d.key.replace(/\./g, '\\.')) // assign ID
             .attr("id", "tag"+d.key+filename) // assign ID
             //.attr("d", commitsline(d.values));
@@ -138,7 +149,7 @@ d3.csv("Data/Trends/" + filename + ".csv", function(error, data) {
 
             .attr("class", "legend")    // style the legend
             .style("fill", function() { // Add the colours dynamically
-                return d.color = color(d.key); })
+                return d.color = colorMap.get(d.key); })
             .on("click", function(){
                 // Determine if current line is visible 
                 let active   = d.active ? false : true,
@@ -154,6 +165,7 @@ d3.csv("Data/Trends/" + filename + ".csv", function(error, data) {
                     symbolMap.set(d.key, 0);
                 else
                     symbolMap.set(d.key, 1);
+                console.log("ARNO>" + d.key);
                 console.log(symbolMap.get(d.key));
                 redraw(data, XAxisGroup, YAxisGroup, d.key, symbolMap);
                 // NEW LINES END.
@@ -189,7 +201,7 @@ function redraw(data, Xaxis, Yaxis, tag, map) {
         let newGraph = trendArray[index].append("path")
         .attr("class", "line")
         .style("stroke", function() { // Add the colours dynamically
-                return d.color = color(d.key); })
+                return d.color = colorMap.get(d.key); })
             .attr("id", "tag"+d.key) // assign ID
             .attr("d", function() { if (map.get(d.key) == 1) return commitsline(d.values);});
 
