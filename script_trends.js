@@ -170,6 +170,8 @@ d3.csv("Data/Trends/" + filename + ".csv", function(error, data) {
                 redraw(data, XAxisGroup, YAxisGroup, d.key, symbolMap);
                 // NEW LINES END.
                 })
+            .on("mouseover", function() {d3.select(this).style("cursor", "pointer");})
+            .on("mouseout", function() {d3.select(this).style("cursor", "default");})
             .text(d.key); 
 
     });
