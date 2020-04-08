@@ -1,8 +1,8 @@
 // areas of research
-var area = ["Chromium", "V8", "Skia", "WebGL", "WebGPU"];
+var area = ["ChromeOS", "Chromium", "V8", "Skia", "WebGL", "WebGPU"];
 var cmpy = ["intel.com", "chromium.org", "google.com", "microsoft.com", "igalia.com",
             "arm.com", "ibm.com", "opera.com", "amazon.com", "lge.com",
-            "samsung.com", "imgtec.com", "skia.org", "nvidia.com", "alum.mit.edu"];
+            "samsung.com", "imgtec.com", "skia.org", "nvidia.com", "alum.mit.edu", "redhat.com", "amd.com"];
 
 
 var trendArray = [];
