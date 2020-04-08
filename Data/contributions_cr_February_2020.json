@@ -1,0 +1,76 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5029},
+        {"name": "google.com", "size": 1153},
+        {"name": "igalia.com", "size": 150},
+        {"name": "microsoft.com", "size": 143},
+        {"name": "opera.com", "size": 52},
+        {"name": "samsung.com", "size": 20},
+        {"name": "intel.com", "size": 16},
+        {"name": "tambre.ee", "size": 10},
+        {"name": "yandex-team.ru", "size": 9},
+        {"name": "gmail.com", "size": 9},
+        {"name": "googlemail.com", "size": 8},
+        {"name": "navercorp.com", "size": 4},
+        {"name": "lge.com", "size": 4},
+        {"name": "huawei.com", "size": 3},
+        {"name": "flygoat.com", "size": 2},
+        {"name": "fb.com", "size": 2},
+        {"name": "davidmanouchehri.com", "size": 2},
+        {"name": "vivaldi.com", "size": 1},
+        {"name": "soundtrap.com", "size": 1},
+        {"name": "slack-corp.com", "size": 1},
+        {"name": "inf.u-szeged.hu", "size": 1},
+        {"name": "arm.com", "size": 1},
+        {"name": ".chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 410},
+        {"name": "chromium.org", "size": 31},
+        {"name": "microsoft.com", "size": 2},
+        {"name": "gmail.com", "size": 2},
+        {"name": "amazon.com", "size": 2}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 334},
+        {"name": "ca.ibm.com", "size": 19},
+        {"name": "microsoft.com", "size": 17},
+        {"name": "arm.com", "size": 14},
+        {"name": "google.com", "size": 10},
+        {"name": "gmail.com", "size": 5},
+        {"name": "loongson.cn", "size": 3},
+        {"name": "intel.com", "size": 3},
+        {"name": "libstarrify.so", "size": 2},
+        {"name": "gus.host", "size": 2},
+        {"name": "vewd.com", "size": 1},
+        {"name": "mwiacek.com", "size": 1},
+        {"name": "igalia.com", "size": 1},
+        {"name": "essensium.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 32},
+        {"name": "microsoft.com", "size": 3},
+        {"name": "intel.com", "size": 2}
+        ]
+    }
+ ]
+}
