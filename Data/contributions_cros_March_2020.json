@@ -4,7 +4,7 @@
     {
         "name": "Chromite",
         "children": [
-        {"name": "chromium.org", "size": 97},
+        {"name": "chromium.org", "size": 101},
         {"name": "google.com", "size": 45}
         ]
     },
@@ -12,7 +12,7 @@
         "name": "Chromite/infra/proto",
         "children": [
         {"name": "chromium.org", "size": 48},
-        {"name": "google.com", "size": 12}
+        {"name": "google.com", "size": 13}
         ]
     },
     {
@@ -34,7 +34,7 @@
         "name": "Infra/recipes",
         "children": [
         {"name": "chromium.org", "size": 122},
-        {"name": "google.com", "size": 46}
+        {"name": "google.com", "size": 47}
         ]
     },
     {
@@ -179,7 +179,7 @@
         "children": [
         {"name": "chromium.org", "size": 30},
         {"name": "intel.corp-partner.google.com", "size": 9},
-        {"name": "google.com", "size": 5},
+        {"name": "google.com", "size": 6},
         {"name": "intel.com", "size": 2}
         ]
     },
@@ -211,9 +211,9 @@
     {
         "name": "Src/platform/ec",
         "children": [
-        {"name": "chromium.org", "size": 134},
+        {"name": "chromium.org", "size": 135},
         {"name": "google.com", "size": 51},
-        {"name": "bitland.corp-partner.google.com", "size": 20},
+        {"name": "bitland.corp-partner.google.com", "size": 21},
         {"name": "ite.com.tw", "size": 9},
         {"name": "quanta.corp-partner.google.com", "size": 7},
         {"name": "intel.com", "size": 7},
@@ -233,7 +233,7 @@
     {
         "name": "Src/platform/factory",
         "children": [
-        {"name": "google.com", "size": 58},
+        {"name": "google.com", "size": 60},
         {"name": "chromium.org", "size": 18}
         ]
     },
@@ -321,7 +321,7 @@
         "name": "Src/platform/tast-tests",
         "children": [
         {"name": "google.com", "size": 180},
-        {"name": "chromium.org", "size": 134},
+        {"name": "chromium.org", "size": 135},
         {"name": "intel.com", "size": 2}
         ]
     },
@@ -347,8 +347,8 @@
     {
         "name": "Src/platform/vboot_reference",
         "children": [
-        {"name": "chromium.org", "size": 14},
-        {"name": "google.com", "size": 8}
+        {"name": "chromium.org", "size": 15},
+        {"name": "google.com", "size": 10}
         ]
     },
     {
@@ -360,8 +360,8 @@
     {
         "name": "Src/platform2",
         "children": [
-        {"name": "chromium.org", "size": 218},
-        {"name": "google.com", "size": 201},
+        {"name": "chromium.org", "size": 217},
+        {"name": "google.com", "size": 206},
         {"name": "dell.corp-partner.google.com", "size": 9},
         {"name": "mediatek.com", "size": 3},
         {"name": "intel.corp-partner.google.com", "size": 1},
@@ -593,7 +593,7 @@
         {"name": "suse.cz", "size": 3},
         {"name": "marvell.com", "size": 3},
         {"name": "linuxfoundation.org", "size": 3},
-        {"name": "linux.ibm.com", "size": 3},
+        {"name": "ibm.com", "size": 3},
         {"name": "huawei.com", "size": 3},
         {"name": "de.adit-jv.com", "size": 3},
         {"name": "cumulusnetworks.com", "size": 3},
@@ -681,8 +681,8 @@
         {"name": "redhat.com", "size": 23},
         {"name": "nxp.com", "size": 18},
         {"name": "suse.de", "size": 17},
+        {"name": "ibm.com", "size": 11},
         {"name": "huawei.com", "size": 11},
-        {"name": "linux.ibm.com", "size": 10},
         {"name": "canonical.com", "size": 10},
         {"name": "amazon.com", "size": 10},
         {"name": "oracle.com", "size": 9},
@@ -758,7 +758,6 @@
         {"name": "mattea.info", "size": 1},
         {"name": "makrotopia.org", "size": 1},
         {"name": "mail.parknet.co.jp", "size": 1},
-        {"name": "linux.vnet.ibm.com", "size": 1},
         {"name": "linux.alibaba.com", "size": 1},
         {"name": "labau.com.tw", "size": 1},
         {"name": "infradead.org", "size": 1},
@@ -836,10 +835,10 @@
         {"name": "makrotopia.org", "size": 1},
         {"name": "mail.parknet.co.jp", "size": 1},
         {"name": "lunn.ch", "size": 1},
-        {"name": "linux.ibm.com", "size": 1},
         {"name": "linaro.org", "size": 1},
         {"name": "lca.pw", "size": 1},
         {"name": "infradead.org", "size": 1},
+        {"name": "ibm.com", "size": 1},
         {"name": "horus.com", "size": 1},
         {"name": "gmx.de", "size": 1},
         {"name": "fortanix.com", "size": 1},
@@ -867,11 +866,11 @@
         {"name": "linaro.org", "size": 25},
         {"name": "huawei.com", "size": 22},
         {"name": "nxp.com", "size": 16},
+        {"name": "arm.com", "size": 15},
         {"name": "suse.de", "size": 14},
-        {"name": "arm.com", "size": 13},
+        {"name": "ibm.com", "size": 13},
         {"name": "amazon.com", "size": 12},
         {"name": "oracle.com", "size": 11},
-        {"name": "linux.ibm.com", "size": 11},
         {"name": "canonical.com", "size": 10},
         {"name": "ti.com", "size": 9},
         {"name": "suse.cz", "size": 7},
@@ -937,7 +936,6 @@
         {"name": "chris-wilson.co.uk", "size": 2},
         {"name": "chelsio.com", "size": 2},
         {"name": "bootlin.com", "size": 2},
-        {"name": "armlinux.org.uk", "size": 2},
         {"name": "zx2c4.com", "size": 1},
         {"name": "wunner.de", "size": 1},
         {"name": "walle.cc", "size": 1},
@@ -966,7 +964,6 @@
         {"name": "makrotopia.org", "size": 1},
         {"name": "mail.parknet.co.jp", "size": 1},
         {"name": "lunn.ch", "size": 1},
-        {"name": "linux.vnet.ibm.com", "size": 1},
         {"name": "linux-m68k.org", "size": 1},
         {"name": "lightbitslabs.com", "size": 1},
         {"name": "labau.com.tw", "size": 1},
@@ -984,7 +981,6 @@
         {"name": "flowbird.group", "size": 1},
         {"name": "fb.com", "size": 1},
         {"name": "ens-lyon.org", "size": 1},
-        {"name": "de.ibm.com", "size": 1},
         {"name": "cyphar.com", "size": 1},
         {"name": "crapouillou.net", "size": 1},
         {"name": "cmss.chinamobile.com", "size": 1},
@@ -1043,17 +1039,17 @@
         "name": "Src/third_party/mesa",
         "children": [
         {"name": "collabora.com", "size": 288},
-        {"name": "gmail.com", "size": 231},
+        {"name": "gmail.com", "size": 233},
         {"name": "amd.com", "size": 142},
         {"name": "intel.com", "size": 104},
-        {"name": "jlekstrand.net", "size": 64},
+        {"name": "jlekstrand.net", "size": 66},
         {"name": "igalia.com", "size": 55},
         {"name": "chromium.org", "size": 45},
         {"name": "anholt.net", "size": 30},
         {"name": "riseup.net", "size": 27},
         {"name": "itsqueeze.com", "size": 20},
         {"name": "redhat.com", "size": 19},
-        {"name": "engestrom.ch", "size": 17},
+        {"name": "engestrom.ch", "size": 18},
         {"name": "pnwbakers.com", "size": 14},
         {"name": "web.de", "size": 13},
         {"name": "google.com", "size": 10},

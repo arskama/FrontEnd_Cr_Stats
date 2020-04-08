@@ -2,26 +2,26 @@ ChromeOS project contributions from 01/March/2020 to 31/March/2020
 
 Overall
 Contributor,March 2020
-chromium.org,2241
-google.com,1359
-gmail.com,711
+chromium.org,2247
+google.com,1371
+gmail.com,713
 intel.com,620
 collabora.com,554
 amd.com,328
 redhat.com,129
 kernel.org,112
-jlekstrand.net,107
+jlekstrand.net,109
 realtek.com,95
 
 Project: chromite
 Contributor,March 2020
-chromium.org,97
+chromium.org,101
 google.com,45
 
 Project: chromite/infra/proto
 Contributor,March 2020
 chromium.org,48
-google.com,12
+google.com,13
 
 Project: docs
 Contributor,March 2020
@@ -37,7 +37,7 @@ gmail.com,1
 Project: infra/recipes
 Contributor,March 2020
 chromium.org,122
-google.com,46
+google.com,47
 
 Project: infra/suite_scheduler
 Contributor,March 2020
@@ -140,7 +140,7 @@ Project: src/platform/crosvm
 Contributor,March 2020
 chromium.org,30
 intel.corp-partner.google.com,9
-google.com,5
+google.com,6
 intel.com,2
 
 Project: src/platform/depthcharge
@@ -164,9 +164,9 @@ amd.com,1
 
 Project: src/platform/ec
 Contributor,March 2020
-chromium.org,134
+chromium.org,135
 google.com,51
-bitland.corp-partner.google.com,20
+bitland.corp-partner.google.com,21
 ite.com.tw,9
 quanta.corp-partner.google.com,7
 intel.com,7
@@ -184,7 +184,7 @@ ami.corp-partner.google.com,1
 
 Project: src/platform/factory
 Contributor,March 2020
-google.com,58
+google.com,60
 chromium.org,18
 
 Project: src/platform/factory_installer
@@ -248,7 +248,7 @@ google.com,15
 Project: src/platform/tast-tests
 Contributor,March 2020
 google.com,180
-chromium.org,134
+chromium.org,135
 intel.com,2
 
 Project: src/platform/tast-tests/src/chromiumos/tast/remote/firmware/data/fw-testing-configs
@@ -266,8 +266,8 @@ chromium.org,2
 
 Project: src/platform/vboot_reference
 Contributor,March 2020
-chromium.org,14
-google.com,8
+chromium.org,15
+google.com,10
 
 Project: src/platform/xorg-conf
 Contributor,March 2020
@@ -275,8 +275,8 @@ quanta.corp-partner.google.com,1
 
 Project: src/platform2
 Contributor,March 2020
-chromium.org,218
-google.com,201
+chromium.org,217
+google.com,206
 dell.corp-partner.google.com,9
 mediatek.com,3
 intel.corp-partner.google.com,1
@@ -466,7 +466,7 @@ amd.com,4
 suse.cz,3
 marvell.com,3
 linuxfoundation.org,3
-linux.ibm.com,3
+ibm.com,3
 huawei.com,3
 de.adit-jv.com,3
 cumulusnetworks.com,3
@@ -550,8 +550,8 @@ kernel.org,35
 redhat.com,23
 nxp.com,18
 suse.de,17
+ibm.com,11
 huawei.com,11
-linux.ibm.com,10
 canonical.com,10
 amazon.com,10
 oracle.com,9
@@ -627,7 +627,6 @@ me.com,1
 mattea.info,1
 makrotopia.org,1
 mail.parknet.co.jp,1
-linux.vnet.ibm.com,1
 linux.alibaba.com,1
 labau.com.tw,1
 infradead.org,1
@@ -703,10 +702,10 @@ malat.biz,1
 makrotopia.org,1
 mail.parknet.co.jp,1
 lunn.ch,1
-linux.ibm.com,1
 linaro.org,1
 lca.pw,1
 infradead.org,1
+ibm.com,1
 horus.com,1
 gmx.de,1
 fortanix.com,1
@@ -732,11 +731,11 @@ renesas.com,25
 linaro.org,25
 huawei.com,22
 nxp.com,16
+arm.com,15
 suse.de,14
-arm.com,13
+ibm.com,13
 amazon.com,12
 oracle.com,11
-linux.ibm.com,11
 canonical.com,10
 ti.com,9
 suse.cz,7
@@ -802,7 +801,6 @@ chrisdown.name,2
 chris-wilson.co.uk,2
 chelsio.com,2
 bootlin.com,2
-armlinux.org.uk,2
 zx2c4.com,1
 wunner.de,1
 walle.cc,1
@@ -831,7 +829,6 @@ mattea.info,1
 makrotopia.org,1
 mail.parknet.co.jp,1
 lunn.ch,1
-linux.vnet.ibm.com,1
 linux-m68k.org,1
 lightbitslabs.com,1
 labau.com.tw,1
@@ -849,7 +846,6 @@ fortanix.com,1
 flowbird.group,1
 fb.com,1
 ens-lyon.org,1
-de.ibm.com,1
 cyphar.com,1
 crapouillou.net,1
 cmss.chinamobile.com,1
@@ -896,17 +892,17 @@ google.com,1
 Project: src/third_party/mesa
 Contributor,March 2020
 collabora.com,288
-gmail.com,231
+gmail.com,233
 amd.com,142
 intel.com,104
-jlekstrand.net,64
+jlekstrand.net,66
 igalia.com,55
 chromium.org,45
 anholt.net,30
 riseup.net,27
 itsqueeze.com,20
 redhat.com,19
-engestrom.ch,17
+engestrom.ch,18
 pnwbakers.com,14
 web.de,13
 google.com,10

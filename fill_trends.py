@@ -14,7 +14,7 @@ stopData = 0;
 
 if (arguments != 1):
     print "ERROR, QUIT with: No file provided"
-    print "Usage: python parse_csv.py <filename>"
+    print "Usage: python fill_trends.py <filename>"
     sys.exit(1);
 
 if(path.exists(sys.argv[1]) == False):
@@ -43,9 +43,11 @@ def getValue(section, lastCompany, Linelist):
         if line == section:
             startData = cnt + 2;
         # Get real
-        if (startData != 0 and line.find(lastCompany) >= 0):
+        if (startData != 0 and line.find(lastCompany) == 0):
           #  print(line);
             if (lastCompany == "ibm.com"):
+                val += int(line.rpartition(",")[2]);
+            if (lastCompany == "microsoft.com"):
                 val += int(line.rpartition(",")[2]);
             else:
                 ret = line +","+ date;
@@ -55,7 +57,7 @@ def getValue(section, lastCompany, Linelist):
             break;
         cnt+=1;
     if (ret == ""):
-        ret = lastCompany + "," + str(val) + "," + date + ",";
+        ret = lastCompany + "," + str(val) + "," + date;
     return ret;
 
 #################################################

@@ -63,6 +63,7 @@ google.com,1349,January 2020
 google.com,1404,February 2020
 google.com,1349,January 2020
 google.com,1404,February 2020
+google.com,1371,March 2020
 chromium.org,2332,January 2015
 chromium.org,1716,February 2015
 chromium.org,2614,March 2015
@@ -125,6 +126,7 @@ chromium.org,3059,November 2019
 chromium.org,2588,December 2019
 chromium.org,2350,January 2020
 chromium.org,2448,February 2020
+chromium.org,2247,March 2020
 intel.com,6470,January 2015
 intel.com,5831,February 2015
 intel.com,6277,March 2015
@@ -187,6 +189,7 @@ intel.com,884,November 2019
 intel.com,1010,December 2019
 intel.com,802,January 2020
 intel.com,656,February 2020
+intel.com,620,March 2020
 microsoft.com,113,January 2015
 microsoft.com,0,February 2015
 microsoft.com,192,March 2015
@@ -249,6 +252,7 @@ microsoft.com,37,November 2019
 microsoft.com,50,December 2019
 microsoft.com,22,January 2020
 microsoft.com,17,February 2020
+microsoft.com,3,March 2020
 igalia.com,280,January 2015
 igalia.com,143,February 2015
 igalia.com,58,March 2015
@@ -311,6 +315,7 @@ igalia.com,65,November 2019
 igalia.com,90,December 2019
 igalia.com,24,January 2020
 igalia.com,24,February 2020
+igalia.com,93,March 2020
 ibm.com,1233,January 2015
 ibm.com,545,February 2015
 ibm.com,1384,March 2015
@@ -373,6 +378,7 @@ ibm.com,101,November 2019
 ibm.com,90,December 2019
 ibm.com,174,January 2020
 ibm.com,39,February 2020
+ibm.com,28,March 2020
 arm.com,883,January 2015
 arm.com,394,February 2015
 arm.com,1109,March 2015
@@ -435,6 +441,7 @@ arm.com,190,November 2019
 arm.com,50,December 2019
 arm.com,83,January 2020
 arm.com,72,February 2020
+arm.com,21,March 2020
 amd.com,1124,January 2015
 amd.com,614,February 2015
 amd.com,809,March 2015
@@ -497,6 +504,7 @@ amd.com,480,November 2019
 amd.com,193,December 2019
 amd.com,1025,January 2020
 amd.com,214,February 2020
+amd.com,328,March 2020
 samsung.com,1917,January 2015
 samsung.com,1759,February 2015
 samsung.com,1472,March 2015
@@ -559,6 +567,7 @@ samsung.com,72,November 2019
 samsung.com,48,December 2019
 samsung.com,17,January 2020
 samsung.com,12,February 2020
+samsung.com,7,March 2020
 nvidia.com,794,January 2015
 nvidia.com,135,February 2015
 nvidia.com,214,March 2015
@@ -621,6 +630,7 @@ nvidia.com,50,November 2019
 nvidia.com,33,December 2019
 nvidia.com,38,January 2020
 nvidia.com,14,February 2020
+nvidia.com,10,March 2020
 redhat.com,3289,January 2015
 redhat.com,2266,February 2015
 redhat.com,2854,March 2015
@@ -683,3 +693,4 @@ redhat.com,456,November 2019
 redhat.com,572,December 2019
 redhat.com,334,January 2020
 redhat.com,238,February 2020
+redhat.com,129,March 2020
