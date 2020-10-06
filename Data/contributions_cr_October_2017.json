@@ -1,0 +1,75 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 6292},
+        {"name": "google.com", "size": 536},
+        {"name": "opera.com", "size": 122},
+        {"name": "intel.com", "size": 70},
+        {"name": "samsung.com", "size": 63},
+        {"name": "yandex-team.ru", "size": 26},
+        {"name": "lge.com", "size": 22},
+        {"name": "gmail.com", "size": 21},
+        {"name": "vewd.com", "size": 14},
+        {"name": "igalia.com", "size": 11},
+        {"name": "imgtec.com", "size": 6},
+        {"name": "sogou-inc.com", "size": 5},
+        {"name": "huawei.com", "size": 4},
+        {"name": "arm.com", "size": 3},
+        {"name": "martijnc.be", "size": 2},
+        {"name": "eyeo.com", "size": 2},
+        {"name": "amazon.com", "size": 2},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "mwiacek.com", "size": 1},
+        {"name": "inf.u-szeged.hu", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 294},
+        {"name": "chromium.org", "size": 173},
+        {"name": "skia.org", "size": 19},
+        {"name": "samsung.com", "size": 2},
+        {"name": "yandex-team.ru", "size": 1},
+        {"name": "opera.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 701},
+        {"name": "google.com", "size": 20},
+        {"name": "arm.com", "size": 20},
+        {"name": "gmail.com", "size": 18},
+        {"name": "ca.ibm.com", "size": 16},
+        {"name": "imgtec.com", "size": 5},
+        {"name": "vewd.com", "size": 4},
+        {"name": "igalia.com", "size": 4},
+        {"name": "rt-rk.com", "size": 3},
+        {"name": "groupon.com", "size": 3},
+        {"name": "ibm.com", "size": 2},
+        {"name": "tencent.com", "size": 1},
+        {"name": "nh2.me", "size": 1},
+        {"name": "intel.com", "size": 1},
+        {"name": "benjamin.pe", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "gmail.com", "size": 6},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

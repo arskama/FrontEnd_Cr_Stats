@@ -1,0 +1,73 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5589},
+        {"name": "google.com", "size": 1194},
+        {"name": "microsoft.com", "size": 183},
+        {"name": "igalia.com", "size": 159},
+        {"name": "intel.com", "size": 37},
+        {"name": "opera.com", "size": 22},
+        {"name": "gmail.com", "size": 22},
+        {"name": "googlemail.com", "size": 15},
+        {"name": "vewd.com", "size": 12},
+        {"name": "pybricks.com", "size": 9},
+        {"name": "navercorp.com", "size": 9},
+        {"name": "arm.com", "size": 8},
+        {"name": "samsung.com", "size": 7},
+        {"name": "yandex-team.ru", "size": 6},
+        {"name": "pm.me", "size": 1},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "lge.com", "size": 1},
+        {"name": "fb.com", "size": 1},
+        {"name": "amazon.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 372},
+        {"name": "chromium.org", "size": 22},
+        {"name": "gmail.com", "size": 3},
+        {"name": "amazon.com", "size": 2},
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 476},
+        {"name": "ca.ibm.com", "size": 29},
+        {"name": "microsoft.com", "size": 16},
+        {"name": "loongson.cn", "size": 8},
+        {"name": "gmail.com", "size": 7},
+        {"name": "intel.com", "size": 5},
+        {"name": "google.com", "size": 4},
+        {"name": "igalia.com", "size": 3},
+        {"name": "mozilla.com", "size": 2},
+        {"name": "gus.host", "size": 2},
+        {"name": "arm.com", "size": 2},
+        {"name": "scu.edu", "size": 1},
+        {"name": "hamidy.net", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 55},
+        {"name": "intel.com", "size": 34},
+        {"name": "microsoft.com", "size": 3},
+        {"name": "gmail.com", "size": 2},
+        {"name": "laposte.net", "size": 1}
+        ]
+    }
+ ]
+}

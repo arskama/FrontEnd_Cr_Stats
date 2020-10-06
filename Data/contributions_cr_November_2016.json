@@ -1,0 +1,70 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5652},
+        {"name": "google.com", "size": 186},
+        {"name": "opera.com", "size": 101},
+        {"name": "intel.com", "size": 75},
+        {"name": "gmail.com", "size": 41},
+        {"name": "yandex-team.ru", "size": 35},
+        {"name": "samsung.com", "size": 34},
+        {"name": "igalia.com", "size": 26},
+        {"name": "martijnc.be", "size": 22},
+        {"name": "cisco.com", "size": 14},
+        {"name": "tencent.com", "size": 6},
+        {"name": "arm.com", "size": 6},
+        {"name": "yoav.ws", "size": 5},
+        {"name": "robwu.nl", "size": 5},
+        {"name": "nottheoilrig.com", "size": 4},
+        {"name": "lge.com", "size": 2},
+        {"name": "amazon.com", "size": 2},
+        {"name": "redhat.com", "size": 1},
+        {"name": "imgtec.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 359},
+        {"name": "chromium.org", "size": 125},
+        {"name": "gmail.com", "size": 4},
+        {"name": "skia.org", "size": 3},
+        {"name": "intel.com", "size": 2},
+        {"name": "mozilla.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 636},
+        {"name": "imgtec.com", "size": 19},
+        {"name": "ca.ibm.com", "size": 15},
+        {"name": "intel.com", "size": 13},
+        {"name": "igalia.com", "size": 8},
+        {"name": "google.com", "size": 3},
+        {"name": "gmail.com", "size": 2},
+        {"name": "arm.com", "size": 2},
+        {"name": "indutny.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "alum.mit.edu", "size": 27},
+        {"name": "chromium.org", "size": 18},
+        {"name": "intel.com", "size": 12},
+        {"name": "gmail.com", "size": 7},
+        {"name": "nvidia.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

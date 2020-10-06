@@ -1,0 +1,873 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromite",
+        "children": [
+        {"name": "chromium.org", "size": 66},
+        {"name": "google.com", "size": 31}
+        ]
+    },
+    {
+        "name": "Chromite/third_party/swarming.client",
+        "children": [
+        {"name": "chromium.org", "size": 4}
+        ]
+    },
+    {
+        "name": "Docs",
+        "children": [
+        {"name": "chromium.org", "size": 11}
+        ]
+    },
+    {
+        "name": "Infra/lucifer",
+        "children": [
+        {"name": "google.com", "size": 20}
+        ]
+    },
+    {
+        "name": "Infra/suite_scheduler",
+        "children": [
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Manifest",
+        "children": [
+        {"name": "google.com", "size": 4},
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/aosp/external/bsdiff",
+        "children": [
+        {"name": "google.com", "size": 40}
+        ]
+    },
+    {
+        "name": "Src/aosp/external/minijail",
+        "children": [
+        {"name": "google.com", "size": 10}
+        ]
+    },
+    {
+        "name": "Src/aosp/external/puffin",
+        "children": [
+        {"name": "google.com", "size": 53}
+        ]
+    },
+    {
+        "name": "Src/aosp/frameworks/ml",
+        "children": [
+        {"name": "google.com", "size": 47},
+        {"name": "gmail.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/aosp/frameworks/native",
+        "children": [
+        {"name": "google.com", "size": 276},
+        {"name": "android.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/core/base",
+        "children": [
+        {"name": "google.com", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/core/libbacktrace",
+        "children": [
+        {"name": "google.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/core/libcutils",
+        "children": [
+        {"name": "google.com", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/core/liblog",
+        "children": [
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/core/libutils",
+        "children": [
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/keymaster",
+        "children": [
+        {"name": "google.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/libfmq",
+        "children": [
+        {"name": "google.com", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/libhidl",
+        "children": [
+        {"name": "google.com", "size": 53}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/update_engine",
+        "children": [
+        {"name": "google.com", "size": 34},
+        {"name": "sony.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/aosp/toolchain/binutils",
+        "children": [
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/aosp/toolchain/gcc",
+        "children": [
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/chromium/depot_tools",
+        "children": [
+        {"name": "chromium.org", "size": 42},
+        {"name": "google.com", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/overlays",
+        "children": [
+        {"name": "chromium.org", "size": 64},
+        {"name": "google.com", "size": 28},
+        {"name": "intel.com", "size": 12},
+        {"name": "rock-chips.com", "size": 10},
+        {"name": "samsung.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/bmpblk",
+        "children": [
+        {"name": "chromium.org", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/platform/cbor",
+        "children": [
+        {"name": "chromium.org", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/platform/cr50",
+        "children": [
+        {"name": "chromium.org", "size": 80},
+        {"name": "google.com", "size": 29},
+        {"name": "microchip.corp-partner.google.com", "size": 4},
+        {"name": "compal.corp-partner.google.com", "size": 3},
+        {"name": "ite.com.tw", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/crostestutils",
+        "children": [
+        {"name": "chromium.org", "size": 4},
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/crosvm",
+        "children": [
+        {"name": "chromium.org", "size": 31},
+        {"name": "google.com", "size": 15},
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/depthcharge",
+        "children": [
+        {"name": "chromium.org", "size": 17},
+        {"name": "google.com", "size": 6},
+        {"name": "intel.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/dev",
+        "children": [
+        {"name": "chromium.org", "size": 3},
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/ec",
+        "children": [
+        {"name": "chromium.org", "size": 80},
+        {"name": "google.com", "size": 29},
+        {"name": "microchip.corp-partner.google.com", "size": 4},
+        {"name": "compal.corp-partner.google.com", "size": 3},
+        {"name": "ite.com.tw", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/factory",
+        "children": [
+        {"name": "chromium.org", "size": 64},
+        {"name": "google.com", "size": 7}
+        ]
+    },
+    {
+        "name": "Src/platform/firmware",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/gestures",
+        "children": [
+        {"name": "google.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/platform/graphyte",
+        "children": [
+        {"name": "chromium.org", "size": 9}
+        ]
+    },
+    {
+        "name": "Src/platform/initramfs",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/moblab",
+        "children": [
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/mosys",
+        "children": [
+        {"name": "chromium.org", "size": 7}
+        ]
+    },
+    {
+        "name": "Src/platform/mttools",
+        "children": [
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/newblue",
+        "children": [
+        {"name": "google.com", "size": 3},
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/release-firmware/fpmcu-bloonchipper",
+        "children": [
+        {"name": "chromium.org", "size": 80},
+        {"name": "google.com", "size": 29},
+        {"name": "microchip.corp-partner.google.com", "size": 4},
+        {"name": "compal.corp-partner.google.com", "size": 3},
+        {"name": "ite.com.tw", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/release-firmware/fpmcu-dartmonkey",
+        "children": [
+        {"name": "chromium.org", "size": 80},
+        {"name": "google.com", "size": 29},
+        {"name": "microchip.corp-partner.google.com", "size": 4},
+        {"name": "compal.corp-partner.google.com", "size": 3},
+        {"name": "ite.com.tw", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/release-firmware/fpmcu-nami",
+        "children": [
+        {"name": "chromium.org", "size": 80},
+        {"name": "google.com", "size": 29},
+        {"name": "microchip.corp-partner.google.com", "size": 4},
+        {"name": "compal.corp-partner.google.com", "size": 3},
+        {"name": "ite.com.tw", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/release-firmware/fpmcu-nocturne",
+        "children": [
+        {"name": "chromium.org", "size": 80},
+        {"name": "google.com", "size": 29},
+        {"name": "microchip.corp-partner.google.com", "size": 4},
+        {"name": "compal.corp-partner.google.com", "size": 3},
+        {"name": "ite.com.tw", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/tast",
+        "children": [
+        {"name": "chromium.org", "size": 9}
+        ]
+    },
+    {
+        "name": "Src/platform/tast-tests",
+        "children": [
+        {"name": "chromium.org", "size": 8}
+        ]
+    },
+    {
+        "name": "Src/platform/touch_updater",
+        "children": [
+        {"name": "google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/touchpad-tests",
+        "children": [
+        {"name": "google.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/platform/vboot_reference",
+        "children": [
+        {"name": "chromium.org", "size": 10},
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform2",
+        "children": [
+        {"name": "chromium.org", "size": 11},
+        {"name": "google.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/repohooks",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/scripts",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/adhd",
+        "children": [
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/apitrace",
+        "children": [
+        {"name": "vmware.com", "size": 11}
+        ]
+    },
+    {
+        "name": "Src/third_party/arm-trusted-firmware",
+        "children": [
+        {"name": "arm.com", "size": 79},
+        {"name": "socionext.com", "size": 25},
+        {"name": "linaro.org", "size": 13},
+        {"name": "android.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/autotest/files",
+        "children": [
+        {"name": "chromium.org", "size": 220},
+        {"name": "google.com", "size": 42},
+        {"name": "intel.com", "size": 14},
+        {"name": "amd.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez-next",
+        "children": [
+        {"name": "intel.com", "size": 24},
+        {"name": "jp.fujitsu.com", "size": 13},
+        {"name": "codecoup.pl", "size": 13},
+        {"name": "cortland.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez/current",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez/next",
+        "children": [
+        {"name": "intel.com", "size": 24},
+        {"name": "jp.fujitsu.com", "size": 13},
+        {"name": "codecoup.pl", "size": 13},
+        {"name": "cortland.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez/upstream",
+        "children": [
+        {"name": "intel.com", "size": 24},
+        {"name": "jp.fujitsu.com", "size": 13},
+        {"name": "codecoup.pl", "size": 13},
+        {"name": "cortland.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/third_party/chromiumos-overlay",
+        "children": [
+        {"name": "chromium.org", "size": 178},
+        {"name": "google.com", "size": 40},
+        {"name": "intel.com", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot",
+        "children": [
+        {"name": "chromium.org", "size": 51},
+        {"name": "intel.com", "size": 43},
+        {"name": "gmail.com", "size": 36},
+        {"name": "gmx.net", "size": 14},
+        {"name": "silverbackltd.com", "size": 13}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot-zork",
+        "children": [
+        {"name": "chromium.org", "size": 51},
+        {"name": "intel.com", "size": 43},
+        {"name": "gmail.com", "size": 36},
+        {"name": "gmx.net", "size": 14},
+        {"name": "silverbackltd.com", "size": 13}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot-zork/3rdparty/blobs",
+        "children": [
+        {"name": "gmail.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot/3rdparty/blobs",
+        "children": [
+        {"name": "gmail.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/eclass-overlay",
+        "children": [
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/flashrom",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/fsp/cml/edk2/branch1",
+        "children": [
+        {"name": "intel.com", "size": 115},
+        {"name": "/o=Intel/ou=Exchange", "size": 11},
+        {"name": "linaro.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/fsp/icl/edk2",
+        "children": [
+        {"name": "intel.com", "size": 115},
+        {"name": "/o=Intel/ou=Exchange", "size": 11},
+        {"name": "linaro.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/fwupd",
+        "children": [
+        {"name": "hughsie.com", "size": 32},
+        {"name": "dell.com", "size": 30},
+        {"name": "gmail.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/hdctools",
+        "children": [
+        {"name": "google.com", "size": 3},
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/igt-gpu-tools",
+        "children": [
+        {"name": "intel.com", "size": 90},
+        {"name": "chris-wilson.co.uk", "size": 33},
+        {"name": "free-electrons.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/upstream",
+        "children": [
+        {"name": "gmail.com", "size": 456},
+        {"name": "intel.com", "size": 413},
+        {"name": "amd.com", "size": 392},
+        {"name": "renesas.com", "size": 262},
+        {"name": "redhat.com", "size": 176}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.10",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.14",
+        "children": [
+        {"name": "intel.com", "size": 108},
+        {"name": "google.com", "size": 30},
+        {"name": "kernel.org", "size": 21},
+        {"name": "chromium.org", "size": 9},
+        {"name": "redhat.com", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.18",
+        "children": [
+        {"name": "intel.com", "size": 105},
+        {"name": "suse.de", "size": 12},
+        {"name": "amazon.co.uk", "size": 11},
+        {"name": "google.com", "size": 9},
+        {"name": "chromium.org", "size": 8}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.8",
+        "children": [
+        {"name": "intel.com", "size": 97},
+        {"name": "kernel.org", "size": 18},
+        {"name": "amacapital.net", "size": 6},
+        {"name": "chromium.org", "size": 5},
+        {"name": "google.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14",
+        "children": [
+        {"name": "intel.com", "size": 184},
+        {"name": "arm.com", "size": 80},
+        {"name": "codeaurora.org", "size": 77},
+        {"name": "gmail.com", "size": 73},
+        {"name": "redhat.com", "size": 53}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14-gw",
+        "children": [
+        {"name": "intel.com", "size": 184},
+        {"name": "arm.com", "size": 80},
+        {"name": "codeaurora.org", "size": 77},
+        {"name": "gmail.com", "size": 73},
+        {"name": "redhat.com", "size": 53}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14-mistral",
+        "children": [
+        {"name": "intel.com", "size": 184},
+        {"name": "arm.com", "size": 80},
+        {"name": "codeaurora.org", "size": 77},
+        {"name": "gmail.com", "size": 73},
+        {"name": "redhat.com", "size": 53}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19",
+        "children": [
+        {"name": "gmail.com", "size": 456},
+        {"name": "intel.com", "size": 413},
+        {"name": "amd.com", "size": 392},
+        {"name": "renesas.com", "size": 262},
+        {"name": "redhat.com", "size": 176}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19-ht",
+        "children": [
+        {"name": "gmail.com", "size": 456},
+        {"name": "intel.com", "size": 413},
+        {"name": "amd.com", "size": 392},
+        {"name": "renesas.com", "size": 262},
+        {"name": "redhat.com", "size": 176}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19-lakitu",
+        "children": [
+        {"name": "gmail.com", "size": 456},
+        {"name": "intel.com", "size": 413},
+        {"name": "amd.com", "size": 392},
+        {"name": "renesas.com", "size": 262},
+        {"name": "redhat.com", "size": 176}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19-manatee",
+        "children": [
+        {"name": "gmail.com", "size": 456},
+        {"name": "intel.com", "size": 413},
+        {"name": "amd.com", "size": 392},
+        {"name": "renesas.com", "size": 262},
+        {"name": "redhat.com", "size": 176}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.4",
+        "children": [
+        {"name": "intel.com", "size": 151},
+        {"name": "arndb.de", "size": 84},
+        {"name": "google.com", "size": 52},
+        {"name": "chromium.org", "size": 44},
+        {"name": "gmail.com", "size": 39}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v5.4",
+        "children": [
+        {"name": "gmail.com", "size": 456},
+        {"name": "intel.com", "size": 413},
+        {"name": "amd.com", "size": 392},
+        {"name": "renesas.com", "size": 262},
+        {"name": "redhat.com", "size": 176}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v5.4-manatee",
+        "children": [
+        {"name": "gmail.com", "size": 456},
+        {"name": "intel.com", "size": 413},
+        {"name": "amd.com", "size": 392},
+        {"name": "renesas.com", "size": 262},
+        {"name": "redhat.com", "size": 176}
+        ]
+    },
+    {
+        "name": "Src/third_party/libapps",
+        "children": [
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/libdrm",
+        "children": [
+        {"name": "amd.com", "size": 12},
+        {"name": "collabora.com", "size": 5},
+        {"name": "kernel.org", "size": 4},
+        {"name": "nvidia.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/libmbim",
+        "children": [
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/linux-firmware",
+        "children": [
+        {"name": "intel.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa",
+        "children": [
+        {"name": "gmail.com", "size": 141},
+        {"name": "intel.com", "size": 124},
+        {"name": "amd.com", "size": 81},
+        {"name": "itsqueeze.com", "size": 64},
+        {"name": "vmware.com", "size": 53}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-amd",
+        "children": [
+        {"name": "gmail.com", "size": 141},
+        {"name": "intel.com", "size": 124},
+        {"name": "amd.com", "size": 81},
+        {"name": "itsqueeze.com", "size": 64},
+        {"name": "vmware.com", "size": 53}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-debian",
+        "children": [
+        {"name": "gmail.com", "size": 154},
+        {"name": "intel.com", "size": 148},
+        {"name": "amd.com", "size": 91},
+        {"name": "collabora.com", "size": 67},
+        {"name": "itsqueeze.com", "size": 65}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-freedreno",
+        "children": [
+        {"name": "gmail.com", "size": 141},
+        {"name": "intel.com", "size": 124},
+        {"name": "amd.com", "size": 81},
+        {"name": "itsqueeze.com", "size": 64},
+        {"name": "vmware.com", "size": 53}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-iris",
+        "children": [
+        {"name": "gmail.com", "size": 141},
+        {"name": "intel.com", "size": 124},
+        {"name": "amd.com", "size": 81},
+        {"name": "itsqueeze.com", "size": 64},
+        {"name": "vmware.com", "size": 53}
+        ]
+    },
+    {
+        "name": "Src/third_party/modemmanager-next",
+        "children": [
+        {"name": "chromium.org", "size": 9},
+        {"name": "aleksander.es", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/third_party/portage-stable",
+        "children": [
+        {"name": "google.com", "size": 6},
+        {"name": "chromium.org", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/third_party/portage_tool",
+        "children": [
+        {"name": "gentoo.org", "size": 37}
+        ]
+    },
+    {
+        "name": "Src/third_party/qemu",
+        "children": [
+        {"name": "redhat.com", "size": 269},
+        {"name": "linaro.org", "size": 139},
+        {"name": "amsat.org", "size": 69},
+        {"name": "igalia.com", "size": 40},
+        {"name": "ibm.com", "size": 33}
+        ]
+    },
+    {
+        "name": "Src/third_party/seabios",
+        "children": [
+        {"name": "users.sourceforge.net", "size": 11},
+        {"name": "redhat.com", "size": 4},
+        {"name": "koconnor.net", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/shellcheck",
+        "children": [
+        {"name": "vidarholen.net", "size": 14},
+        {"name": "eml.cc", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/sound-open-firmware",
+        "children": [
+        {"name": "intel.com", "size": 66}
+        ]
+    },
+    {
+        "name": "Src/third_party/trousers",
+        "children": [
+        {"name": "google.com", "size": 4},
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/u-boot/files",
+        "children": [
+        {"name": "gmail.com", "size": 83},
+        {"name": "nxp.com", "size": 54},
+        {"name": "ti.com", "size": 42},
+        {"name": "konsulko.com", "size": 39},
+        {"name": "gmx.de", "size": 17}
+        ]
+    },
+    {
+        "name": "Src/third_party/virglrenderer",
+        "children": [
+        {"name": "chromium.org", "size": 13},
+        {"name": "redhat.com", "size": 9},
+        {"name": "collabora.com", "size": 7},
+        {"name": "gmail.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/wpa_supplicant-2.8",
+        "children": [
+        {"name": "codeaurora.org", "size": 46},
+        {"name": "w1.fi", "size": 13},
+        {"name": "intel.com", "size": 6},
+        {"name": "gmail.com", "size": 4},
+        {"name": "wizery.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/wpa_supplicant-2.9",
+        "children": [
+        {"name": "codeaurora.org", "size": 46},
+        {"name": "w1.fi", "size": 13},
+        {"name": "intel.com", "size": 6},
+        {"name": "gmail.com", "size": 4},
+        {"name": "wizery.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/xfstests",
+        "children": [
+        {"name": "redhat.com", "size": 11},
+        {"name": "huawei.com", "size": 5},
+        {"name": "oracle.com", "size": 4},
+        {"name": "tuxera.com", "size": 2},
+        {"name": "gmail.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/zephyr/main/v2.2",
+        "children": [
+        {"name": "intel.com", "size": 267},
+        {"name": "nordicsemi.no", "size": 75},
+        {"name": "linaro.org", "size": 67},
+        {"name": "gmail.com", "size": 35},
+        {"name": "oticon.com", "size": 28}
+        ]
+    },
+    {
+        "name": "Src/weave/libweave",
+        "children": [
+        {"name": "google.com", "size": 3}
+        ]
+    }
+ ]
+}

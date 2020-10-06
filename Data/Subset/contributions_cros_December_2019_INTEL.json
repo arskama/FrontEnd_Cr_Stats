@@ -2,10 +2,40 @@
 "name" : "Overall",
  "children": [
     {
+        "name": "Src/aosp/frameworks/ml",
+        "children": [
+        {"name": "intel.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/aosp/frameworks/native",
+        "children": [
+        {"name": "intel.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/chromium/depot_tools",
+        "children": [
+        {"name": "intel.com", "size": 10}
+        ]
+    },
+    {
         "name": "Src/overlays",
         "children": [
-        {"name": "intel.com", "size": 4},
+        {"name": "intel.com", "size": 88},
+        {"name": "intel.corp-partner.google.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/platform/bmpblk",
+        "children": [
         {"name": "intel.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/chameleon",
+        "children": [
+        {"name": "intel.com", "size": 1}
         ]
     },
     {
@@ -15,143 +45,397 @@
         ]
     },
     {
+        "name": "Src/platform/cr50",
+        "children": [
+        {"name": "intel.com", "size": 98},
+        {"name": "intel.corp-partner.google.com", "size": 3}
+        ]
+    },
+    {
         "name": "Src/platform/crosvm",
         "children": [
-        {"name": "intel.corp-partner.google.com", "size": 6}
+        {"name": "intel.corp-partner.google.com", "size": 36},
+        {"name": "intel.com", "size": 11}
         ]
     },
     {
         "name": "Src/platform/depthcharge",
         "children": [
-        {"name": "intel.com", "size": 1}
+        {"name": "intel.com", "size": 21},
+        {"name": "intel.corp-partner.google.com", "size": 4}
         ]
     },
     {
-        "name": "Src/platform/ec",
-        "children": [
-        {"name": "intel.com", "size": 16}
-        ]
-    },
-    {
-        "name": "Src/platform/mosys",
-        "children": [
-        {"name": "intel.com", "size": 1}
-        ]
-    },
-    {
-        "name": "Src/platform/release-firmware/fpmcu-dartmonkey",
-        "children": [
-        {"name": "intel.com", "size": 8}
-        ]
-    },
-    {
-        "name": "Src/platform/tast-tests",
-        "children": [
-        {"name": "intel.com", "size": 1}
-        ]
-    },
-    {
-        "name": "Src/platform2",
+        "name": "Src/platform/drm-tests",
         "children": [
         {"name": "intel.com", "size": 2}
         ]
     },
     {
+        "name": "Src/platform/ec",
+        "children": [
+        {"name": "intel.com", "size": 114},
+        {"name": "intel.corp-partner.google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/factory",
+        "children": [
+        {"name": "intel.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/minigbm",
+        "children": [
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/mosys",
+        "children": [
+        {"name": "intel.com", "size": 2},
+        {"name": "intel.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/release-firmware/fpmcu-bloonchipper",
+        "children": [
+        {"name": "intel.com", "size": 114},
+        {"name": "intel.corp-partner.google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/release-firmware/fpmcu-dartmonkey",
+        "children": [
+        {"name": "intel.com", "size": 114},
+        {"name": "intel.corp-partner.google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/release-firmware/fpmcu-nami",
+        "children": [
+        {"name": "intel.com", "size": 114},
+        {"name": "intel.corp-partner.google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/release-firmware/fpmcu-nocturne",
+        "children": [
+        {"name": "intel.com", "size": 114},
+        {"name": "intel.corp-partner.google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/tast",
+        "children": [
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/tast-tests",
+        "children": [
+        {"name": "intel.com", "size": 10},
+        {"name": "intel.corp-partner.google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/vboot_reference",
+        "children": [
+        {"name": "intel.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform2",
+        "children": [
+        {"name": "intel.com", "size": 305}
+        ]
+    },
+    {
+        "name": "Src/third_party/arm-trusted-firmware",
+        "children": [
+        {"name": "intel.com", "size": 52}
+        ]
+    },
+    {
         "name": "Src/third_party/autotest/files",
         "children": [
-        {"name": "intel.com", "size": 4}
+        {"name": "intel.com", "size": 37}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez",
+        "children": [
+        {"name": "intel.com", "size": 9}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez-next",
+        "children": [
+        {"name": "intel.com", "size": 313},
+        {"name": "ingas-xps13.amr.corp.intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez/current",
+        "children": [
+        {"name": "intel.com", "size": 9}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez/next",
+        "children": [
+        {"name": "intel.com", "size": 313},
+        {"name": "ingas-xps13.amr.corp.intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez/upstream",
+        "children": [
+        {"name": "intel.com", "size": 313},
+        {"name": "ingas-xps13.amr.corp.intel.com", "size": 1}
         ]
     },
     {
         "name": "Src/third_party/chromiumos-overlay",
         "children": [
-        {"name": "intel.com", "size": 8}
+        {"name": "intel.com", "size": 65},
+        {"name": "intel.corp-partner.google.com", "size": 3}
         ]
     },
     {
         "name": "Src/third_party/coreboot",
         "children": [
-        {"name": "intel.com", "size": 35},
+        {"name": "intel.com", "size": 484},
+        {"name": "intel.corp-partner.google.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot-zork",
+        "children": [
+        {"name": "intel.com", "size": 372},
         {"name": "intel.corp-partner.google.com", "size": 1}
         ]
     },
     {
         "name": "Src/third_party/flashrom",
         "children": [
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/hdctools",
+        "children": [
         {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/igt-gpu-tools",
+        "children": [
+        {"name": "intel.com", "size": 794}
         ]
     },
     {
         "name": "Src/third_party/intel-wifi-fw-dump",
         "children": [
-        {"name": "intel.com", "size": 1}
+        {"name": "intel.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/upstream",
+        "children": [
+        {"name": "intel.com", "size": 7419},
+        {"name": "rdvivi-cozumel.jf.intel.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.14",
+        "children": [
+        {"name": "intel.com", "size": 91}
         ]
     },
     {
         "name": "Src/third_party/kernel/v3.18",
         "children": [
-        {"name": "intel.com", "size": 3}
+        {"name": "intel.com", "size": 484}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.8",
+        "children": [
+        {"name": "intel.com", "size": 77}
         ]
     },
     {
         "name": "Src/third_party/kernel/v4.14",
         "children": [
-        {"name": "intel.com", "size": 32}
+        {"name": "intel.com", "size": 1613},
+        {"name": "intel.corp-partner.google.com", "size": 61}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14-gw",
+        "children": [
+        {"name": "intel.com", "size": 1286},
+        {"name": "intel.corp-partner.google.com", "size": 61}
         ]
     },
     {
         "name": "Src/third_party/kernel/v4.19",
         "children": [
-        {"name": "intel.com", "size": 55}
+        {"name": "intel.com", "size": 2039},
+        {"name": "intel.corp-partner.google.com", "size": 57},
+        {"name": "mathias.nyman", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19-ht",
+        "children": [
+        {"name": "intel.com", "size": 1728},
+        {"name": "intel.corp-partner.google.com", "size": 57},
+        {"name": "mathias.nyman", "size": 1}
         ]
     },
     {
         "name": "Src/third_party/kernel/v4.19-lakitu",
         "children": [
-        {"name": "intel.com", "size": 45}
+        {"name": "intel.com", "size": 1328},
+        {"name": "intel.corp-partner.google.com", "size": 51},
+        {"name": "mathias.nyman", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19-manatee",
+        "children": [
+        {"name": "intel.com", "size": 1728},
+        {"name": "intel.corp-partner.google.com", "size": 57},
+        {"name": "mathias.nyman", "size": 1}
         ]
     },
     {
         "name": "Src/third_party/kernel/v4.4",
         "children": [
-        {"name": "intel.com", "size": 80}
+        {"name": "intel.com", "size": 460},
+        {"name": "intel.corp-partner.google.com", "size": 8}
         ]
     },
     {
         "name": "Src/third_party/kernel/v5.4",
         "children": [
-        {"name": "intel.com", "size": 63},
+        {"name": "intel.com", "size": 6225},
+        {"name": "rdvivi-cozumel.jf.intel.com", "size": 2},
         {"name": "intel.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v5.4-manatee",
+        "children": [
+        {"name": "intel.com", "size": 6225},
+        {"name": "rdvivi-cozumel.jf.intel.com", "size": 2},
+        {"name": "intel.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/libdrm",
+        "children": [
+        {"name": "intel.com", "size": 3}
         ]
     },
     {
         "name": "Src/third_party/linux-firmware",
         "children": [
-        {"name": "intel.com", "size": 2}
+        {"name": "intel.com", "size": 37}
         ]
     },
     {
         "name": "Src/third_party/mesa",
         "children": [
-        {"name": "intel.com", "size": 86}
+        {"name": "intel.com", "size": 2083}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-amd",
+        "children": [
+        {"name": "intel.com", "size": 1943}
         ]
     },
     {
         "name": "Src/third_party/mesa-debian",
         "children": [
-        {"name": "intel.com", "size": 11}
+        {"name": "intel.com", "size": 1661}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-freedreno",
+        "children": [
+        {"name": "intel.com", "size": 2083}
         ]
     },
     {
         "name": "Src/third_party/mesa-iris",
         "children": [
-        {"name": "intel.com", "size": 73}
+        {"name": "intel.com", "size": 2083}
+        ]
+    },
+    {
+        "name": "Src/third_party/portage-stable",
+        "children": [
+        {"name": "intel.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/portage_tool",
+        "children": [
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/qemu",
+        "children": [
+        {"name": "intel.com", "size": 219},
+        {"name": "fintelia.io", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/third_party/u-boot/files",
+        "children": [
+        {"name": "intel.com", "size": 99}
+        ]
+    },
+    {
+        "name": "Src/third_party/virglrenderer",
+        "children": [
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/wpa_supplicant",
+        "children": [
+        {"name": "intel.com", "size": 16}
         ]
     },
     {
         "name": "Src/third_party/wpa_supplicant-2.8",
         "children": [
-        {"name": "intel.com", "size": 1}
+        {"name": "intel.com", "size": 43}
+        ]
+    },
+    {
+        "name": "Src/third_party/wpa_supplicant-2.9",
+        "children": [
+        {"name": "intel.com", "size": 49}
+        ]
+    },
+    {
+        "name": "Src/third_party/xfstests",
+        "children": [
+        {"name": "intel.com", "size": 19}
+        ]
+    },
+    {
+        "name": "Src/third_party/zephyr/main/v2.2",
+        "children": [
+        {"name": "intel.com", "size": 3323},
+        {"name": "ajross-mobl.jf.intel.com", "size": 1}
         ]
     }
  ]

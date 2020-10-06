@@ -1,0 +1,75 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 6916},
+        {"name": "google.com", "size": 284},
+        {"name": "intel.com", "size": 71},
+        {"name": "samsung.com", "size": 65},
+        {"name": "opera.com", "size": 60},
+        {"name": "mikepennisi.com", "size": 38},
+        {"name": "gmail.com", "size": 29},
+        {"name": "igalia.com", "size": 23},
+        {"name": "yandex-team.ru", "size": 18},
+        {"name": "navercorp.com", "size": 5},
+        {"name": "inf.u-szeged.hu", "size": 4},
+        {"name": "amazon.com", "size": 3},
+        {"name": "akamai.com", "size": 3},
+        {"name": "zanderz.com", "size": 2},
+        {"name": "martijnc.be", "size": 2},
+        {"name": "imgtec.com", "size": 2},
+        {"name": "ca.ibm.com", "size": 2},
+        {"name": "yoav.ws", "size": 1},
+        {"name": "ngg.hu", "size": 1},
+        {"name": "lge.com", "size": 1},
+        {"name": "cisco.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 368},
+        {"name": "chromium.org", "size": 244},
+        {"name": "skia.org", "size": 6},
+        {"name": "arm.com", "size": 2}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 532},
+        {"name": "google.com", "size": 27},
+        {"name": "imgtec.com", "size": 25},
+        {"name": "ca.ibm.com", "size": 12},
+        {"name": "gmail.com", "size": 9},
+        {"name": "arm.com", "size": 8},
+        {"name": "opera.com", "size": 3},
+        {"name": "igalia.com", "size": 3},
+        {"name": "intel.com", "size": 2},
+        {"name": "qiwi.be", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "gmail.com", "size": 11},
+        {"name": "chromium.org", "size": 5},
+        {"name": "intel.com", "size": 2},
+        {"name": "outlook.com", "size": 1},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "greggman.com", "size": 1},
+        {"name": "domenic.me", "size": 1},
+        {"name": "alum.mit.edu", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 34},
+        {"name": "gmail.com", "size": 1}
+        ]
+    }
+ ]
+}

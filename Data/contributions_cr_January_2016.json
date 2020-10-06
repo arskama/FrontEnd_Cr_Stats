@@ -1,0 +1,74 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 4669},
+        {"name": "google.com", "size": 242},
+        {"name": "opera.com", "size": 153},
+        {"name": "intel.com", "size": 71},
+        {"name": "gmail.com", "size": 44},
+        {"name": "samsung.com", "size": 43},
+        {"name": "yoav.ws", "size": 17},
+        {"name": "yandex-team.ru", "size": 14},
+        {"name": "robwu.nl", "size": 14},
+        {"name": "igalia.com", "size": 11},
+        {"name": "nvidia.com", "size": 6},
+        {"name": "martijnc.be", "size": 6},
+        {"name": "amazon.com", "size": 3},
+        {"name": "skip.org", "size": 2},
+        {"name": "googlemail.com", "size": 2},
+        {"name": "foxitsoftware.com", "size": 2},
+        {"name": "linaro.org", "size": 1},
+        {"name": "endlessm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 263},
+        {"name": "chromium.org", "size": 138},
+        {"name": "nvidia.com", "size": 17},
+        {"name": "skia.org", "size": 4},
+        {"name": "mozilla.com", "size": 4},
+        {"name": "opera.com", "size": 1},
+        {"name": "gmail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 446},
+        {"name": "us.ibm.com", "size": 33},
+        {"name": "intel.com", "size": 23},
+        {"name": "imgtec.com", "size": 21},
+        {"name": "gmail.com", "size": 17},
+        {"name": "google.com", "size": 5},
+        {"name": "arm.com", "size": 3},
+        {"name": "ca.ibm.com", "size": 2},
+        {"name": "scieneer.com", "size": 1},
+        {"name": "samsung.com", "size": 1},
+        {"name": "mikepennisi.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "chromium.org", "size": 44},
+        {"name": "intel.com", "size": 20},
+        {"name": "alum.mit.edu", "size": 16},
+        {"name": "mozilla.com", "size": 4},
+        {"name": "gmail.com", "size": 3},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "hotmail.ca", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

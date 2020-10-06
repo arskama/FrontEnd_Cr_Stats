@@ -1,0 +1,78 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 6340},
+        {"name": "google.com", "size": 1415},
+        {"name": "igalia.com", "size": 211},
+        {"name": "microsoft.com", "size": 200},
+        {"name": "gmail.com", "size": 39},
+        {"name": "intel.com", "size": 32},
+        {"name": "opera.com", "size": 23},
+        {"name": "samsung.com", "size": 14},
+        {"name": "googlemail.com", "size": 10},
+        {"name": "arm.com", "size": 9},
+        {"name": "navercorp.com", "size": 6},
+        {"name": "mobica.com", "size": 5},
+        {"name": "yandex-team.ru", "size": 4},
+        {"name": "nvidia.com", "size": 3},
+        {"name": "lge.com", "size": 3},
+        {"name": "fb.com", "size": 3},
+        {"name": "cloudmosa.com", "size": 3},
+        {"name": "vivaldi.com", "size": 2},
+        {"name": "qianxin.com", "size": 2},
+        {"name": "pybricks.com", "size": 2},
+        {"name": "huawei.com", "size": 2},
+        {"name": "xiaomi.com", "size": 1},
+        {"name": "luliang14.huawei.com", "size": 1},
+        {"name": "ca.ibm.com", "size": 1},
+        {"name": "apap04.com", "size": 1},
+        {"name": "alibaba-inc.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 523},
+        {"name": "chromium.org", "size": 47},
+        {"name": "amazon.com", "size": 2},
+        {"name": "intel.com", "size": 1},
+        {"name": "gmail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 432},
+        {"name": "ca.ibm.com", "size": 21},
+        {"name": "google.com", "size": 14},
+        {"name": "gmail.com", "size": 9},
+        {"name": "loongson.cn", "size": 7},
+        {"name": "arm.com", "size": 6},
+        {"name": "microsoft.com", "size": 5},
+        {"name": "mozilla.com", "size": 2},
+        {"name": "intel.com", "size": 2},
+        {"name": "gus.host", "size": 2}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "alum.mit.edu", "size": 4},
+        {"name": "mozilla.com", "size": 1},
+        {"name": "gmail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 49},
+        {"name": "intel.com", "size": 39},
+        {"name": "microsoft.com", "size": 5},
+        {"name": "google.com", "size": 4}
+        ]
+    }
+ ]
+}

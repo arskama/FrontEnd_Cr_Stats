@@ -1,0 +1,71 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5682},
+        {"name": "google.com", "size": 205},
+        {"name": "opera.com", "size": 83},
+        {"name": "intel.com", "size": 60},
+        {"name": "gmail.com", "size": 36},
+        {"name": "samsung.com", "size": 24},
+        {"name": "igalia.com", "size": 20},
+        {"name": "yandex-team.ru", "size": 17},
+        {"name": "yoav.ws", "size": 5},
+        {"name": "mwiacek.com", "size": 5},
+        {"name": "googlemail.com", "size": 5},
+        {"name": "martijnc.be", "size": 3},
+        {"name": "cisco.com", "size": 3},
+        {"name": "rnc-ag.de", "size": 2},
+        {"name": "jakehendy.com", "size": 2},
+        {"name": "xiaomi.com", "size": 1},
+        {"name": "tencent.com", "size": 1},
+        {"name": "qt.io", "size": 1},
+        {"name": "lge.com", "size": 1},
+        {"name": "imgtec.com", "size": 1},
+        {"name": "arm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 359},
+        {"name": "chromium.org", "size": 102},
+        {"name": "mozilla.com", "size": 4},
+        {"name": "skia.org", "size": 2},
+        {"name": "arm.com", "size": 2},
+        {"name": "opera.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 724},
+        {"name": "ca.ibm.com", "size": 36},
+        {"name": "intel.com", "size": 23},
+        {"name": "igalia.com", "size": 7},
+        {"name": "google.com", "size": 6},
+        {"name": "imgtec.com", "size": 5},
+        {"name": "gmail.com", "size": 4},
+        {"name": "joyent.com", "size": 1},
+        {"name": "arm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "intel.com", "size": 18},
+        {"name": "gmail.com", "size": 11},
+        {"name": "chromium.org", "size": 11},
+        {"name": "alum.mit.edu", "size": 10}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

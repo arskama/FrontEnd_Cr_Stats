@@ -1,0 +1,23 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "intel.com", "size": 89}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "intel.com", "size": 7}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "intel.com", "size": 2}
+        ]
+    }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 4778},
+        {"name": "opera.com", "size": 208},
+        {"name": "google.com", "size": 169},
+        {"name": "samsung.com", "size": 158},
+        {"name": "intel.com", "size": 85},
+        {"name": "yandex-team.ru", "size": 33},
+        {"name": "gmail.com", "size": 28},
+        {"name": "igalia.com", "size": 18},
+        {"name": "robwu.nl", "size": 10},
+        {"name": "partner.samsung.com", "size": 8},
+        {"name": "amazon.com", "size": 8},
+        {"name": "yoav.ws", "size": 7},
+        {"name": "sonymobile.com", "size": 6},
+        {"name": "cisco.com", "size": 3},
+        {"name": "navercorp.com", "size": 2},
+        {"name": "suitabletech.com", "size": 1},
+        {"name": "imgtec.com", "size": 1},
+        {"name": "foutrelis.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 239},
+        {"name": "chromium.org", "size": 140},
+        {"name": "gmail.com", "size": 30},
+        {"name": "nvidia.com", "size": 14},
+        {"name": "intel.com", "size": 7},
+        {"name": "osg.samsung.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 368},
+        {"name": "imgtec.com", "size": 24},
+        {"name": "intel.com", "size": 11},
+        {"name": "gmail.com", "size": 10},
+        {"name": "igalia.com", "size": 2},
+        {"name": "strongloop.com", "size": 1},
+        {"name": "scieneer.com", "size": 1},
+        {"name": "opera.com", "size": 1},
+        {"name": "ca.ibm.com", "size": 1},
+        {"name": "bnoordhuis.nl", "size": 1},
+        {"name": "arm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "alum.mit.edu", "size": 21},
+        {"name": "gmail.com", "size": 12},
+        {"name": "chromium.org", "size": 8},
+        {"name": "nvidia.com", "size": 3},
+        {"name": "intel.com", "size": 3},
+        {"name": "apple.com", "size": 3},
+        {"name": "outlook.com", "size": 2},
+        {"name": "mobica.com", "size": 2},
+        {"name": "grorg.org", "size": 2},
+        {"name": "esri.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5495},
+        {"name": "google.com", "size": 199},
+        {"name": "opera.com", "size": 106},
+        {"name": "samsung.com", "size": 72},
+        {"name": "intel.com", "size": 64},
+        {"name": "gmail.com", "size": 37},
+        {"name": "yandex-team.ru", "size": 19},
+        {"name": "igalia.com", "size": 12},
+        {"name": "nvidia.com", "size": 7},
+        {"name": "amazon.com", "size": 5},
+        {"name": "imgtec.com", "size": 4},
+        {"name": "robwu.nl", "size": 2},
+        {"name": "linaro.org", "size": 2},
+        {"name": "navercorp.com", "size": 1},
+        {"name": "martijnc.be", "size": 1},
+        {"name": "googlemail.com", "size": 1},
+        {"name": "cisco.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 288},
+        {"name": "chromium.org", "size": 47},
+        {"name": "skia.org", "size": 3},
+        {"name": "intel.com", "size": 2},
+        {"name": "mozilla.com", "size": 1},
+        {"name": "imgtec.com", "size": 1},
+        {"name": "adobe.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 644},
+        {"name": "ca.ibm.com", "size": 53},
+        {"name": "intel.com", "size": 37},
+        {"name": "google.com", "size": 23},
+        {"name": "imgtec.com", "size": 18},
+        {"name": "gmail.com", "size": 7},
+        {"name": "arm.com", "size": 6},
+        {"name": "opera.com", "size": 3},
+        {"name": "igalia.com", "size": 3},
+        {"name": "joyent.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "chromium.org", "size": 110},
+        {"name": "intel.com", "size": 37},
+        {"name": "alum.mit.edu", "size": 21},
+        {"name": "gmail.com", "size": 7},
+        {"name": "unity3d.com", "size": 1},
+        {"name": "outlook.com", "size": 1},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "MacBook-Air-2.local", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

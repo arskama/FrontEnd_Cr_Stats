@@ -1,0 +1,79 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 4801},
+        {"name": "google.com", "size": 231},
+        {"name": "samsung.com", "size": 165},
+        {"name": "opera.com", "size": 151},
+        {"name": "intel.com", "size": 61},
+        {"name": "gmail.com", "size": 29},
+        {"name": "yoav.ws", "size": 12},
+        {"name": "mithis.com", "size": 12},
+        {"name": "igalia.com", "size": 9},
+        {"name": "yandex-team.ru", "size": 4},
+        {"name": "nvidia.com", "size": 4},
+        {"name": "cisco.com", "size": 4},
+        {"name": "amazon.com", "size": 4},
+        {"name": "robwu.nl", "size": 3},
+        {"name": "joachim-bauch.de", "size": 3},
+        {"name": "imgtec.com", "size": 3},
+        {"name": "sonymobile.com", "size": 2},
+        {"name": "strongloop.com", "size": 1},
+        {"name": "navercorp.com", "size": 1},
+        {"name": "mlocal.net", "size": 1},
+        {"name": "microsoft.com", "size": 1},
+        {"name": "hp.com", "size": 1},
+        {"name": "googlemail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 192},
+        {"name": "chromium.org", "size": 121},
+        {"name": "nvidia.com", "size": 22},
+        {"name": "gmail.com", "size": 5},
+        {"name": "samsung.com", "size": 2},
+        {"name": "opera.com", "size": 1},
+        {"name": "arm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 430},
+        {"name": "us.ibm.com", "size": 25},
+        {"name": "intel.com", "size": 19},
+        {"name": "imgtec.com", "size": 17},
+        {"name": "igalia.com", "size": 13},
+        {"name": "arm.com", "size": 5},
+        {"name": "strongloop.com", "size": 4},
+        {"name": "google.com", "size": 4},
+        {"name": "gmail.com", "size": 4},
+        {"name": "mikepennisi.com", "size": 1},
+        {"name": "ca.ibm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "alum.mit.edu", "size": 37},
+        {"name": "nvidia.com", "size": 16},
+        {"name": "gmail.com", "size": 14},
+        {"name": "intel.com", "size": 13},
+        {"name": "chromium.org", "size": 10},
+        {"name": "mobica.com", "size": 4},
+        {"name": "morlunk.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5364},
+        {"name": "google.com", "size": 186},
+        {"name": "opera.com", "size": 127},
+        {"name": "samsung.com", "size": 58},
+        {"name": "intel.com", "size": 57},
+        {"name": "gmail.com", "size": 55},
+        {"name": "igalia.com", "size": 9},
+        {"name": "yandex-team.ru", "size": 6},
+        {"name": "yoav.ws", "size": 5},
+        {"name": "nvidia.com", "size": 4},
+        {"name": "mithis.com", "size": 3},
+        {"name": "amazon.com", "size": 3},
+        {"name": "robwu.nl", "size": 2},
+        {"name": "imgtec.com", "size": 2},
+        {"name": "hp.com", "size": 2},
+        {"name": "navercorp.com", "size": 1},
+        {"name": "googlemail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 218},
+        {"name": "chromium.org", "size": 107},
+        {"name": "skia.org", "size": 3}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 368},
+        {"name": "intel.com", "size": 38},
+        {"name": "us.ibm.com", "size": 31},
+        {"name": "imgtec.com", "size": 16},
+        {"name": "google.com", "size": 14},
+        {"name": "gmail.com", "size": 11},
+        {"name": "skomski.com", "size": 8},
+        {"name": "arm.com", "size": 6},
+        {"name": "strongloop.com", "size": 4},
+        {"name": "joyent.com", "size": 4},
+        {"name": "indutny.com", "size": 4},
+        {"name": "igalia.com", "size": 2},
+        {"name": "alibaba-inc.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "chromium.org", "size": 40},
+        {"name": "alum.mit.edu", "size": 36},
+        {"name": "intel.com", "size": 17},
+        {"name": "gmail.com", "size": 7},
+        {"name": "mobica.com", "size": 6},
+        {"name": "nvidia.com", "size": 5},
+        {"name": "yvt.jp", "size": 1},
+        {"name": "yandex-team.ru", "size": 1},
+        {"name": "collabora.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

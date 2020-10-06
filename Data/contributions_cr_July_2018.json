@@ -1,0 +1,84 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5652},
+        {"name": "google.com", "size": 694},
+        {"name": "opera.com", "size": 88},
+        {"name": "igalia.com", "size": 46},
+        {"name": "mwiacek.com", "size": 37},
+        {"name": "intel.com", "size": 36},
+        {"name": "gmail.com", "size": 28},
+        {"name": "samsung.com", "size": 27},
+        {"name": "yandex-team.ru", "size": 26},
+        {"name": "lge.com", "size": 12},
+        {"name": "googlemail.com", "size": 6},
+        {"name": "yannic-bonenberger.com", "size": 4},
+        {"name": "vewd.com", "size": 4},
+        {"name": "tencent.com", "size": 4},
+        {"name": "vivaldi.com", "size": 3},
+        {"name": "amazon.com", "size": 3},
+        {"name": "yoav.ws", "size": 2},
+        {"name": "mips.com", "size": 2},
+        {"name": "loongson.cn", "size": 2},
+        {"name": "huawei.com", "size": 2},
+        {"name": "fds-team.de", "size": 2},
+        {"name": "collabora.com", "size": 2},
+        {"name": "xiaomi.com", "size": 1},
+        {"name": "uber.com", "size": 1},
+        {"name": "qt.io", "size": 1},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "mikepennisi.com", "size": 1},
+        {"name": "gnu.org", "size": 1},
+        {"name": "foutrelis.com", "size": 1},
+        {"name": "davidovic.io", "size": 1},
+        {"name": "ca.ibm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 296},
+        {"name": "chromium.org", "size": 93},
+        {"name": "skia.org", "size": 18},
+        {"name": "gmail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 564},
+        {"name": "google.com", "size": 60},
+        {"name": "mips.com", "size": 7},
+        {"name": "ca.ibm.com", "size": 7},
+        {"name": "igalia.com", "size": 6},
+        {"name": "arm.com", "size": 5},
+        {"name": "intel.com", "size": 3},
+        {"name": "ibm.com", "size": 3},
+        {"name": "sthima.com.br", "size": 2},
+        {"name": "addaleax.net", "size": 2},
+        {"name": "ngg.hu", "size": 1},
+        {"name": "gmail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "gmail.com", "size": 7},
+        {"name": "alum.mit.edu", "size": 4},
+        {"name": "nvidia.com", "size": 2},
+        {"name": "qti.qualcomm.com", "size": 1},
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 66},
+        {"name": "gmail.com", "size": 13}
+        ]
+    }
+ ]
+}

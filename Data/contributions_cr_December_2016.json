@@ -1,0 +1,73 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 4934},
+        {"name": "google.com", "size": 171},
+        {"name": "opera.com", "size": 99},
+        {"name": "intel.com", "size": 64},
+        {"name": "gmail.com", "size": 42},
+        {"name": "yandex-team.ru", "size": 26},
+        {"name": "samsung.com", "size": 19},
+        {"name": "cisco.com", "size": 13},
+        {"name": "igalia.com", "size": 10},
+        {"name": "tencent.com", "size": 4},
+        {"name": "arm.com", "size": 4},
+        {"name": "nottheoilrig.com", "size": 3},
+        {"name": "outlook.com", "size": 2},
+        {"name": "navercorp.com", "size": 2},
+        {"name": "martijnc.be", "size": 2},
+        {"name": "linaro.org", "size": 2},
+        {"name": "lge.com", "size": 2},
+        {"name": "googlemail.com", "size": 2},
+        {"name": "yoav.ws", "size": 1},
+        {"name": "soundtrap.com", "size": 1},
+        {"name": "robwu.nl", "size": 1},
+        {"name": "amazon.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 317},
+        {"name": "chromium.org", "size": 58},
+        {"name": "skia.org", "size": 4},
+        {"name": "arm.com", "size": 2},
+        {"name": "mozilla.com", "size": 1},
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 530},
+        {"name": "ca.ibm.com", "size": 22},
+        {"name": "imgtec.com", "size": 12},
+        {"name": "google.com", "size": 6},
+        {"name": "igalia.com", "size": 4},
+        {"name": "gmail.com", "size": 4},
+        {"name": "intel.com", "size": 3},
+        {"name": "alibaba-inc.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "gmail.com", "size": 16},
+        {"name": "intel.com", "size": 11},
+        {"name": "chromium.org", "size": 7},
+        {"name": "alum.mit.edu", "size": 6},
+        {"name": "grorg.org", "size": 1},
+        {"name": "epita.fr", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

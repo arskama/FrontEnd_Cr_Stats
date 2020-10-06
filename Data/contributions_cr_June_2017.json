@@ -4,13 +4,13 @@
     {
         "name": "Chromium",
         "children": [
-        {"name": "chromium.org", "size": 6728},
+        {"name": "chromium.org", "size": 6723},
         {"name": "google.com", "size": 449},
         {"name": "samsung.com", "size": 54},
-        {"name": "intel.com", "size": 54},
-        {"name": "opera.com", "size": 44},
+        {"name": "intel.com", "size": 53},
+        {"name": "opera.com", "size": 45},
         {"name": "gmail.com", "size": 19},
-        {"name": "yandex-team.ru", "size": 16},
+        {"name": "yandex-team.ru", "size": 17},
         {"name": "igalia.com", "size": 13},
         {"name": "sogou-inc.com", "size": 4},
         {"name": "huawei.com", "size": 4},
@@ -27,7 +27,7 @@
     {
         "name": "Skia",
         "children": [
-        {"name": "google.com", "size": 364},
+        {"name": "google.com", "size": 362},
         {"name": "chromium.org", "size": 117},
         {"name": "skia.org", "size": 4},
         {"name": "opera.com", "size": 1},
@@ -39,10 +39,10 @@
     {
         "name": "V8",
         "children": [
-        {"name": "chromium.org", "size": 608},
+        {"name": "chromium.org", "size": 613},
         {"name": "ca.ibm.com", "size": 18},
+        {"name": "imgtec.com", "size": 15},
         {"name": "google.com", "size": 15},
-        {"name": "imgtec.com", "size": 14},
         {"name": "gmail.com", "size": 12},
         {"name": "arm.com", "size": 10},
         {"name": "intel.com", "size": 2},
@@ -64,6 +64,14 @@
         {"name": "outlook.com", "size": 1},
         {"name": "nvidia.com", "size": 1},
         {"name": "greggman.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 36},
+        {"name": "google.com", "size": 28},
+        {"name": "gmail.com", "size": 2}
         ]
     }
  ]

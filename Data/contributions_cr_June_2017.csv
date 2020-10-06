@@ -2,26 +2,26 @@ Chromium project contributions from 01/June/2017 to 30/June/2017
 
 Overall
 Contributor,June 2017
-chromium.org,7457
-google.com,828
-intel.com,59
+chromium.org,7493
+google.com,854
+intel.com,58
 samsung.com,54
-opera.com,45
-gmail.com,40
+opera.com,46
+gmail.com,42
 ca.ibm.com,18
-yandex-team.ru,16
+yandex-team.ru,17
+imgtec.com,15
 igalia.com,15
-imgtec.com,14
 
 Chromium
 Contributor,June 2017
-chromium.org,6728
+chromium.org,6723
 google.com,449
 samsung.com,54
-intel.com,54
-opera.com,44
+intel.com,53
+opera.com,45
 gmail.com,19
-yandex-team.ru,16
+yandex-team.ru,17
 igalia.com,13
 sogou-inc.com,4
 huawei.com,4
@@ -36,7 +36,7 @@ akamai.com,1
 
 Skia
 Contributor,June 2017
-google.com,364
+google.com,362
 chromium.org,117
 skia.org,4
 opera.com,1
@@ -46,10 +46,10 @@ behemoth.cnc.corp.google.com,1
 
 V8
 Contributor,June 2017
-chromium.org,608
+chromium.org,613
 ca.ibm.com,18
+imgtec.com,15
 google.com,15
-imgtec.com,14
 gmail.com,12
 arm.com,10
 intel.com,2
@@ -69,3 +69,9 @@ users.noreply.github.com,1
 outlook.com,1
 nvidia.com,1
 greggman.com,1
+
+WebGPU
+Contributor,June 2017
+chromium.org,36
+google.com,28
+gmail.com,2

@@ -1,0 +1,69 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5338},
+        {"name": "google.com", "size": 1598},
+        {"name": "igalia.com", "size": 160},
+        {"name": "microsoft.com", "size": 137},
+        {"name": "gmail.com", "size": 50},
+        {"name": "intel.com", "size": 30},
+        {"name": "samsung.com", "size": 26},
+        {"name": "opera.com", "size": 13},
+        {"name": "navercorp.com", "size": 10},
+        {"name": "noogler.google.com", "size": 9},
+        {"name": "fb.com", "size": 7},
+        {"name": "yandex-team.ru", "size": 4},
+        {"name": "googlemail.com", "size": 4},
+        {"name": "arm.com", "size": 4},
+        {"name": "lge.com", "size": 3},
+        {"name": "vewd.com", "size": 2},
+        {"name": "apap04.com", "size": 2},
+        {"name": "xiaomi.com", "size": 1},
+        {"name": "vivaldi.com", "size": 1},
+        {"name": "mobica.com", "size": 1},
+        {"name": "codeweavers.com", "size": 1},
+        {"name": "alibaba-inc.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 427},
+        {"name": "chromium.org", "size": 13},
+        {"name": "opera.com", "size": 1},
+        {"name": "jetbrains.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 327},
+        {"name": "google.com", "size": 44},
+        {"name": "ca.ibm.com", "size": 16},
+        {"name": "microsoft.com", "size": 9},
+        {"name": "gmail.com", "size": 3},
+        {"name": "arm.com", "size": 3},
+        {"name": "loongson.cn", "size": 1},
+        {"name": "addaleax.net", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 31},
+        {"name": "intel.com", "size": 14},
+        {"name": "google.com", "size": 9},
+        {"name": "microsoft.com", "size": 1}
+        ]
+    }
+ ]
+}

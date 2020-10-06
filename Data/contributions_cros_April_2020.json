@@ -1,0 +1,1433 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromite",
+        "children": [
+        {"name": "chromium.org", "size": 132},
+        {"name": "google.com", "size": 40}
+        ]
+    },
+    {
+        "name": "Chromite/infra/proto",
+        "children": [
+        {"name": "chromium.org", "size": 30},
+        {"name": "google.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Docs",
+        "children": [
+        {"name": "chromium.org", "size": 13},
+        {"name": "google.com", "size": 8}
+        ]
+    },
+    {
+        "name": "Infra/go",
+        "children": [
+        {"name": "chromium.org", "size": 3},
+        {"name": "gmail.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Infra/recipes",
+        "children": [
+        {"name": "chromium.org", "size": 83},
+        {"name": "google.com", "size": 30}
+        ]
+    },
+    {
+        "name": "Infra/suite_scheduler",
+        "children": [
+        {"name": "chromium.org", "size": 27},
+        {"name": "google.com", "size": 12}
+        ]
+    },
+    {
+        "name": "Infra_virtualenv",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Manifest",
+        "children": [
+        {"name": "chromium.org", "size": 3},
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/aosp/external/bsdiff",
+        "children": [
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/aosp/external/libchrome",
+        "children": [
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/aosp/external/minijail",
+        "children": [
+        {"name": "google.com", "size": 4},
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/aosp/external/puffin",
+        "children": [
+        {"name": "google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/aosp/system/update_engine",
+        "children": [
+        {"name": "chromium.org", "size": 9},
+        {"name": "google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/chromium/depot_tools",
+        "children": [
+        {"name": "google.com", "size": 6},
+        {"name": "chromium.org", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/chromium/src/buildtools",
+        "children": [
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/config",
+        "children": [
+        {"name": "chromium.org", "size": 85},
+        {"name": "google.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/overlays",
+        "children": [
+        {"name": "google.com", "size": 58},
+        {"name": "chromium.org", "size": 56},
+        {"name": "quanta.corp-partner.google.com", "size": 14},
+        {"name": "intel.com", "size": 14},
+        {"name": "compal.corp-partner.google.com", "size": 4},
+        {"name": "samsung.corp-partner.google.com", "size": 1},
+        {"name": "mediatek.com", "size": 1},
+        {"name": "codeaurora.org", "size": 1},
+        {"name": "bitland.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/audiotest",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/bisect-kit",
+        "children": [
+        {"name": "chromium.org", "size": 26}
+        ]
+    },
+    {
+        "name": "Src/platform/bmpblk",
+        "children": [
+        {"name": "chromium.org", "size": 14},
+        {"name": "google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/cbor",
+        "children": [
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/chameleon",
+        "children": [
+        {"name": "google.com", "size": 6},
+        {"name": "chromium.org", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/platform/container-guest-tools",
+        "children": [
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/cr50",
+        "children": [
+        {"name": "chromium.org", "size": 15},
+        {"name": "google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/crostestutils",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/platform/crosvm",
+        "children": [
+        {"name": "chromium.org", "size": 37},
+        {"name": "google.com", "size": 10},
+        {"name": "intel.corp-partner.google.com", "size": 4}
+        ]
+    },
+    {
+        "name": "Src/platform/depthcharge",
+        "children": [
+        {"name": "chromium.org", "size": 28},
+        {"name": "google.com", "size": 6},
+        {"name": "codeaurora.org", "size": 2},
+        {"name": "amd.com", "size": 2},
+        {"name": "compal.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/dev",
+        "children": [
+        {"name": "google.com", "size": 45},
+        {"name": "chromium.org", "size": 13},
+        {"name": "roeck-us.net", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/drm-tests",
+        "children": [
+        {"name": "chromium.org", "size": 2},
+        {"name": "google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/ec",
+        "children": [
+        {"name": "chromium.org", "size": 94},
+        {"name": "google.com", "size": 49},
+        {"name": "bitland.corp-partner.google.com", "size": 20},
+        {"name": "quanta.corp-partner.google.com", "size": 10},
+        {"name": "compal.corp-partner.google.com", "size": 10},
+        {"name": "quantatw.com", "size": 8},
+        {"name": "ite.com.tw", "size": 6},
+        {"name": "intel.com", "size": 6},
+        {"name": "ite.corp-partner.google.com", "size": 4},
+        {"name": "semihalf.com", "size": 3},
+        {"name": "samsung.corp-partner.google.com", "size": 3},
+        {"name": "nuvoton.com", "size": 2},
+        {"name": "analogixsemi.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/factory",
+        "children": [
+        {"name": "google.com", "size": 101},
+        {"name": "chromium.org", "size": 11}
+        ]
+    },
+    {
+        "name": "Src/platform/factory_installer",
+        "children": [
+        {"name": "google.com", "size": 2},
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/gestures",
+        "children": [
+        {"name": "chromium.org", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/platform/graphics",
+        "children": [
+        {"name": "chromium.org", "size": 4},
+        {"name": "google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/initramfs",
+        "children": [
+        {"name": "google.com", "size": 2},
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/libevdev",
+        "children": [
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/lithium",
+        "children": [
+        {"name": "chromium.org", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/platform/microbenchmarks",
+        "children": [
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/minigbm",
+        "children": [
+        {"name": "chromium.org", "size": 4},
+        {"name": "google.com", "size": 2},
+        {"name": "synaptics.com", "size": 1},
+        {"name": "amd.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/moblab",
+        "children": [
+        {"name": "chromium.org", "size": 15},
+        {"name": "google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/mosys",
+        "children": [
+        {"name": "chromium.org", "size": 41},
+        {"name": "google.com", "size": 2},
+        {"name": "intel.corp-partner.google.com", "size": 1},
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/mttools",
+        "children": [
+        {"name": "chromium.org", "size": 5}
+        ]
+    },
+    {
+        "name": "Src/platform/tast",
+        "children": [
+        {"name": "chromium.org", "size": 40},
+        {"name": "google.com", "size": 16}
+        ]
+    },
+    {
+        "name": "Src/platform/tast-tests",
+        "children": [
+        {"name": "google.com", "size": 177},
+        {"name": "chromium.org", "size": 157},
+        {"name": "dell.corp-partner.google.com", "size": 5},
+        {"name": "intel.com", "size": 1},
+        {"name": "dell.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/tast-tests/src/chromiumos/tast/remote/firmware/data/fw-testing-configs",
+        "children": [
+        {"name": "google.com", "size": 5},
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/touchpad-tests",
+        "children": [
+        {"name": "chromium.org", "size": 9}
+        ]
+    },
+    {
+        "name": "Src/platform/tremplin",
+        "children": [
+        {"name": "google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/platform/vboot_reference",
+        "children": [
+        {"name": "chromium.org", "size": 20},
+        {"name": "google.com", "size": 5},
+        {"name": "semihalf.com", "size": 1},
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform/xorg-conf",
+        "children": [
+        {"name": "lcfc.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/platform2",
+        "children": [
+        {"name": "chromium.org", "size": 316},
+        {"name": "google.com", "size": 210},
+        {"name": "mediatek.com", "size": 3},
+        {"name": "gmail.com", "size": 2},
+        {"name": "dell.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/scripts",
+        "children": [
+        {"name": "chromium.org", "size": 7},
+        {"name": "google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/adhd",
+        "children": [
+        {"name": "chromium.org", "size": 32},
+        {"name": "google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/arm-trusted-firmware",
+        "children": [
+        {"name": "arm.com", "size": 45},
+        {"name": "socionext.com", "size": 11},
+        {"name": "broadcom.com", "size": 11},
+        {"name": "review.trustedfirmware.org", "size": 5},
+        {"name": "nvidia.com", "size": 2},
+        {"name": "gmail.com", "size": 1},
+        {"name": "chromium.org", "size": 1},
+        {"name": "benyossef.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/autotest/files",
+        "children": [
+        {"name": "chromium.org", "size": 139},
+        {"name": "google.com", "size": 137},
+        {"name": "semihalf.com", "size": 1},
+        {"name": "intel.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/autotest/files/server/cros/faft/fw-testing-configs",
+        "children": [
+        {"name": "google.com", "size": 5},
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez",
+        "children": [
+        {"name": "intel.com", "size": 13},
+        {"name": "chromium.org", "size": 10},
+        {"name": "google.com", "size": 5},
+        {"name": "codecoup.pl", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/bluez-next",
+        "children": [
+        {"name": "chromium.org", "size": 64},
+        {"name": "google.com", "size": 33},
+        {"name": "neverware.com", "size": 1},
+        {"name": "intel.com", "size": 1},
+        {"name": "holtmann.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/breakpad",
+        "children": [
+        {"name": "chromium.org", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/chromiumos-overlay",
+        "children": [
+        {"name": "chromium.org", "size": 165},
+        {"name": "google.com", "size": 94},
+        {"name": "intel.com", "size": 8},
+        {"name": "quanta.corp-partner.google.com", "size": 2},
+        {"name": "mediatek.com", "size": 2},
+        {"name": "intel.corp-partner.google.com", "size": 2},
+        {"name": "compal.corp-partner.google.com", "size": 1},
+        {"name": "bitland.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot",
+        "children": [
+        {"name": "gmail.com", "size": 204},
+        {"name": "google.com", "size": 91},
+        {"name": "intel.com", "size": 48},
+        {"name": "chromium.org", "size": 27},
+        {"name": "noos.fr", "size": 26},
+        {"name": "amd.corp-partner.google.com", "size": 19},
+        {"name": "compal.corp-partner.google.com", "size": 16},
+        {"name": "9elements.com", "size": 10},
+        {"name": "secunet.com", "size": 9},
+        {"name": "gmx.de", "size": 7},
+        {"name": "3mdeb.com", "size": 7},
+        {"name": "fb.com", "size": 6},
+        {"name": "codeaurora.org", "size": 6},
+        {"name": "ualberta.ca", "size": 5},
+        {"name": "bitland.corp-partner.google.com", "size": 5},
+        {"name": "aheymans.xyz", "size": 5},
+        {"name": "quanta.corp-partner.google.com", "size": 4},
+        {"name": "das-labor.org", "size": 4},
+        {"name": "siemens.com", "size": 3},
+        {"name": "molgen.mpg.de", "size": 3},
+        {"name": "intel.corp-partner.google.com", "size": 3},
+        {"name": "eltan.com", "size": 3},
+        {"name": "sylv.io", "size": 2},
+        {"name": "samsung.corp-partner.google.com", "size": 2},
+        {"name": "posteo.net", "size": 2},
+        {"name": "ott.net", "size": 2},
+        {"name": "wiwynn.com", "size": 1},
+        {"name": "tutanota.com", "size": 1},
+        {"name": "quantatw.com", "size": 1},
+        {"name": "mniewoehner.de", "size": 1},
+        {"name": "lcfc.corp-partner.google.com", "size": 1},
+        {"name": "kollasch.net", "size": 1},
+        {"name": "hotmail.com", "size": 1},
+        {"name": "hardenedlinux.org", "size": 1},
+        {"name": "ch1p.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot-zork",
+        "children": [
+        {"name": "chromium.org", "size": 110},
+        {"name": "google.com", "size": 75},
+        {"name": "amd.corp-partner.google.com", "size": 17},
+        {"name": "bitland.corp-partner.google.com", "size": 5},
+        {"name": "secunet.com", "size": 3},
+        {"name": "Pranay", "size": 3},
+        {"name": "quanta.corp-partner.google.com", "size": 2},
+        {"name": "gmail.com", "size": 2},
+        {"name": "amd.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/coreboot-zork/3rdparty/blobs",
+        "children": [
+        {"name": "chromium.org", "size": 6},
+        {"name": "google.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/cups",
+        "children": [
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/eclass-overlay",
+        "children": [
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/em100",
+        "children": [
+        {"name": "google.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Src/third_party/flashrom",
+        "children": [
+        {"name": "google.com", "size": 15},
+        {"name": "chromium.org", "size": 7},
+        {"name": "intel.com", "size": 1},
+        {"name": "gmx.net", "size": 1},
+        {"name": "bitland.corp-partner.google.com", "size": 1},
+        {"name": "alumni.tuwien.ac.at", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/fwupd",
+        "children": [
+        {"name": "hughsie.com", "size": 1},
+        {"name": "dell.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/hdctools",
+        "children": [
+        {"name": "chromium.org", "size": 38},
+        {"name": "google.com", "size": 2},
+        {"name": "samsung.corp-partner.google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/huddly-updater",
+        "children": [
+        {"name": "huddly.com", "size": 6}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.10",
+        "children": [
+        {"name": "chromium.org", "size": 2},
+        {"name": "gmail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.14",
+        "children": [
+        {"name": "chromium.org", "size": 2},
+        {"name": "google.com", "size": 1},
+        {"name": "gmail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.18",
+        "children": [
+        {"name": "chromium.org", "size": 12},
+        {"name": "google.com", "size": 5},
+        {"name": "redhat.com", "size": 2},
+        {"name": "linaro.org", "size": 2},
+        {"name": "roeck-us.net", "size": 1},
+        {"name": "mediatek.com", "size": 1},
+        {"name": "huawei.com", "size": 1},
+        {"name": "gmail.com", "size": 1},
+        {"name": "codecoup.pl", "size": 1},
+        {"name": "codeaurora.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v3.8",
+        "children": [
+        {"name": "gmail.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14",
+        "children": [
+        {"name": "gmail.com", "size": 58},
+        {"name": "chromium.org", "size": 27},
+        {"name": "redhat.com", "size": 26},
+        {"name": "intel.com", "size": 23},
+        {"name": "google.com", "size": 22},
+        {"name": "kernel.org", "size": 19},
+        {"name": "codeaurora.org", "size": 17},
+        {"name": "suse.de", "size": 14},
+        {"name": "oracle.com", "size": 14},
+        {"name": "huawei.com", "size": 12},
+        {"name": "ti.com", "size": 7},
+        {"name": "suse.cz", "size": 7},
+        {"name": "nxp.com", "size": 7},
+        {"name": "arm.com", "size": 7},
+        {"name": "samsung.com", "size": 6},
+        {"name": "ibm.com", "size": 6},
+        {"name": "toxicpanda.com", "size": 5},
+        {"name": "realtek.com", "size": 5},
+        {"name": "linuxfoundation.org", "size": 5},
+        {"name": "linux.alibaba.com", "size": 5},
+        {"name": "lca.pw", "size": 5},
+        {"name": "canonical.com", "size": 5},
+        {"name": "suse.com", "size": 4},
+        {"name": "qca.qualcomm.com", "size": 4},
+        {"name": "mellanox.com", "size": 4},
+        {"name": "pengutronix.de", "size": 3},
+        {"name": "microchip.com", "size": 3},
+        {"name": "linutronix.de", "size": 3},
+        {"name": "infradead.org", "size": 3},
+        {"name": "hammerspace.com", "size": 3},
+        {"name": "gorani.run", "size": 3},
+        {"name": "yandex-team.ru", "size": 2},
+        {"name": "vivo.com", "size": 2},
+        {"name": "ubuntu.com", "size": 2},
+        {"name": "synopsys.com", "size": 2},
+        {"name": "synaptics.com", "size": 2},
+        {"name": "sony.com", "size": 2},
+        {"name": "oss.nxp.com", "size": 2},
+        {"name": "netfilter.org", "size": 2},
+        {"name": "laas.fr", "size": 2},
+        {"name": "joshtriplett.org", "size": 2},
+        {"name": "hisilicon.com", "size": 2},
+        {"name": "gmx.net", "size": 2},
+        {"name": "embeddedor.com", "size": 2},
+        {"name": "ellerman.id.au", "size": 2},
+        {"name": "cn.fujitsu.com", "size": 2},
+        {"name": "broadcom.com", "size": 2},
+        {"name": "baylibre.com", "size": 2},
+        {"name": "axtens.net", "size": 2},
+        {"name": "amd.com", "size": 2},
+        {"name": "acm.org", "size": 2},
+        {"name": "zx2c4.com", "size": 1},
+        {"name": "xmission.com", "size": 1},
+        {"name": "vmware.com", "size": 1},
+        {"name": "virtuozzo.com", "size": 1},
+        {"name": "vdorst.com", "size": 1},
+        {"name": "tycho.ws", "size": 1},
+        {"name": "tuxera.com", "size": 1},
+        {"name": "triplefau.lt", "size": 1},
+        {"name": "timstallard.me.uk", "size": 1},
+        {"name": "tencent.com", "size": 1},
+        {"name": "strupe.net", "size": 1},
+        {"name": "st.com", "size": 1},
+        {"name": "solarflare.com", "size": 1},
+        {"name": "siol.net", "size": 1},
+        {"name": "secunet.com", "size": 1},
+        {"name": "roeck-us.net", "size": 1},
+        {"name": "rere.qmqm.pl", "size": 1},
+        {"name": "queasysnail.net", "size": 1},
+        {"name": "pp3345.net", "size": 1},
+        {"name": "plvision.eu", "size": 1},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "nokia.com", "size": 1},
+        {"name": "netbsd.org", "size": 1},
+        {"name": "megous.com", "size": 1},
+        {"name": "me.com", "size": 1},
+        {"name": "mattea.info", "size": 1},
+        {"name": "mansr.com", "size": 1},
+        {"name": "lwfinger.net", "size": 1},
+        {"name": "linux-foundation.org", "size": 1},
+        {"name": "linaro.org", "size": 1},
+        {"name": "lenovo.com", "size": 1},
+        {"name": "labau.com.tw", "size": 1},
+        {"name": "kernel.crashing.org", "size": 1},
+        {"name": "kaod.org", "size": 1},
+        {"name": "kaiser.cx", "size": 1},
+        {"name": "jp.fujitsu.com", "size": 1},
+        {"name": "iscas.ac.cn", "size": 1},
+        {"name": "inai.de", "size": 1},
+        {"name": "iki.fi", "size": 1},
+        {"name": "horus.com", "size": 1},
+        {"name": "hartkopp.net", "size": 1},
+        {"name": "green-communications.fr", "size": 1},
+        {"name": "googlemail.com", "size": 1},
+        {"name": "goodmis.org", "size": 1},
+        {"name": "glider.be", "size": 1},
+        {"name": "gerhold.net", "size": 1},
+        {"name": "gentoo.org", "size": 1},
+        {"name": "fb.com", "size": 1},
+        {"name": "esmil.dk", "size": 1},
+        {"name": "ens-lyon.org", "size": 1},
+        {"name": "denx.de", "size": 1},
+        {"name": "deltatee.com", "size": 1},
+        {"name": "cumulusnetworks.com", "size": 1},
+        {"name": "cs.washington.edu", "size": 1},
+        {"name": "criteo.com", "size": 1},
+        {"name": "crapouillou.net", "size": 1},
+        {"name": "codecoup.pl", "size": 1},
+        {"name": "cisco.com", "size": 1},
+        {"name": "chris-wilson.co.uk", "size": 1},
+        {"name": "chelsio.com", "size": 1},
+        {"name": "canb.auug.org.au", "size": 1},
+        {"name": "c-s.fr", "size": 1},
+        {"name": "bootlin.com", "size": 1},
+        {"name": "bitwise.fi", "size": 1},
+        {"name": "alum.mit.edu", "size": 1},
+        {"name": "6wind.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.14-gw",
+        "children": [
+        {"name": "google.com", "size": 6},
+        {"name": "codeaurora.org", "size": 2},
+        {"name": "axis.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19",
+        "children": [
+        {"name": "gmail.com", "size": 96},
+        {"name": "redhat.com", "size": 37},
+        {"name": "chromium.org", "size": 37},
+        {"name": "intel.com", "size": 36},
+        {"name": "google.com", "size": 30},
+        {"name": "kernel.org", "size": 19},
+        {"name": "suse.de", "size": 17},
+        {"name": "huawei.com", "size": 17},
+        {"name": "oracle.com", "size": 16},
+        {"name": "codeaurora.org", "size": 15},
+        {"name": "suse.com", "size": 13},
+        {"name": "ibm.com", "size": 11},
+        {"name": "suse.cz", "size": 10},
+        {"name": "mellanox.com", "size": 10},
+        {"name": "linuxfoundation.org", "size": 9},
+        {"name": "arm.com", "size": 9},
+        {"name": "ti.com", "size": 8},
+        {"name": "mediatek.com", "size": 8},
+        {"name": "virtuozzo.com", "size": 7},
+        {"name": "microsoft.com", "size": 7},
+        {"name": "toxicpanda.com", "size": 6},
+        {"name": "pengutronix.de", "size": 6},
+        {"name": "nxp.com", "size": 6},
+        {"name": "linaro.org", "size": 6},
+        {"name": "bitland.corp-partner.google.com", "size": 6},
+        {"name": "synopsys.com", "size": 5},
+        {"name": "sony.com", "size": 5},
+        {"name": "samsung.com", "size": 5},
+        {"name": "canonical.com", "size": 5},
+        {"name": "metafoo.de", "size": 4},
+        {"name": "linux.alibaba.com", "size": 4},
+        {"name": "lca.pw", "size": 4},
+        {"name": "fudan.edu.cn", "size": 4},
+        {"name": "broadcom.com", "size": 4},
+        {"name": "benyossef.com", "size": 4},
+        {"name": "amd.com", "size": 4},
+        {"name": "socionext.com", "size": 3},
+        {"name": "rowland.harvard.edu", "size": 3},
+        {"name": "nvidia.com", "size": 3},
+        {"name": "kontron.de", "size": 3},
+        {"name": "hammerspace.com", "size": 3},
+        {"name": "gorani.run", "size": 3},
+        {"name": "chelsio.com", "size": 3},
+        {"name": "yandex-team.ru", "size": 2},
+        {"name": "vivo.com", "size": 2},
+        {"name": "synaptics.com", "size": 2},
+        {"name": "queasysnail.net", "size": 2},
+        {"name": "oss.nxp.com", "size": 2},
+        {"name": "netfilter.org", "size": 2},
+        {"name": "megous.com", "size": 2},
+        {"name": "linutronix.de", "size": 2},
+        {"name": "kernel.wtf", "size": 2},
+        {"name": "joshtriplett.org", "size": 2},
+        {"name": "infradead.org", "size": 2},
+        {"name": "glider.be", "size": 2},
+        {"name": "fluxnic.net", "size": 2},
+        {"name": "fb.com", "size": 2},
+        {"name": "emc.com.tw", "size": 2},
+        {"name": "ellerman.id.au", "size": 2},
+        {"name": "cs.washington.edu", "size": 2},
+        {"name": "crapouillou.net", "size": 2},
+        {"name": "collabora.com", "size": 2},
+        {"name": "cn.fujitsu.com", "size": 2},
+        {"name": "cmpxchg.org", "size": 2},
+        {"name": "amazon.de", "size": 2},
+        {"name": "acm.org", "size": 2},
+        {"name": "zx2c4.com", "size": 1},
+        {"name": "xmission.com", "size": 1},
+        {"name": "xiaomi.com", "size": 1},
+        {"name": "wunner.de", "size": 1},
+        {"name": "walle.cc", "size": 1},
+        {"name": "vmware.com", "size": 1},
+        {"name": "vdorst.com", "size": 1},
+        {"name": "tycho.ws", "size": 1},
+        {"name": "tuxera.com", "size": 1},
+        {"name": "tsoy.me", "size": 1},
+        {"name": "triplefau.lt", "size": 1},
+        {"name": "timstallard.me.uk", "size": 1},
+        {"name": "synology.com", "size": 1},
+        {"name": "strupe.net", "size": 1},
+        {"name": "strlen.de", "size": 1},
+        {"name": "st.com", "size": 1},
+        {"name": "solarflare.com", "size": 1},
+        {"name": "secunet.com", "size": 1},
+        {"name": "roeck-us.net", "size": 1},
+        {"name": "renesas.com", "size": 1},
+        {"name": "realtek.com", "size": 1},
+        {"name": "purestorage.com", "size": 1},
+        {"name": "pp3345.net", "size": 1},
+        {"name": "plvision.eu", "size": 1},
+        {"name": "paul-moore.com", "size": 1},
+        {"name": "northeastern.edu", "size": 1},
+        {"name": "nokia.com", "size": 1},
+        {"name": "neverware.com", "size": 1},
+        {"name": "netbsd.org", "size": 1},
+        {"name": "microsemi.com", "size": 1},
+        {"name": "microchip.com", "size": 1},
+        {"name": "mev.co.uk", "size": 1},
+        {"name": "mess.org", "size": 1},
+        {"name": "me.com", "size": 1},
+        {"name": "mansr.com", "size": 1},
+        {"name": "mailoo.org", "size": 1},
+        {"name": "lwfinger.net", "size": 1},
+        {"name": "lenovo.com", "size": 1},
+        {"name": "lemote.com", "size": 1},
+        {"name": "laoqinren.net", "size": 1},
+        {"name": "konsulko.com", "size": 1},
+        {"name": "kernel.crashing.org", "size": 1},
+        {"name": "kaod.org", "size": 1},
+        {"name": "kaiser.cx", "size": 1},
+        {"name": "jp.fujitsu.com", "size": 1},
+        {"name": "jdcox.net", "size": 1},
+        {"name": "iscas.ac.cn", "size": 1},
+        {"name": "iogearbox.net", "size": 1},
+        {"name": "inai.de", "size": 1},
+        {"name": "iki.fi", "size": 1},
+        {"name": "horus.com", "size": 1},
+        {"name": "hisilicon.com", "size": 1},
+        {"name": "hartkopp.net", "size": 1},
+        {"name": "grimberg.me", "size": 1},
+        {"name": "green-communications.fr", "size": 1},
+        {"name": "googlemail.com", "size": 1},
+        {"name": "goodmis.org", "size": 1},
+        {"name": "gmx.net", "size": 1},
+        {"name": "gerhold.net", "size": 1},
+        {"name": "gentoo.org", "size": 1},
+        {"name": "flowbird.group", "size": 1},
+        {"name": "esmil.dk", "size": 1},
+        {"name": "engebretsen.ch", "size": 1},
+        {"name": "embeddedor.com", "size": 1},
+        {"name": "dh-electronics.com", "size": 1},
+        {"name": "denx.de", "size": 1},
+        {"name": "deltatee.com", "size": 1},
+        {"name": "daynix.com", "size": 1},
+        {"name": "criteo.com", "size": 1},
+        {"name": "cmss.chinamobile.com", "size": 1},
+        {"name": "cloud.ionos.com", "size": 1},
+        {"name": "cisco.com", "size": 1},
+        {"name": "chris-wilson.co.uk", "size": 1},
+        {"name": "cerno.tech", "size": 1},
+        {"name": "canb.auug.org.au", "size": 1},
+        {"name": "c-s.fr", "size": 1},
+        {"name": "bytedance.com", "size": 1},
+        {"name": "bootlin.com", "size": 1},
+        {"name": "bitwise.fi", "size": 1},
+        {"name": "baylibre.com", "size": 1},
+        {"name": "azazel.net", "size": 1},
+        {"name": "alum.mit.edu", "size": 1},
+        {"name": "allott.email", "size": 1},
+        {"name": "alliedtelesis.co.nz", "size": 1},
+        {"name": "6wind.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.19-ht",
+        "children": [
+        {"name": "gmail.com", "size": 44},
+        {"name": "chromium.org", "size": 22},
+        {"name": "intel.com", "size": 21},
+        {"name": "infradead.org", "size": 19},
+        {"name": "redhat.com", "size": 16},
+        {"name": "google.com", "size": 15},
+        {"name": "mellanox.com", "size": 9},
+        {"name": "kernel.org", "size": 9},
+        {"name": "joelfernandes.org", "size": 7},
+        {"name": "mediatek.com", "size": 6},
+        {"name": "linaro.org", "size": 6},
+        {"name": "ti.com", "size": 5},
+        {"name": "suse.cz", "size": 5},
+        {"name": "linuxfoundation.org", "size": 5},
+        {"name": "codeaurora.org", "size": 5},
+        {"name": "bitland.corp-partner.google.com", "size": 5},
+        {"name": "oracle.com", "size": 4},
+        {"name": "suse.com", "size": 3},
+        {"name": "pengutronix.de", "size": 3},
+        {"name": "nxp.com", "size": 3},
+        {"name": "linux.alibaba.com", "size": 3},
+        {"name": "broadcom.com", "size": 3},
+        {"name": "synopsys.com", "size": 2},
+        {"name": "synaptics.com", "size": 2},
+        {"name": "oss.nxp.com", "size": 2},
+        {"name": "nvidia.com", "size": 2},
+        {"name": "ibm.com", "size": 2},
+        {"name": "huawei.com", "size": 2},
+        {"name": "cmpxchg.org", "size": 2},
+        {"name": "zx2c4.com", "size": 1},
+        {"name": "virtuozzo.com", "size": 1},
+        {"name": "vdorst.com", "size": 1},
+        {"name": "tycho.ws", "size": 1},
+        {"name": "strlen.de", "size": 1},
+        {"name": "solarflare.com", "size": 1},
+        {"name": "socionext.com", "size": 1},
+        {"name": "secunet.com", "size": 1},
+        {"name": "roeck-us.net", "size": 1},
+        {"name": "purestorage.com", "size": 1},
+        {"name": "pp3345.net", "size": 1},
+        {"name": "netfilter.org", "size": 1},
+        {"name": "netbsd.org", "size": 1},
+        {"name": "mess.org", "size": 1},
+        {"name": "mansr.com", "size": 1},
+        {"name": "lwfinger.net", "size": 1},
+        {"name": "lca.pw", "size": 1},
+        {"name": "laoqinren.net", "size": 1},
+        {"name": "kernel.wtf", "size": 1},
+        {"name": "kaiser.cx", "size": 1},
+        {"name": "horus.com", "size": 1},
+        {"name": "hartkopp.net", "size": 1},
+        {"name": "green-communications.fr", "size": 1},
+        {"name": "gorani.run", "size": 1},
+        {"name": "gmx.net", "size": 1},
+        {"name": "gentoo.org", "size": 1},
+        {"name": "esmil.dk", "size": 1},
+        {"name": "denx.de", "size": 1},
+        {"name": "criteo.com", "size": 1},
+        {"name": "crapouillou.net", "size": 1},
+        {"name": "collabora.com", "size": 1},
+        {"name": "cmss.chinamobile.com", "size": 1},
+        {"name": "cisco.com", "size": 1},
+        {"name": "canonical.com", "size": 1},
+        {"name": "arm.com", "size": 1},
+        {"name": "amd.com", "size": 1},
+        {"name": "allott.email", "size": 1},
+        {"name": "6wind.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v4.4",
+        "children": [
+        {"name": "gmail.com", "size": 33},
+        {"name": "chromium.org", "size": 17},
+        {"name": "suse.de", "size": 16},
+        {"name": "google.com", "size": 16},
+        {"name": "kernel.org", "size": 12},
+        {"name": "redhat.com", "size": 10},
+        {"name": "intel.com", "size": 10},
+        {"name": "codeaurora.org", "size": 9},
+        {"name": "samsung.com", "size": 8},
+        {"name": "oracle.com", "size": 8},
+        {"name": "suse.cz", "size": 6},
+        {"name": "suse.com", "size": 5},
+        {"name": "huawei.com", "size": 5},
+        {"name": "canonical.com", "size": 5},
+        {"name": "alphalink.fr", "size": 5},
+        {"name": "nxp.com", "size": 4},
+        {"name": "linuxfoundation.org", "size": 4},
+        {"name": "infradead.org", "size": 4},
+        {"name": "ibm.com", "size": 4},
+        {"name": "mellanox.com", "size": 3},
+        {"name": "linux.alibaba.com", "size": 3},
+        {"name": "lca.pw", "size": 3},
+        {"name": "ubuntu.com", "size": 2},
+        {"name": "toxicpanda.com", "size": 2},
+        {"name": "linutronix.de", "size": 2},
+        {"name": "linaro.org", "size": 2},
+        {"name": "laas.fr", "size": 2},
+        {"name": "joshtriplett.org", "size": 2},
+        {"name": "gorani.run", "size": 2},
+        {"name": "gmx.de", "size": 2},
+        {"name": "embeddedor.com", "size": 2},
+        {"name": "cn.fujitsu.com", "size": 2},
+        {"name": "citrix.com", "size": 2},
+        {"name": "zx2c4.com", "size": 1},
+        {"name": "xmission.com", "size": 1},
+        {"name": "vivo.com", "size": 1},
+        {"name": "tuxera.com", "size": 1},
+        {"name": "triplefau.lt", "size": 1},
+        {"name": "timstallard.me.uk", "size": 1},
+        {"name": "ti.com", "size": 1},
+        {"name": "tencent.com", "size": 1},
+        {"name": "synopsys.com", "size": 1},
+        {"name": "synaptics.com", "size": 1},
+        {"name": "strupe.net", "size": 1},
+        {"name": "sony.com", "size": 1},
+        {"name": "solarflare.com", "size": 1},
+        {"name": "secunet.com", "size": 1},
+        {"name": "roeck-us.net", "size": 1},
+        {"name": "queasysnail.net", "size": 1},
+        {"name": "plvision.eu", "size": 1},
+        {"name": "nvidia.com", "size": 1},
+        {"name": "microchip.com", "size": 1},
+        {"name": "megous.com", "size": 1},
+        {"name": "me.com", "size": 1},
+        {"name": "mansr.com", "size": 1},
+        {"name": "lwfinger.net", "size": 1},
+        {"name": "linux-foundation.org", "size": 1},
+        {"name": "lenovo.com", "size": 1},
+        {"name": "labau.com.tw", "size": 1},
+        {"name": "jp.fujitsu.com", "size": 1},
+        {"name": "iscas.ac.cn", "size": 1},
+        {"name": "inai.de", "size": 1},
+        {"name": "ikuai8.com", "size": 1},
+        {"name": "iki.fi", "size": 1},
+        {"name": "horus.com", "size": 1},
+        {"name": "hartkopp.net", "size": 1},
+        {"name": "hammerspace.com", "size": 1},
+        {"name": "green-communications.fr", "size": 1},
+        {"name": "googlemail.com", "size": 1},
+        {"name": "gentoo.org", "size": 1},
+        {"name": "ens-lyon.org", "size": 1},
+        {"name": "emc.com.tw", "size": 1},
+        {"name": "ellerman.id.au", "size": 1},
+        {"name": "denx.de", "size": 1},
+        {"name": "dei.uc.pt", "size": 1},
+        {"name": "criteo.com", "size": 1},
+        {"name": "crapouillou.net", "size": 1},
+        {"name": "codecoup.pl", "size": 1},
+        {"name": "cisco.com", "size": 1},
+        {"name": "canb.auug.org.au", "size": 1},
+        {"name": "baylibre.com", "size": 1},
+        {"name": "axtens.net", "size": 1},
+        {"name": "arm.com", "size": 1},
+        {"name": "amazon.com", "size": 1},
+        {"name": "alum.mit.edu", "size": 1},
+        {"name": "6wind.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/kernel/v5.4",
+        "children": [
+        {"name": "intel.com", "size": 353},
+        {"name": "gmail.com", "size": 135},
+        {"name": "chromium.org", "size": 107},
+        {"name": "renesas.com", "size": 97},
+        {"name": "redhat.com", "size": 66},
+        {"name": "linaro.org", "size": 58},
+        {"name": "arm.com", "size": 55},
+        {"name": "amd.com", "size": 49},
+        {"name": "codeaurora.org", "size": 44},
+        {"name": "google.com", "size": 43},
+        {"name": "mellanox.com", "size": 32},
+        {"name": "kernel.org", "size": 28},
+        {"name": "huawei.com", "size": 25},
+        {"name": "suse.de", "size": 24},
+        {"name": "linutronix.de", "size": 21},
+        {"name": "oracle.com", "size": 19},
+        {"name": "ibm.com", "size": 18},
+        {"name": "canonical.com", "size": 18},
+        {"name": "baylibre.com", "size": 18},
+        {"name": "nxp.com", "size": 17},
+        {"name": "suse.com", "size": 16},
+        {"name": "ti.com", "size": 15},
+        {"name": "mediatek.com", "size": 12},
+        {"name": "linuxfoundation.org", "size": 11},
+        {"name": "toxicpanda.com", "size": 9},
+        {"name": "microsoft.com", "size": 9},
+        {"name": "suse.cz", "size": 8},
+        {"name": "nvidia.com", "size": 8},
+        {"name": "linux.alibaba.com", "size": 8},
+        {"name": "kalray.eu", "size": 8},
+        {"name": "c-s.fr", "size": 8},
+        {"name": "broadcom.com", "size": 8},
+        {"name": "xilinx.com", "size": 7},
+        {"name": "virtuozzo.com", "size": 7},
+        {"name": "samsung.com", "size": 7},
+        {"name": "st.com", "size": 6},
+        {"name": "realtek.com", "size": 6},
+        {"name": "pengutronix.de", "size": 6},
+        {"name": "lca.pw", "size": 6},
+        {"name": "infradead.org", "size": 6},
+        {"name": "collabora.com", "size": 6},
+        {"name": "chelsio.com", "size": 6},
+        {"name": "synopsys.com", "size": 5},
+        {"name": "sony.com", "size": 5},
+        {"name": "hammerspace.com", "size": 5},
+        {"name": "fb.com", "size": 5},
+        {"name": "rowland.harvard.edu", "size": 4},
+        {"name": "netfilter.org", "size": 4},
+        {"name": "microchip.com", "size": 4},
+        {"name": "metafoo.de", "size": 4},
+        {"name": "fudan.edu.cn", "size": 4},
+        {"name": "arrikto.com", "size": 4},
+        {"name": "vdorst.com", "size": 3},
+        {"name": "sholland.org", "size": 3},
+        {"name": "roeck-us.net", "size": 3},
+        {"name": "microsemi.com", "size": 3},
+        {"name": "megous.com", "size": 3},
+        {"name": "lemote.com", "size": 3},
+        {"name": "kontron.de", "size": 3},
+        {"name": "iogearbox.net", "size": 3},
+        {"name": "grimberg.me", "size": 3},
+        {"name": "gorani.run", "size": 3},
+        {"name": "gmx.net", "size": 3},
+        {"name": "ellerman.id.au", "size": 3},
+        {"name": "cs.washington.edu", "size": 3},
+        {"name": "crapouillou.net", "size": 3},
+        {"name": "benyossef.com", "size": 3},
+        {"name": "acm.org", "size": 3},
+        {"name": "yandex-team.ru", "size": 2},
+        {"name": "xmission.com", "size": 2},
+        {"name": "vmware.com", "size": 2},
+        {"name": "vivo.com", "size": 2},
+        {"name": "topcon.com", "size": 2},
+        {"name": "synaptics.com", "size": 2},
+        {"name": "strlen.de", "size": 2},
+        {"name": "socionext.com", "size": 2},
+        {"name": "siol.net", "size": 2},
+        {"name": "queasysnail.net", "size": 2},
+        {"name": "oss.nxp.com", "size": 2},
+        {"name": "lwfinger.net", "size": 2},
+        {"name": "kernel.dk", "size": 2},
+        {"name": "kaod.org", "size": 2},
+        {"name": "joshtriplett.org", "size": 2},
+        {"name": "ideasonboard.com", "size": 2},
+        {"name": "glider.be", "size": 2},
+        {"name": "gerhold.net", "size": 2},
+        {"name": "fluxnic.net", "size": 2},
+        {"name": "cn.fujitsu.com", "size": 2},
+        {"name": "chris-wilson.co.uk", "size": 2},
+        {"name": "cerno.tech", "size": 2},
+        {"name": "bootlin.com", "size": 2},
+        {"name": "atomide.com", "size": 2},
+        {"name": "arndb.de", "size": 2},
+        {"name": "alliedtelesis.co.nz", "size": 2},
+        {"name": "zx2c4.com", "size": 1},
+        {"name": "xiaomi.com", "size": 1},
+        {"name": "wunner.de", "size": 1},
+        {"name": "web.de", "size": 1},
+        {"name": "wdc.com", "size": 1},
+        {"name": "walle.cc", "size": 1},
+        {"name": "users.sourceforge.net", "size": 1},
+        {"name": "umn.edu", "size": 1},
+        {"name": "tycho.ws", "size": 1},
+        {"name": "tuxera.com", "size": 1},
+        {"name": "tsoy.me", "size": 1},
+        {"name": "triplefau.lt", "size": 1},
+        {"name": "toradex.com", "size": 1},
+        {"name": "timstallard.me.uk", "size": 1},
+        {"name": "synology.com", "size": 1},
+        {"name": "strupe.net", "size": 1},
+        {"name": "sord.co.jp", "size": 1},
+        {"name": "solarflare.com", "size": 1},
+        {"name": "secunet.com", "size": 1},
+        {"name": "ravnborg.org", "size": 1},
+        {"name": "purestorage.com", "size": 1},
+        {"name": "pp3345.net", "size": 1},
+        {"name": "plvision.eu", "size": 1},
+        {"name": "paul-moore.com", "size": 1},
+        {"name": "ozlabs.ru", "size": 1},
+        {"name": "outlook.com.au", "size": 1},
+        {"name": "outlook.com", "size": 1},
+        {"name": "northeastern.edu", "size": 1},
+        {"name": "nokia.com", "size": 1},
+        {"name": "neverware.com", "size": 1},
+        {"name": "netbsd.org", "size": 1},
+        {"name": "mev.co.uk", "size": 1},
+        {"name": "me.com", "size": 1},
+        {"name": "marvell.com", "size": 1},
+        {"name": "mansr.com", "size": 1},
+        {"name": "mailoo.org", "size": 1},
+        {"name": "linux.com", "size": 1},
+        {"name": "lenovo.com", "size": 1},
+        {"name": "konsulko.com", "size": 1},
+        {"name": "klausen.dk", "size": 1},
+        {"name": "kerneltoast.com", "size": 1},
+        {"name": "kaiser.cx", "size": 1},
+        {"name": "jp.fujitsu.com", "size": 1},
+        {"name": "jmondi.org", "size": 1},
+        {"name": "jibi.io", "size": 1},
+        {"name": "jdcox.net", "size": 1},
+        {"name": "iscas.ac.cn", "size": 1},
+        {"name": "inria.fr", "size": 1},
+        {"name": "inai.de", "size": 1},
+        {"name": "iki.fi", "size": 1},
+        {"name": "horus.com", "size": 1},
+        {"name": "hisilicon.com", "size": 1},
+        {"name": "hartkopp.net", "size": 1},
+        {"name": "green-communications.fr", "size": 1},
+        {"name": "googlemail.com", "size": 1},
+        {"name": "goodmis.org", "size": 1},
+        {"name": "gentoo.org", "size": 1},
+        {"name": "frantovo.cz", "size": 1},
+        {"name": "fossix.org", "size": 1},
+        {"name": "flygoat.com", "size": 1},
+        {"name": "flowbird.group", "size": 1},
+        {"name": "ffwll.ch", "size": 1},
+        {"name": "esmil.dk", "size": 1},
+        {"name": "engebretsen.ch", "size": 1},
+        {"name": "emc.com.tw", "size": 1},
+        {"name": "embeddedor.com", "size": 1},
+        {"name": "draconx.ca", "size": 1},
+        {"name": "dh-electronics.com", "size": 1},
+        {"name": "denx.de", "size": 1},
+        {"name": "deltatee.com", "size": 1},
+        {"name": "daynix.com", "size": 1},
+        {"name": "datto.com", "size": 1},
+        {"name": "csie.org", "size": 1},
+        {"name": "criteo.com", "size": 1},
+        {"name": "cmss.chinamobile.com", "size": 1},
+        {"name": "cloud.ionos.com", "size": 1},
+        {"name": "cjr.nz", "size": 1},
+        {"name": "canb.auug.org.au", "size": 1},
+        {"name": "bytedance.com", "size": 1},
+        {"name": "bitwise.fi", "size": 1},
+        {"name": "baidu.com", "size": 1},
+        {"name": "bacher09.org", "size": 1},
+        {"name": "axtens.net", "size": 1},
+        {"name": "aurel32.net", "size": 1},
+        {"name": "alum.mit.edu", "size": 1},
+        {"name": "allott.email", "size": 1},
+        {"name": "allegrodvt.com", "size": 1},
+        {"name": "akkea.ca", "size": 1},
+        {"name": "aisec.fraunhofer.de", "size": 1},
+        {"name": "6wind.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/libapps",
+        "children": [
+        {"name": "chromium.org", "size": 148},
+        {"name": "google.com", "size": 16}
+        ]
+    },
+    {
+        "name": "Src/third_party/libcamera",
+        "children": [
+        {"name": "ideasonboard.com", "size": 63},
+        {"name": "jmondi.org", "size": 9},
+        {"name": "ragnatech.se", "size": 7},
+        {"name": "raspberrypi.com", "size": 6},
+        {"name": "uajain.com", "size": 1},
+        {"name": "es.iitr.ac.in", "size": 1},
+        {"name": "collabora.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/libmbim",
+        "children": [
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/libqmi",
+        "children": [
+        {"name": "aleksander.es", "size": 16},
+        {"name": "uros.com", "size": 1},
+        {"name": "fe80.eu", "size": 1},
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/libtextclassifier",
+        "children": [
+        {"name": "chromium.org", "size": 2},
+        {"name": "google.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/linux-firmware",
+        "children": [
+        {"name": "intel.com", "size": 3},
+        {"name": "codeaurora.org", "size": 3},
+        {"name": "chromium.org", "size": 3},
+        {"name": "realtek.com", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa",
+        "children": [
+        {"name": "collabora.com", "size": 383},
+        {"name": "gmail.com", "size": 244},
+        {"name": "jlekstrand.net", "size": 98},
+        {"name": "intel.com", "size": 87},
+        {"name": "schuermann.dev", "size": 65},
+        {"name": "chromium.org", "size": 57},
+        {"name": "redhat.com", "size": 56},
+        {"name": "amd.com", "size": 56},
+        {"name": "marek.ca", "size": 45},
+        {"name": "anholt.net", "size": 43},
+        {"name": "igalia.com", "size": 26},
+        {"name": "pnwbakers.com", "size": 23},
+        {"name": "itsqueeze.com", "size": 20},
+        {"name": "alum.mit.edu", "size": 18},
+        {"name": "riseup.net", "size": 16},
+        {"name": "basnieuwenhuizen.nl", "size": 16},
+        {"name": "brkho.com", "size": 15},
+        {"name": "engestrom.ch", "size": 13},
+        {"name": "google.com", "size": 10},
+        {"name": "whitecape.org", "size": 7},
+        {"name": "vmware.com", "size": 7},
+        {"name": "globallogic.com", "size": 7},
+        {"name": "freedesktop.org", "size": 3},
+        {"name": "swizzler.org", "size": 2},
+        {"name": "keemail.me", "size": 2},
+        {"name": "froggi.es", "size": 2},
+        {"name": "yahoo.com", "size": 1},
+        {"name": "unrelenting.technology", "size": 1},
+        {"name": "sardemff7.net", "size": 1},
+        {"name": "nure.ua", "size": 1},
+        {"name": "microsoft.com", "size": 1},
+        {"name": "math.uni-bielefeld.de", "size": 1},
+        {"name": "kde.org", "size": 1},
+        {"name": "emersion.fr", "size": 1},
+        {"name": "dronecode.org.uk", "size": 1},
+        {"name": "denx.de", "size": 1},
+        {"name": "canonical.com", "size": 1},
+        {"name": "bl4ckb0ne.ca", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/mesa-freedreno",
+        "children": [
+        {"name": "collabora.com", "size": 383},
+        {"name": "gmail.com", "size": 244},
+        {"name": "jlekstrand.net", "size": 98},
+        {"name": "intel.com", "size": 87},
+        {"name": "schuermann.dev", "size": 65},
+        {"name": "chromium.org", "size": 57},
+        {"name": "redhat.com", "size": 56},
+        {"name": "amd.com", "size": 56},
+        {"name": "marek.ca", "size": 45},
+        {"name": "anholt.net", "size": 43},
+        {"name": "igalia.com", "size": 26},
+        {"name": "pnwbakers.com", "size": 23},
+        {"name": "itsqueeze.com", "size": 20},
+        {"name": "alum.mit.edu", "size": 18},
+        {"name": "riseup.net", "size": 16},
+        {"name": "basnieuwenhuizen.nl", "size": 16},
+        {"name": "brkho.com", "size": 15},
+        {"name": "engestrom.ch", "size": 13},
+        {"name": "google.com", "size": 10},
+        {"name": "whitecape.org", "size": 7},
+        {"name": "vmware.com", "size": 7},
+        {"name": "globallogic.com", "size": 7},
+        {"name": "freedesktop.org", "size": 3},
+        {"name": "swizzler.org", "size": 2},
+        {"name": "keemail.me", "size": 2},
+        {"name": "froggi.es", "size": 2},
+        {"name": "yahoo.com", "size": 1},
+        {"name": "unrelenting.technology", "size": 1},
+        {"name": "sardemff7.net", "size": 1},
+        {"name": "nure.ua", "size": 1},
+        {"name": "microsoft.com", "size": 1},
+        {"name": "math.uni-bielefeld.de", "size": 1},
+        {"name": "kde.org", "size": 1},
+        {"name": "emersion.fr", "size": 1},
+        {"name": "dronecode.org.uk", "size": 1},
+        {"name": "denx.de", "size": 1},
+        {"name": "canonical.com", "size": 1},
+        {"name": "bl4ckb0ne.ca", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/poly-updater",
+        "children": [
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/portage-stable",
+        "children": [
+        {"name": "google.com", "size": 11},
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/toolchain-utils",
+        "children": [
+        {"name": "google.com", "size": 37}
+        ]
+    },
+    {
+        "name": "Src/third_party/tpm2",
+        "children": [
+        {"name": "chromium.org", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/virglrenderer",
+        "children": [
+        {"name": "gmail.com", "size": 35},
+        {"name": "google.com", "size": 3},
+        {"name": "collabora.com", "size": 3},
+        {"name": "chromium.org", "size": 2}
+        ]
+    },
+    {
+        "name": "Src/third_party/virtual-usb-printer",
+        "children": [
+        {"name": "chromium.org", "size": 13}
+        ]
+    },
+    {
+        "name": "Src/third_party/wpa_supplicant-2.8",
+        "children": [
+        {"name": "chromium.org", "size": 2},
+        {"name": "w1.fi", "size": 1}
+        ]
+    },
+    {
+        "name": "Src/third_party/xfstests",
+        "children": [
+        {"name": "suse.com", "size": 6},
+        {"name": "sandeen.net", "size": 5},
+        {"name": "redhat.com", "size": 3},
+        {"name": "google.com", "size": 2},
+        {"name": "gmail.com", "size": 2},
+        {"name": "tuxera.com", "size": 1},
+        {"name": "cn.fujitsu.com", "size": 1}
+        ]
+    }
+ ]
+}

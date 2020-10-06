@@ -1,0 +1,69 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 4980},
+        {"name": "opera.com", "size": 163},
+        {"name": "google.com", "size": 154},
+        {"name": "intel.com", "size": 39},
+        {"name": "samsung.com", "size": 35},
+        {"name": "gmail.com", "size": 35},
+        {"name": "yandex-team.ru", "size": 19},
+        {"name": "martijnc.be", "size": 13},
+        {"name": "nvidia.com", "size": 11},
+        {"name": "yoav.ws", "size": 10},
+        {"name": "igalia.com", "size": 9},
+        {"name": "ngg.hu", "size": 7},
+        {"name": "robwu.nl", "size": 5},
+        {"name": "amazon.com", "size": 4},
+        {"name": "googlemail.com", "size": 2},
+        {"name": "xiaomi.com", "size": 1},
+        {"name": "linaro.org", "size": 1},
+        {"name": "imgtec.com", "size": 1},
+        {"name": "foxitsoftware.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 361},
+        {"name": "chromium.org", "size": 152},
+        {"name": "nvidia.com", "size": 21},
+        {"name": "skia.org", "size": 5}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 591},
+        {"name": "us.ibm.com", "size": 39},
+        {"name": "intel.com", "size": 32},
+        {"name": "imgtec.com", "size": 22},
+        {"name": "arm.com", "size": 11},
+        {"name": "gmail.com", "size": 7},
+        {"name": "google.com", "size": 5},
+        {"name": "strongloop.com", "size": 2},
+        {"name": "ca.ibm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "chromium.org", "size": 47},
+        {"name": "intel.com", "size": 25},
+        {"name": "alum.mit.edu", "size": 24},
+        {"name": "gmail.com", "size": 3},
+        {"name": "nvidia.com", "size": 2},
+        {"name": "hotmail.ca", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "", "size": 1}
+        ]
+    }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 70813},
+        {"name": "google.com", "size": 11422},
+        {"name": "igalia.com", "size": 3789},
+        {"name": "microsoft.com", "size": 1563},
+        {"name": "opera.com", "size": 555},
+        {"name": "intel.com", "size": 545},
+        {"name": "gmail.com", "size": 328},
+        {"name": "samsung.com", "size": 173},
+        {"name": "tambre.ee", "size": 158},
+        {"name": "yandex-team.ru", "size": 85},
+        {"name": "mwiacek.com", "size": 83},
+        {"name": "lge.com", "size": 83},
+        {"name": "navercorp.com", "size": 52},
+        {"name": "arm.com", "size": 52},
+        {"name": "vewd.com", "size": 34},
+        {"name": "fb.com", "size": 32},
+        {"name": "yannic-bonenberger.com", "size": 31},
+        {"name": "sogou-inc.com", "size": 30},
+        {"name": "googlemail.com", "size": 22},
+        {"name": "xiaomi.com", "size": 20},
+        {"name": "amazon.com", "size": 14},
+        {"name": "qt.io", "size": 13},
+        {"name": "vivaldi.com", "size": 11},
+        {"name": "logitech.com", "size": 6},
+        {"name": "inf.u-szeged.hu", "size": 6},
+        {"name": "collabora.com", "size": 6},
+        {"name": "soundtrap.com", "size": 4},
+        {"name": "oliverdunk.com", "size": 4},
+        {"name": "brave.com", "size": 4},
+        {"name": "pengutronix.de", "size": 3},
+        {"name": "mozilla.com", "size": 3},
+        {"name": "cloudmosa.com", "size": 3},
+        {"name": "amd.com", "size": 3}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 4448},
+        {"name": "chromium.org", "size": 497},
+        {"name": "gmail.com", "size": 13},
+        {"name": "mainframe.co.uk", "size": 3},
+        {"name": "opera.com", "size": 2},
+        {"name": "mozilla.com", "size": 2},
+        {"name": "hexoasis.com", "size": 2},
+        {"name": "bitworking.org", "size": 2},
+        {"name": "adobe.com", "size": 2},
+        {"name": "tambre.ee", "size": 1},
+        {"name": "skia.org", "size": 1},
+        {"name": "navercorp.com", "size": 1},
+        {"name": "intel.com", "size": 1},
+        {"name": "arm.com", "size": 1},
+        {"name": "android.com", "size": 1}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 5547},
+        {"name": "microsoft.com", "size": 282},
+        {"name": "google.com", "size": 249},
+        {"name": "ca.ibm.com", "size": 201},
+        {"name": "gmail.com", "size": 168},
+        {"name": "arm.com", "size": 69},
+        {"name": "igalia.com", "size": 55},
+        {"name": "intel.com", "size": 27},
+        {"name": "loongson.cn", "size": 24},
+        {"name": "addaleax.net", "size": 17},
+        {"name": "ibm.com", "size": 16},
+        {"name": "fb.com", "size": 16},
+        {"name": "gus.host", "size": 14},
+        {"name": "opera.com", "size": 10},
+        {"name": "samsung.com", "size": 8},
+        {"name": "mips.com", "size": 7},
+        {"name": "qiwi.be", "size": 4},
+        {"name": "netflix.com", "size": 4},
+        {"name": "mmarchini.me", "size": 3}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "gmail.com", "size": 64},
+        {"name": "mozilla.com", "size": 18},
+        {"name": "google.com", "size": 17},
+        {"name": "alum.mit.edu", "size": 17},
+        {"name": "intel.com", "size": 11},
+        {"name": "chromium.org", "size": 11},
+        {"name": "users.noreply.github.com", "size": 7},
+        {"name": "outlook.com", "size": 5},
+        {"name": "microsoft.com", "size": 4},
+        {"name": "greggman.com", "size": 3},
+        {"name": "apple.com", "size": 3},
+        {"name": "grorg.org", "size": 2}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 466},
+        {"name": "intel.com", "size": 227},
+        {"name": "microsoft.com", "size": 37},
+        {"name": "google.com", "size": 34},
+        {"name": "gmail.com", "size": 16},
+        {"name": "tambre.ee", "size": 5},
+        {"name": "opera.com", "size": 2}
+        ]
+    }
+ ]
+}

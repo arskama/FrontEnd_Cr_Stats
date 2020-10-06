@@ -1,0 +1,1088 @@
+ChromeOS project contributions from 01/July/2020 to 31/July/2020
+
+Overall
+Contributor,July 2020
+chromium.org,2513
+google.com,1781
+gmail.com,1020
+intel.com,489
+redhat.com,377
+collabora.com,321
+codeaurora.org,162
+amd.com,119
+kernel.org,115
+jlekstrand.net,104
+
+Project: chromite
+Contributor,July 2020
+chromium.org,51
+google.com,29
+
+Project: chromite/infra/proto
+Contributor,July 2020
+chromium.org,15
+google.com,7
+
+Project: docs
+Contributor,July 2020
+chromium.org,17
+google.com,9
+neverware.com,1
+
+Project: infra/go
+Contributor,July 2020
+google.com,3
+chromium.org,2
+
+Project: infra/lucifer
+Contributor,July 2020
+chromium.org,1
+
+Project: infra/recipes
+Contributor,July 2020
+chromium.org,70
+google.com,14
+
+Project: infra/suite_scheduler
+Contributor,July 2020
+google.com,22
+chromium.org,22
+
+Project: infra/tnull
+Contributor,July 2020
+google.com,9
+
+Project: infra_virtualenv
+Contributor,July 2020
+chromium.org,3
+
+Project: manifest
+Contributor,July 2020
+google.com,1
+
+Project: src/aosp/external/libchrome
+Contributor,July 2020
+chromium.org,2
+google.com,1
+
+Project: src/aosp/external/minijail
+Contributor,July 2020
+google.com,5
+
+Project: src/aosp/external/puffin
+Contributor,July 2020
+google.com,1
+
+Project: src/aosp/frameworks/ml
+Contributor,July 2020
+google.com,17
+chromium.org,2
+
+Project: src/aosp/hardware/interfaces/neuralnetworks
+Contributor,July 2020
+google.com,195
+
+Project: src/aosp/system/update_engine
+Contributor,July 2020
+chromium.org,2
+
+Project: src/chromium/src/buildtools
+Contributor,July 2020
+google.com,3
+chromium.org,3
+
+Project: src/config
+Contributor,July 2020
+chromium.org,30
+google.com,13
+intel.com,1
+
+Project: src/overlays
+Contributor,July 2020
+chromium.org,43
+google.com,35
+intel.com,11
+bitland.corp-partner.google.com,11
+quanta.corp-partner.google.com,9
+amd.com,3
+compal.corp-partner.google.com,2
+samsung.corp-partner.google.com,1
+
+Project: src/platform/bisect-kit
+Contributor,July 2020
+chromium.org,6
+
+Project: src/platform/bmpblk
+Contributor,July 2020
+google.com,7
+chromium.org,6
+
+Project: src/platform/cfm-device-monitor
+Contributor,July 2020
+chromium.org,2
+
+Project: src/platform/chameleon
+Contributor,July 2020
+chromium.org,8
+google.com,5
+
+Project: src/platform/container-guest-tools
+Contributor,July 2020
+google.com,2
+chromium.org,1
+
+Project: src/platform/cr50
+Contributor,July 2020
+chromium.org,21
+google.com,5
+
+Project: src/platform/crostestutils
+Contributor,July 2020
+chromium.org,2
+
+Project: src/platform/crosvm
+Contributor,July 2020
+chromium.org,46
+google.com,36
+
+Project: src/platform/depthcharge
+Contributor,July 2020
+chromium.org,42
+google.com,7
+intel.com,1
+compal.corp-partner.google.com,1
+
+Project: src/platform/dev
+Contributor,July 2020
+chromium.org,37
+google.com,25
+
+Project: src/platform/ec
+Contributor,July 2020
+chromium.org,143
+google.com,79
+quantatw.com,23
+quanta.corp-partner.google.com,23
+bitland.corp-partner.google.com,17
+intel.com,14
+pegatron.corp-partner.google.com,11
+ite.com.tw,6
+compal.corp-partner.google.com,3
+compal.com,2
+semihalf.com,1
+nuvoton.com,1
+lcfc.corp-partner.google.com,1
+ite.corp-partner.google.com,1
+intel.corp-partner.google.com,1
+huaqin.corp-partner.google.com,1
+
+Project: src/platform/factory
+Contributor,July 2020
+google.com,59
+chromium.org,22
+
+Project: src/platform/factory_installer
+Contributor,July 2020
+google.com,2
+
+Project: src/platform/gestures
+Contributor,July 2020
+chromium.org,5
+google.com,1
+
+Project: src/platform/graphics
+Contributor,July 2020
+chromium.org,14
+
+Project: src/platform/initramfs
+Contributor,July 2020
+google.com,6
+
+Project: src/platform/minigbm
+Contributor,July 2020
+google.com,5
+chromium.org,4
+bbc.co.uk,1
+amd.corp-partner.google.com,1
+
+Project: src/platform/moblab
+Contributor,July 2020
+chromium.org,33
+google.com,3
+
+Project: src/platform/mosys
+Contributor,July 2020
+chromium.org,7
+quanta.corp-partner.google.com,2
+google.com,2
+compal.corp-partner.google.com,1
+
+Project: src/platform/mttools
+Contributor,July 2020
+chromium.org,1
+
+Project: src/platform/tast
+Contributor,July 2020
+chromium.org,33
+google.com,10
+
+Project: src/platform/tast-tests
+Contributor,July 2020
+google.com,184
+chromium.org,124
+mediatek.com,1
+intel.corp-partner.google.com,1
+
+Project: src/platform/tast-tests/src/chromiumos/tast/remote/firmware/data/fw-testing-configs
+Contributor,July 2020
+chromium.org,5
+google.com,3
+intel.com,1
+
+Project: src/platform/touchpad-tests
+Contributor,July 2020
+chromium.org,2
+
+Project: src/platform/tremplin
+Contributor,July 2020
+google.com,6
+chromium.org,1
+
+Project: src/platform/vboot_reference
+Contributor,July 2020
+chromium.org,13
+google.com,5
+gmail.com,1
+
+Project: src/platform/xorg-conf
+Contributor,July 2020
+chromium.org,1
+
+Project: src/platform/zephyr-chrome
+Contributor,July 2020
+chromium.org,1
+
+Project: src/platform2
+Contributor,July 2020
+chromium.org,287
+google.com,177
+neverware.com,3
+intel.com,3
+mediatek.com,1
+gmail.com,1
+
+Project: src/repohooks
+Contributor,July 2020
+chromium.org,2
+
+Project: src/scripts
+Contributor,July 2020
+chromium.org,8
+google.com,1
+
+Project: src/third_party/adhd
+Contributor,July 2020
+chromium.org,21
+google.com,7
+
+Project: src/third_party/apitrace
+Contributor,July 2020
+google.com,1
+
+Project: src/third_party/autotest/files
+Contributor,July 2020
+chromium.org,131
+google.com,127
+intel.com,2
+semihalf.com,1
+intel.corp-partner.google.com,1
+
+Project: src/third_party/autotest/files/server/cros/faft/fw-testing-configs
+Contributor,July 2020
+chromium.org,5
+google.com,3
+intel.com,1
+
+Project: src/third_party/aver-updater
+Contributor,July 2020
+chromium.org,1
+
+Project: src/third_party/bluez/next
+Contributor,July 2020
+chromium.org,35
+intel.com,13
+google.com,3
+holtmann.org,1
+
+Project: src/third_party/bluez/upstream
+Contributor,July 2020
+intel.com,30
+chromium.org,18
+omprussia.ru,1
+heine.so,1
+gmail.com,1
+
+Project: src/third_party/chromiumos-overlay
+Contributor,July 2020
+chromium.org,151
+google.com,99
+intel.com,7
+quanta.corp-partner.google.com,4
+neverware.com,4
+semihalf.com,1
+samsung.com,1
+huaqin.corp-partner.google.com,1
+elan.corp-partner.google.com,1
+compal.corp-partner.google.com,1
+
+Project: src/third_party/coreboot
+Contributor,July 2020
+gmail.com,311
+google.com,126
+chromium.org,96
+intel.com,58
+noos.fr,53
+coreboot.org,24
+felixheld.de,21
+wiwynn.com,18
+quantatw.com,14
+quanta.corp-partner.google.com,12
+fb.com,10
+9elements.com,10
+semihalf.com,9
+posteo.net,8
+molgen.mpg.de,7
+compal.corp-partner.google.com,7
+das-labor.org,6
+bitland.corp-partner.google.com,6
+amd.corp-partner.google.com,5
+wistron.corp-partner.google.com,4
+secunet.com,4
+mniewoehner.de,4
+pegatron.corp-partner.google.com,3
+walle.cc,2
+system76.com,2
+sin9yt.net,2
+gmx.de,2
+siemens.com,1
+samsung.corp-partner.google.com,1
+puri.sm,1
+huaqin.corp-partner.google.com,1
+codeaurora.org,1
+ch1p.com,1
+amd-corp-partner.google.com,1
+amd.com,1
+aheymans.xyz,1
+3mdeb.com,1
+
+Project: src/third_party/coreboot-zork
+Contributor,July 2020
+quantatw.com,1
+amd.corp-partner.google.com,1
+
+Project: src/third_party/cups
+Contributor,July 2020
+chromium.org,4
+
+Project: src/third_party/eclass-overlay
+Contributor,July 2020
+chromium.org,3
+google.com,2
+siliconmotions.corp-partner.google.com,1
+
+Project: src/third_party/flashrom
+Contributor,July 2020
+google.com,59
+chromium.org,18
+quanta.corp-partner.google.com,2
+mkarcher.dialup.fu-berlin.de,1
+gmx.de,1
+gmail.com,1
+
+Project: src/third_party/fwupd
+Contributor,July 2020
+chromium.org,8
+
+Project: src/third_party/hdctools
+Contributor,July 2020
+chromium.org,5
+
+Project: src/third_party/huddly-updater
+Contributor,July 2020
+chromium.org,2
+
+Project: src/third_party/intel-wifi-fw-dump
+Contributor,July 2020
+chromium.org,1
+
+Project: src/third_party/kernel/upstream
+Contributor,July 2020
+chromium.org,397
+intel.com,126
+google.com,89
+linux-foundation.org,70
+semihalf.com,68
+codeaurora.org,41
+redhat.com,40
+kernel.org,31
+gmail.com,26
+linaro.org,21
+huawei.com,17
+collabora.com,17
+lst.de,15
+mellanox.com,14
+amd.com,12
+ibm.com,11
+davemloft.net,11
+realtek.com,9
+microchip.com,9
+infradead.org,9
+mediatek.com,7
+oracle.com,6
+darkrain42.org,6
+suse.com,5
+sifive.com,5
+chris-wilson.co.uk,4
+arm.com,4
+android.com,4
+wdc.com,3
+sang-engineering.com,3
+rock-chips.com,3
+microsoft.com,3
+marvell.com,3
+kernel.dk,3
+intel.corp-partner.google.com,3
+holtmann.org,3
+endlessm.com,3
+displaylink.com,3
+toxicpanda.com,2
+suse.de,2
+nvidia.com,2
+maximintegrated.com,2
+ite.com.tw,2
+imagination.corp-partner.google.com,2
+fb.com,2
+canonical.com,2
+alliedtelesis.co.nz,2
+waldekranz.com,1
+vt.edu,1
+vivo.com,1
+virtuozzo.com,1
+uniontech.com,1
+ucloud.cn,1
+ubuntu.com,1
+suse.cz,1
+samsung.com,1
+roeck-us.net,1
+queasysnail.net,1
+pld-linux.org,1
+pensando.io,1
+opensynergy.com,1
+nokia.com,1
+netfilter.org,1
+netapp.com,1
+motorola.com,1
+molgen.mpg.de,1
+marcan.st,1
+loongson.cn,1
+linux.alibaba.com,1
+linutronix.de,1
+lemote.com,1
+joelfernandes.org,1
+jmondi.org,1
+ivitera.com,1
+iscas.ac.cn,1
+intenta.de,1
+hisilicon.com,1
+hauke-m.de,1
+HansenPartnership.com,1
+grimberg.me,1
+googlemail.com,1
+goodmis.org,1
+gmx.de,1
+gibson.dropbear.id.au,1
+cloudflare.com,1
+chelsio.com,1
+cesarb.eti.br,1
+c0d3.blue,1
+bur.io,1
+bootlin.com,1
+boichat.ch,1
+apple.com,1
+analogixsemi.com,1
+163.com,1
+
+Project: src/third_party/kernel/v3.14
+Contributor,July 2020
+qca.qualcomm.com,1
+
+Project: src/third_party/kernel/v3.18
+Contributor,July 2020
+chromium.org,18
+qti.qualcomm.com,4
+holtmann.org,4
+rasmusvillemoes.dk,1
+qca.qualcomm.com,1
+mev.co.uk,1
+intel.com,1
+ideasonboard.com,1
+google.com,1
+bobcopeland.com,1
+
+Project: src/third_party/kernel/v4.14
+Contributor,July 2020
+chromium.org,48
+google.com,40
+gmail.com,34
+redhat.com,20
+huawei.com,18
+kernel.org,17
+intel.com,13
+suse.de,6
+linuxfoundation.org,5
+oracle.com,4
+nxp.com,4
+mev.co.uk,4
+holtmann.org,4
+canonical.com,4
+synopsys.com,3
+suse.com,3
+microchip.com,3
+ibm.com,3
+bootlin.com,3
+zju.edu.cn,2
+windriver.com,2
+rere.qmqm.pl,2
+realtek.com,2
+pengutronix.de,2
+mellanox.com,2
+mediatek.com,2
+ispras.ru,2
+I-love.SAKURA.ne.jp,2
+darkrain42.org,2
+csie.org,2
+collabora.com,2
+chelsio.com,2
+bur.io,2
+baylibre.com,2
+wizzup.org,1
+wanadoo.fr,1
+virtuozzo.com,1
+tu-ilmenau.de,1
+sysam.it,1
+synology.com,1
+sealevel.com,1
+sang-engineering.com,1
+rock-chips.com,1
+queasysnail.net,1
+posteo.net,1
+pm.me,1
+nvidia.com,1
+nokia.com,1
+netapp.com,1
+molgen.mpg.de,1
+microsoft.com,1
+marcan.st,1
+lst.de,1
+linutronix.de,1
+linaro.org,1
+lemote.com,1
+lca.pw,1
+jp.fujitsu.com,1
+infradead.org,1
+i-love.sakura.ne.jp,1
+iki.fi,1
+hauke-m.de,1
+gondor.apana.org.au,1
+geanix.com,1
+emc.com,1
+embeddedor.com,1
+codeaurora.org,1
+broadcom.com,1
+benyossef.com,1
+bell.net,1
+baikalelectronics.ru,1
+atomide.com,1
+arndb.de,1
+apple.com,1
+amazon.com,1
+alliedtelesis.co.nz,1
+163.com,1
+0upti.me,1
+
+Project: src/third_party/kernel/v4.14-gw
+Contributor,July 2020
+codeaurora.org,10
+google.com,1
+
+Project: src/third_party/kernel/v4.19
+Contributor,July 2020
+google.com,78
+chromium.org,71
+gmail.com,47
+intel.com,33
+redhat.com,31
+huawei.com,25
+kernel.org,23
+realtek.com,12
+suse.de,9
+emc.com.tw,7
+linuxfoundation.org,6
+ibm.com,6
+collabora.com,6
+bootlin.com,6
+mediatek.com,5
+maximintegrated.com,5
+codeaurora.org,5
+chelsio.com,5
+canonical.com,5
+oracle.com,4
+nxp.com,4
+microchip.com,4
+mev.co.uk,4
+holtmann.org,4
+darkrain42.org,4
+synopsys.com,3
+samsung.corp-partner.google.com,3
+linutronix.de,3
+dell.com,3
+arm.com,3
+zju.edu.cn,2
+windriver.com,2
+suse.com,2
+sang-engineering.com,2
+rere.qmqm.pl,2
+pengutronix.de,2
+nvidia.com,2
+mellanox.com,2
+lst.de,2
+ispras.ru,2
+I-love.SAKURA.ne.jp,2
+csie.org,2
+bur.io,2
+baylibre.com,2
+baikalelectronics.ru,2
+amd.com,2
+xs4all.nl,1
+woland.xyz,1
+wizzup.org,1
+wanadoo.fr,1
+vivo.com,1
+virtuozzo.com,1
+unisoc.com,1
+umn.edu,1
+tu-ilmenau.de,1
+toerring.de,1
+timesys.com,1
+sysam.it,1
+synology.com,1
+sealevel.com,1
+rock-chips.com,1
+queasysnail.net,1
+quanta.corp-partner.google.com,1
+posteo.net,1
+pm.me,1
+phytium.com.cn,1
+obviux.dk,1
+nokia.com,1
+netapp.com,1
+mykernel.net,1
+molgen.mpg.de,1
+microsoft.com,1
+marvell.com,1
+marcan.st,1
+linux-m68k.org,1
+linaro.org,1
+lightbitslabs.com,1
+lemote.com,1
+lca.pw,1
+jp.fujitsu.com,1
+joelfernandes.org,1
+infradead.org,1
+imagination.corp-partner.google.com,1
+i-love.sakura.ne.jp,1
+iki.fi,1
+hauke-m.de,1
+gondor.apana.org.au,1
+gmx.de,1
+gerhold.net,1
+geanix.com,1
+flameeyes.com,1
+fb.com,1
+ericsson.com,1
+emc.com,1
+embeddedor.com,1
+efficios.com,1
+cn.alps.com,1
+bytedance.com,1
+broadcom.com,1
+bell.net,1
+atomide.com,1
+arndb.de,1
+apple.com,1
+alliedtelesis.co.nz,1
+163.com,1
+0upti.me,1
+
+Project: src/third_party/kernel/v4.4
+Contributor,July 2020
+gmail.com,137
+chromium.org,49
+redhat.com,47
+google.com,17
+wacom.com,8
+displaylink.com,8
+intel.com,7
+kernel.org,6
+suse.de,4
+oracle.com,4
+linuxfoundation.org,4
+huawei.com,4
+holtmann.org,4
+canonical.com,3
+windriver.com,2
+synopsys.com,2
+rere.qmqm.pl,2
+nokia.com,2
+microchip.com,2
+darkrain42.org,2
+virtuozzo.com,1
+v3.sk,1
+users.sourceforge.net,1
+suse.cz,1
+suse.com,1
+rasmusvillemoes.dk,1
+queasysnail.net,1
+pm.me,1
+nxp.com,1
+mev.co.uk,1
+marcan.st,1
+linaro.org,1
+lemote.com,1
+lca.pw,1
+jp.fujitsu.com,1
+ideasonboard.com,1
+ibm.com,1
+hauke-m.de,1
+gondor.apana.org.au,1
+geanix.com,1
+embeddedor.com,1
+codeaurora.org,1
+bur.io,1
+apple.com,1
+alliedtelesis.co.nz,1
+163.com,1
+
+Project: src/third_party/kernel/v5.4
+Contributor,July 2020
+chromium.org,143
+intel.com,114
+codeaurora.org,102
+gmail.com,63
+redhat.com,48
+google.com,48
+huawei.com,40
+kernel.org,38
+linaro.org,37
+mediatek.com,16
+collabora.com,15
+ibm.com,13
+arm.com,13
+amd.com,12
+suse.de,11
+chris-wilson.co.uk,11
+marek.ca,10
+atomide.com,10
+oracle.com,9
+nxp.com,9
+microchip.com,9
+mellanox.com,9
+canonical.com,8
+pengutronix.de,7
+bootlin.com,7
+linuxfoundation.org,6
+chelsio.com,6
+ti.com,5
+realtek.com,5
+onstation.org,5
+holtmann.org,5
+darkrain42.org,5
+baylibre.com,5
+wanadoo.fr,4
+samsung.com,4
+mev.co.uk,4
+marvell.com,4
+glider.be,4
+endlessm.com,4
+synopsys.com,3
+suse.com,3
+semihalf.com,3
+pensando.io,3
+broadcom.com,3
+zju.edu.cn,2
+wizzup.org,2
+windriver.com,2
+wdc.com,2
+vivo.com,2
+virtuozzo.com,2
+timesys.com,2
+suse.cz,2
+sang-engineering.com,2
+rere.qmqm.pl,2
+renesas.com,2
+netapp.com,2
+lst.de,2
+linux-m68k.org,2
+linutronix.de,2
+lightbitslabs.com,2
+ispras.ru,2
+intenta.de,2
+infradead.org,2
+I-love.SAKURA.ne.jp,2
+grimberg.me,2
+goodmis.org,2
+gerhold.net,2
+geanix.com,2
+ffwll.ch,2
+dell.com,2
+csie.org,2
+bur.io,2
+baikalelectronics.ru,2
+arndb.de,2
+anholt.net,2
+ya.ru,1
+yandex.ru,1
+woland.xyz,1
+users.sourceforge.net,1
+unisoc.com,1
+umn.edu,1
+tu-ilmenau.de,1
+tsoy.me,1
+toxicpanda.com,1
+toerring.de,1
+synology.com,1
+sntech.de,1
+siemens.com,1
+sealevel.com,1
+roeck-us.net,1
+rock-chips.com,1
+retarded.farm,1
+realtek.com.tw,1
+queasysnail.net,1
+public.gmane.org,1
+posteo.net,1
+pm.me,1
+phytium.com.cn,1
+outlook.com.au,1
+obviux.dk,1
+nvidia.com,1
+nokia.com,1
+netfilter.org,1
+Netapp.com,1
+mykernel.net,1
+molgen.mpg.de,1
+microsoft.com,1
+marcan.st,1
+maciej.szmigiero.name,1
+lebedev.lt,1
+lca.pw,1
+kwiboo.se,1
+konsulko.com,1
+kernel.dk,1
+jp.fujitsu.com,1
+ivitera.com,1
+intel.corp-partner.google.com,1
+ingics.com,1
+i-love.sakura.ne.jp,1
+iki.fi,1
+hisilicon.com,1
+hauke-m.de,1
+HansenPartnership.com,1
+habana.ai,1
+googlemail.com,1
+gondor.apana.org.au,1
+gmx.de,1
+git.mail.kapsi.fi,1
+gateworks.com,1
+fudan.edu.cn,1
+flameeyes.com,1
+emc.com.tw,1
+emc.com,1
+embeddedor.com,1
+efficios.com,1
+denx.de,1
+cn.alps.com,1
+cmss.chinamobile.com,1
+cadence.com,1
+c0d3.blue,1
+bytedance.com,1
+bell.net,1
+basnieuwenhuizen.nl,1
+apple.com,1
+alliedtelesis.co.nz,1
+163.com,1
+0upti.me,1
+
+Project: src/third_party/lexmark-fax-pnh
+Contributor,July 2020
+chromium.org,1
+
+Project: src/third_party/libapps
+Contributor,July 2020
+chromium.org,17
+google.com,11
+
+Project: src/third_party/libcamera
+Contributor,July 2020
+ideasonboard.com,73
+ragnatech.se,18
+raspberrypi.com,11
+uajain.com,2
+linaro.org,2
+canonical.com,2
+debian.org,1
+
+Project: src/third_party/libtextclassifier
+Contributor,July 2020
+chromium.org,1
+
+Project: src/third_party/linux-firmware
+Contributor,July 2020
+intel.com,7
+realtek.com,1
+google.com,1
+codeaurora.org,1
+
+Project: src/third_party/logitech-updater
+Contributor,July 2020
+logitech.com,1
+chromium.org,1
+
+Project: src/third_party/mesa
+Contributor,July 2020
+gmail.com,266
+collabora.com,191
+redhat.com,106
+jlekstrand.net,89
+chromium.org,64
+anholt.net,55
+amd.com,55
+marek.ca,48
+itsqueeze.com,44
+keemail.me,42
+engestrom.ch,42
+intel.com,30
+igalia.com,30
+google.com,30
+basnieuwenhuizen.nl,21
+schuermann.dev,20
+microsoft.com,7
+globallogic.com,6
+alum.mit.edu,6
+imgtec.com,5
+FreeBSD.org,4
+whitecape.org,2
+sigluy.net,2
+unrelenting.technology,1
+riseup.net,1
+lanl.gov,1
+imkreisrum.de,1
+freedesktop.org,1
+emersion.fr,1
+bcheng.me,1
+
+Project: src/third_party/mesa-amd
+Contributor,July 2020
+amd.com,3
+basnieuwenhuizen.nl,2
+
+Project: src/third_party/mesa-freedreno
+Contributor,July 2020
+gmail.com,107
+collabora.com,90
+redhat.com,81
+itsqueeze.com,44
+marek.ca,42
+amd.com,31
+keemail.me,25
+anholt.net,23
+google.com,20
+intel.com,16
+jlekstrand.net,15
+igalia.com,14
+engestrom.ch,11
+chromium.org,10
+basnieuwenhuizen.nl,6
+alum.mit.edu,6
+FreeBSD.org,4
+schuermann.dev,3
+microsoft.com,3
+sigluy.net,2
+globallogic.com,2
+unrelenting.technology,1
+freedesktop.org,1
+emersion.fr,1
+bcheng.me,1
+
+Project: src/third_party/mimo-updater
+Contributor,July 2020
+chromium.org,1
+
+Project: src/third_party/modemmanager-next
+Contributor,July 2020
+chromium.org,6
+
+Project: src/third_party/portage-stable
+Contributor,July 2020
+chromium.org,19
+google.com,9
+semihalf.com,1
+
+Project: src/third_party/shellcheck
+Contributor,July 2020
+chromium.org,2
+
+Project: src/third_party/sis-updater
+Contributor,July 2020
+chromium.org,1
+
+Project: src/third_party/toolchain-utils
+Contributor,July 2020
+google.com,14
+chromium.org,1
+
+Project: src/third_party/tpm2
+Contributor,July 2020
+google.com,1
+
+Project: src/third_party/virglrenderer
+Contributor,July 2020
+gmail.com,22
+chromium.org,10
+
+Project: src/third_party/virtual-usb-printer
+Contributor,July 2020
+chromium.org,3
+
+Project: src/third_party/wpa_supplicant-2.8
+Contributor,July 2020
+chromium.org,5
+
+Project: src/third_party/wpa_supplicant-2.9
+Contributor,July 2020
+chromium.org,5
+
+Project: src/third_party/xfstests
+Contributor,July 2020
+tuxera.com,9
+suse.com,4
+redhat.com,4
+oracle.com,3
+gmail.com,3
+suse.cz,1
+cn.fujitsu.com,1
+bur.io,1
+
+Project: src/weave/libweave
+Contributor,July 2020
+chromium.org,1

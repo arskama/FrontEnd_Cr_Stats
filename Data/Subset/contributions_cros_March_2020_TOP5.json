@@ -4,7 +4,7 @@
     {
         "name": "Chromite",
         "children": [
-        {"name": "chromium.org", "size": 97},
+        {"name": "chromium.org", "size": 101},
         {"name": "google.com", "size": 45}
         ]
     },
@@ -12,7 +12,7 @@
         "name": "Chromite/infra/proto",
         "children": [
         {"name": "chromium.org", "size": 48},
-        {"name": "google.com", "size": 12}
+        {"name": "google.com", "size": 13}
         ]
     },
     {
@@ -33,7 +33,7 @@
         "name": "Infra/recipes",
         "children": [
         {"name": "chromium.org", "size": 122},
-        {"name": "google.com", "size": 46}
+        {"name": "google.com", "size": 47}
         ]
     },
     {
@@ -157,7 +157,7 @@
         "children": [
         {"name": "chromium.org", "size": 30},
         {"name": "intel.corp-partner.google.com", "size": 9},
-        {"name": "google.com", "size": 5},
+        {"name": "google.com", "size": 6},
         {"name": "intel.com", "size": 2}
         ]
     },
@@ -186,9 +186,9 @@
     {
         "name": "Src/platform/ec",
         "children": [
-        {"name": "chromium.org", "size": 134},
+        {"name": "chromium.org", "size": 135},
         {"name": "google.com", "size": 51},
-        {"name": "bitland.corp-partner.google.com", "size": 20},
+        {"name": "bitland.corp-partner.google.com", "size": 21},
         {"name": "ite.com.tw", "size": 9},
         {"name": "quanta.corp-partner.google.com", "size": 7}
         ]
@@ -196,7 +196,7 @@
     {
         "name": "Src/platform/factory",
         "children": [
-        {"name": "google.com", "size": 58},
+        {"name": "google.com", "size": 60},
         {"name": "chromium.org", "size": 18}
         ]
     },
@@ -251,7 +251,7 @@
         "name": "Src/platform/tast-tests",
         "children": [
         {"name": "google.com", "size": 180},
-        {"name": "chromium.org", "size": 134},
+        {"name": "chromium.org", "size": 135},
         {"name": "intel.com", "size": 2}
         ]
     },
@@ -264,15 +264,15 @@
     {
         "name": "Src/platform/vboot_reference",
         "children": [
-        {"name": "chromium.org", "size": 14},
-        {"name": "google.com", "size": 8}
+        {"name": "chromium.org", "size": 15},
+        {"name": "google.com", "size": 10}
         ]
     },
     {
         "name": "Src/platform2",
         "children": [
-        {"name": "chromium.org", "size": 218},
-        {"name": "google.com", "size": 201},
+        {"name": "chromium.org", "size": 217},
+        {"name": "google.com", "size": 206},
         {"name": "dell.corp-partner.google.com", "size": 9},
         {"name": "mediatek.com", "size": 3}
         ]
@@ -495,10 +495,10 @@
         "name": "Src/third_party/mesa",
         "children": [
         {"name": "collabora.com", "size": 288},
-        {"name": "gmail.com", "size": 231},
+        {"name": "gmail.com", "size": 233},
         {"name": "amd.com", "size": 142},
         {"name": "intel.com", "size": 104},
-        {"name": "jlekstrand.net", "size": 64}
+        {"name": "jlekstrand.net", "size": 66}
         ]
     },
     {

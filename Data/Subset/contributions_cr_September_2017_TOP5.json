@@ -1,0 +1,48 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5241},
+        {"name": "google.com", "size": 615},
+        {"name": "opera.com", "size": 112},
+        {"name": "samsung.com", "size": 68},
+        {"name": "intel.com", "size": 52}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 262},
+        {"name": "chromium.org", "size": 134},
+        {"name": "skia.org", "size": 25},
+        {"name": "samsung.com", "size": 6}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 377},
+        {"name": "google.com", "size": 33},
+        {"name": "opera.com", "size": 15},
+        {"name": "gmail.com", "size": 9},
+        {"name": "ca.ibm.com", "size": 9}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "chromium.org", "size": 10},
+        {"name": "gmail.com", "size": 9},
+        {"name": "alum.mit.edu", "size": 3}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 5}
+        ]
+    }
+ ]
+}

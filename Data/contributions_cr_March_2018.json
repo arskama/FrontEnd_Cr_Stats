@@ -1,0 +1,80 @@
+{
+"name" : "Overall",
+ "children": [
+    {
+        "name": "Chromium",
+        "children": [
+        {"name": "chromium.org", "size": 5678},
+        {"name": "google.com", "size": 655},
+        {"name": "samsung.com", "size": 92},
+        {"name": "opera.com", "size": 68},
+        {"name": "intel.com", "size": 60},
+        {"name": "yandex-team.ru", "size": 28},
+        {"name": "lge.com", "size": 24},
+        {"name": "gmail.com", "size": 20},
+        {"name": "igalia.com", "size": 19},
+        {"name": "vewd.com", "size": 10},
+        {"name": "amazon.com", "size": 6},
+        {"name": "vivaldi.com", "size": 5},
+        {"name": "mips.com", "size": 3},
+        {"name": "robwu.nl", "size": 2},
+        {"name": "googlemail.com", "size": 2},
+        {"name": "yoav.ws", "size": 1},
+        {"name": "sogou-inc.com", "size": 1},
+        {"name": "privat.broulik.de", "size": 1},
+        {"name": "opticaltone.com", "size": 1},
+        {"name": "mwiacek.com", "size": 1},
+        {"name": "huawei.com", "size": 1},
+        {"name": "foutrelis.com", "size": 1},
+        {"name": "collabora.com", "size": 1},
+        {"name": "arm.com", "size": 1}
+        ]
+    },
+    {
+        "name": "Skia",
+        "children": [
+        {"name": "google.com", "size": 397},
+        {"name": "skia.org", "size": 40},
+        {"name": "chromium.org", "size": 40},
+        {"name": "bitworking.org", "size": 4},
+        {"name": "gmail.com", "size": 3},
+        {"name": "amazon.com", "size": 2}
+        ]
+    },
+    {
+        "name": "V8",
+        "children": [
+        {"name": "chromium.org", "size": 580},
+        {"name": "mips.com", "size": 28},
+        {"name": "ca.ibm.com", "size": 16},
+        {"name": "intel.com", "size": 9},
+        {"name": "google.com", "size": 8},
+        {"name": "arm.com", "size": 7},
+        {"name": "igalia.com", "size": 6},
+        {"name": "vewd.com", "size": 3},
+        {"name": "gmail.com", "size": 3},
+        {"name": "ibm.com", "size": 2},
+        {"name": "b6n.ch", "size": 2},
+        {"name": "bnoordhuis.nl", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGL",
+        "children": [
+        {"name": "chromium.org", "size": 11},
+        {"name": "gmail.com", "size": 9},
+        {"name": "microsoft.com", "size": 3},
+        {"name": "users.noreply.github.com", "size": 2},
+        {"name": "google.com", "size": 2},
+        {"name": "intel.com", "size": 1},
+        {"name": "alum.mit.edu", "size": 1}
+        ]
+    },
+    {
+        "name": "WebGPU",
+        "children": [
+        {"name": "chromium.org", "size": 7}
+        ]
+    }
+ ]
+}
